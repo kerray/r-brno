@@ -1,130 +1,171 @@
-For more touristy details, see https://en.wikivoyage.org/wiki/Brno
+# r/Brno Wiki
 
-#Living in Brno
-- Costs - https://www.numbeo.com/cost-of-living/in/Brno
-- General English FB group - https://www.facebook.com/groups/livinginbrno/
-- [Nine Practical Tips For Your First Month In Brno](https://brnodaily.com/2019/10/23/news/nine-practical-tips-for-your-first-month-in-brno) ([Brno Daily](https://brnodaily.com))
+| 🇨🇿 Česky | 🇬🇧 English |
+|-----------|-------------|
+| Vítejte na komunitní wiki r/Brno! | Welcome to the r/Brno community wiki! |
 
-## [But... Why Brno?](https://brnodaily.com/2019/10/30/column/but-why-brno/)
+## Awesome Brno
 
-## Weather
-In Brno, the summers are comfortable; the winters are freezing and windy, sometimes dry, sometimes wet (icy roads!), sometimes with snow (mostly higher regions); and it is partly cloudy year round. Over the course of the year, the temperature typically varies from -4°C to 25°C and is rarely below -11°C or above 31°C.
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Podívejte se na **[/r/brno/wiki/awesome](/r/brno/wiki/awesome)** - kurátorovaný seznam brněnských zdrojů, udržovaný na [github.com/scherrer-txt/brno-awesome](https://github.com/scherrer-txt/brno-awesome). Najdete tam restaurace, kavárny, bary, aktivity a další tipy. | Check out **[/r/brno/wiki/awesome](/r/brno/wiki/awesome)** - a curated collection of Brno resources, maintained at [github.com/scherrer-txt/brno-awesome](https://github.com/scherrer-txt/brno-awesome). You'll find restaurants, cafes, bars, activities and more tips there. |
 
-## Webcams
-https://dnesnibrno.cz/kamery/
+## Přispívání do wiki / Contributing
 
-##Real estate / appartments / room renting
-- https://bezrealitky.cz/
-- https://sreality.cz/
-- https://www.facebook.com/groups/MultilingualFlatsInBrno/
-- Flats Brno https://www.facebook.com/groups/271595216265053/
-- Bydlení v Brně, Bydlení Brno, Prodej, Pronájmy, Podnájmy, Spolubydlení - https://www.facebook.com/groups/bytyvBrne/
-- Brno - Bydlení v Brně, Spolubydlení, nájem, pronájem, podnájem, byt, dům https://www.facebook.com/groups/1700523476637964
-- https://www.facebook.com/groups/SpolubydleniBRNO
-- Brno - Services for Expats and Czechs https://www.facebook.com/groups/756371687794313
-- Foreigners in Brno - https://www.facebook.com/groups/531823276834096/
-- https://www.facebook.com/groups/bytyvBrne
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Tato wiki je open source a synchronizovaná z **[github.com/kerray/r-brno](https://github.com/kerray/r-brno)**. Může přispět kdokoli: | This wiki is open source and synced from **[github.com/kerray/r-brno](https://github.com/kerray/r-brno)**. Anyone can contribute: |
+| • [Otevřít issue](https://github.com/kerray/r-brno/issues) - nahlásit zastaralé info nebo navrhnout změny | • [Open an issue](https://github.com/kerray/r-brno/issues) - report outdated info or suggest changes |
+| • [Vytvořit pull request](https://github.com/kerray/r-brno/pulls) - přímo navrhnout úpravy | • [Submit a pull request](https://github.com/kerray/r-brno/pulls) - directly propose edits |
+| • Nebo napsat moderátorům | • Or message the moderators |
 
-##Parking
-- https://www.brnoexpatcentre.eu/practical-tips/parking-explained/
-- Map of parking zones with numbers (useful when the app detects wrong position) https://www.parkovanivbrne.cz/parkovaci-zony-na-mape
-- App/webpage for parking fees - https://ke-utc.appspot.com/static/index.html
+## Automatická moderace / Automated Moderation
 
-##MHD - public transit
-- Buying long term tickets online https://www.brnoid.cz/en/
-- map with current positions of all buses and trams http://iris.bmhd.cz/
-- timetable lookup https://jizdnirady.idnes.cz/brno/spojeni/
-- official app - buying tickets with SMS, timetables, live map... [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo&hl=en) [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431?l=cs)
-- Google Maps can look up public transport stops and connections
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Tento subreddit používá AI moderačního bota. Bot čte své instrukce přímo z **[/r/brno/wiki/moderation_instructions](/r/brno/wiki/moderation_instructions)** - co tam vidíte, je přesně to, co bot používá k hodnocení příspěvků. Plná transparentnost. | This subreddit uses an AI-powered moderation bot. The bot reads its instructions directly from **[/r/brno/wiki/moderation_instructions](/r/brno/wiki/moderation_instructions)** - what you see there is exactly what the bot uses to evaluate posts. Full transparency. |
 
-###Food delivery
-- https://damejidlo.cz
-- https://wolt.com/en/cze/brno
+## Stránky wiki / Wiki Pages
 
-###Groceries delivery
-- https://rohlik.cz
-- https://nakup.itesco.cz/groceries/en-GB
+| Stránka / Page | Popis / Description |
+|----------------|---------------------|
+| [index](/r/brno/wiki/index) | Tato stránka / This page |
+| [awesome](/r/brno/wiki/awesome) | Kurátorovaný seznam zdrojů / Curated list of resources |
+| [moderation_instructions](/r/brno/wiki/moderation_instructions) | Instrukce pro bota / Bot moderation instructions |
 
-##Regular food boxes
-Lots of services - just google "brno jídlo krabičky", except it's mostly in Czech
+## Pravidla komunity / Community Rules
 
-###Waste collection fees
-All people living in Brno for longer than 3 months, even students, have to **pay waste collection fees**, and the city will demand these even if you're already gone
-- details https://www.brno.cz/en/city-administration/brno-city-municipality/usek-1-namestka-primatorky/environmental-department/oddeleni-spravy-poplatku-za-komunalni-odpad/waste-collection/#c4467888
-- can be paid through BrnoId - https://www.brnoid.cz/en/
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| **Měsíční seznamovací příspěvek** 📌 | **Monthly meetup thread** 📌 |
+| Každý měsíc je v záhlaví subredditu přilepený seznamovací příspěvek. Sem patří všechny "hledám XXX na YYY" - ať už hledáte parťáka na sport, rande, práci, nebo cokoliv jiného. | Each month there's a stickied post at the top of the subreddit for meetups and "looking for" posts. Whether you're looking for a sports buddy, a date, a job, or anything else - post it there. |
+| **Co tady netolerujeme:** | **What we don't tolerate:** |
+| • Rasismus, zřejmé dezinformace a konspirační teorie | • Racism, obvious disinformation and conspiracy theories |
+| • Urážky a osobní útoky (leda snad kdyby to bylo vtipné) | • Insults and personal attacks (except maybe those that are funny) |
+| • Posílání Slováků a jiných domů | • Telling Slovaks and others to go home |
+| • Vousaté vtipy o Brně od Pražáků | • Tired jokes about Brno from Prague folks |
+| • Spam a reklama bez svolení moderátorů | • Spam and advertising without moderator approval |
+| Bavte se ve slušnosti, respektujte se, nejlépe k sobě buďte milí a chápaví. | Be civil, be respectful, and preferably be kind and understanding to each other. |
 
-###Waste sorting
-- https://www.sako.cz/page/en/606/waste-sorting-in-brno/
-- https://www.sako.cz/page/en/608/waste-collection-centre/
-- map of recycling centers and containers https://www.sako.cz/sberna-strediska-a-kontejnery/cz/
+---
 
-#Studying in Brno
-/u/Stoned_otaTOP wrote
->Brno is well known as a student city, you will find many people here from all over the Europe (I met many Spanish people here too). While Brno has surely things to see, it can also be a very good base for traveling around. There are airports right in Bratislava (which offers many flights from Ryanair), Vienna and Prague. There is also an airport in Brno but it's not very big one. Student life is generally great, especially if you like to party and do stuff, there will be many other fellows to do stuff with you.
-I've been a member of ESN BUT and they care a lot about Erasmus students so they organize parties, trips and other activities. They also have a buddy system which can be really helpful for the beginning.
+# Život v Brně / Living in Brno
 
->I will rather not speak much about night life because I haven't partied that much but I would say it's pretty good. Almost every night during a semester something is happening, especially from the beginning. You will possibly have even parties at dorms so I wouldn't worry that much about that. The best thing about night life and drinking, beer here is super cheap compared to other countries. You can get some good wines too but considering your username you probably aren't fond of it.
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Pro turistické detaily viz [Wikivoyage](https://en.wikivoyage.org/wiki/Brno) | For touristy details, see [Wikivoyage](https://en.wikivoyage.org/wiki/Brno) |
+| [Proč vlastně Brno?](https://brnodaily.com/2019/10/30/column/but-why-brno/) | [But... Why Brno?](https://brnodaily.com/2019/10/30/column/but-why-brno/) |
 
->Lunch in a canteen will cost you about 2 - 3 euro, in a decent restaurant it can be probably somewhere 7+ euro. Public transportation card is pretty cheap which should cost you less than 30 eur for 3 months. Also I think most of other groceries will be generally cheaper. Rent in a dorm you will be living will be probably about 120/130euro per month. Beer in a pub cost around 1.1 euro, in a supermarket it can be as cheap as 0.3 euro.
+## Základní info / Basic Info
 
->In case you would like to know which dorm will be offered to you it is Pod palackeho vrchem dorms (PPV).
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Náklady na život - [numbeo.com](https://www.numbeo.com/cost-of-living/in/Brno) | Cost of living - [numbeo.com](https://www.numbeo.com/cost-of-living/in/Brno) |
+| Anglická FB skupina - [Living in Brno](https://www.facebook.com/groups/livinginbrno/) | English FB group - [Living in Brno](https://www.facebook.com/groups/livinginbrno/) |
+| [Devět praktických tipů pro první měsíc v Brně](https://brnodaily.com/2019/10/23/news/nine-practical-tips-for-your-first-month-in-brno) | [Nine Practical Tips For Your First Month In Brno](https://brnodaily.com/2019/10/23/news/nine-practical-tips-for-your-first-month-in-brno) |
 
->Overall Brno is a great city with lots of options but at the same time it's not that big you can easily get lost.
+## Počasí / Weather
 
-#Tourism
-##Overview
-https://www.brno.cz/en/tourist-leisure/gotobrno/
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| V Brně jsou léta příjemná; zimy mrazivé a větrné, někdy suché, někdy mokré (náledí!), někdy se sněhem (hlavně ve vyšších polohách); a je polojasno až zataženo celoročně. Teploty se typicky pohybují od -4°C do 25°C, zřídka pod -11°C nebo nad 31°C. | In Brno, summers are comfortable; winters are freezing and windy, sometimes dry, sometimes wet (icy roads!), sometimes with snow (mostly higher regions); and it's partly cloudy year round. Temperature typically varies from -4°C to 25°C, rarely below -11°C or above 31°C. |
+| Webkamery: [dnesnibrno.cz/kamery](https://dnesnibrno.cz/kamery/) | Webcams: [dnesnibrno.cz/kamery](https://dnesnibrno.cz/kamery/) |
 
-https://www.gotobrno.cz/en/
+## Bydlení / Housing
 
-##Places to visit
-- Lookup some "otevřené sklepy" (open wine cellars). Basically an event in some of the wine producing villages where you can tour from maker to maker, there can be some evening party as well with folk music/dancing. Sometimes happening in multiple villages so you can ride bike between them.
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Hledání bytů bez realitky | Apartment search without agents |
+| • [bezrealitky.cz](https://bezrealitky.cz/) | • [bezrealitky.cz](https://bezrealitky.cz/) |
+| • [sreality.cz](https://sreality.cz/) | • [sreality.cz](https://sreality.cz/) |
+| Facebook skupiny: | Facebook groups: |
+| • [Multilingual Flats In Brno](https://www.facebook.com/groups/MultilingualFlatsInBrno/) | • [Multilingual Flats In Brno](https://www.facebook.com/groups/MultilingualFlatsInBrno/) |
+| • [Flats Brno](https://www.facebook.com/groups/271595216265053/) | • [Flats Brno](https://www.facebook.com/groups/271595216265053/) |
+| • [Bydlení v Brně](https://www.facebook.com/groups/bytyvBrne/) | • [Bydlení v Brně](https://www.facebook.com/groups/bytyvBrne/) |
+| • [Spolubydlení Brno](https://www.facebook.com/groups/SpolubydleniBRNO) | • [Spolubydlení Brno](https://www.facebook.com/groups/SpolubydleniBRNO) |
+| • [Foreigners in Brno](https://www.facebook.com/groups/531823276834096/) | • [Foreigners in Brno](https://www.facebook.com/groups/531823276834096/) |
+| • [Brno - Services for Expats](https://www.facebook.com/groups/756371687794313) | • [Brno - Services for Expats](https://www.facebook.com/groups/756371687794313) |
 
-- If you are hardcore you can literally crawl through underground caves. https://www.kudyznudy.cz/aktivity/rudicke-propadani
+## Parkování / Parking
 
-- Bike single trails in Marianske Udoli and Jedovnice (at latter you can rent a downhill bike, even electric one).
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Vysvětlení parkovacích zón - [brnoexpatcentre.eu](https://www.brnoexpatcentre.eu/practical-tips/parking-explained/) | Parking zones explained - [brnoexpatcentre.eu](https://www.brnoexpatcentre.eu/practical-tips/parking-explained/) |
+| Mapa parkovacích zón - [parkovanivbrne.cz](https://www.parkovanivbrne.cz/parkovaci-zony-na-mape) | Map of parking zones - [parkovanivbrne.cz](https://www.parkovanivbrne.cz/parkovaci-zony-na-mape) |
+| Výpočet parkovného - [ke-utc.appspot.com](https://ke-utc.appspot.com/static/index.html) | Parking fee calculator - [ke-utc.appspot.com](https://ke-utc.appspot.com/static/index.html) |
 
-- Bunch of castles https://www.informuji.cz/hrady-zamky/jhm/
+## MHD / Public Transit
 
-- Aqualand https://www.aqualand-moravia.cz/
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Kupte si dlouhodobý kupon online - [brnoid.cz](https://www.brnoid.cz/en/) | Buy long-term tickets online - [brnoid.cz](https://www.brnoid.cz/en/) |
+| Mapa s aktuálními pozicemi vozidel - [iris.bmhd.cz](http://iris.bmhd.cz/) | Live map with vehicle positions - [iris.bmhd.cz](http://iris.bmhd.cz/) |
+| Vyhledávání spojení - [jizdnirady.idnes.cz](https://jizdnirady.idnes.cz/brno/spojeni/) | Route planner - [jizdnirady.idnes.cz](https://jizdnirady.idnes.cz/brno/spojeni/) |
+| Oficiální appka DPMB: [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo) / [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431) | Official DPMB app: [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo) / [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431) |
+| Google Maps umí vyhledat spojení MHD | Google Maps can look up public transport connections |
 
-- Wakeboard http://wakemerkur.cz/
+## Rozvoz jídla a nákupů / Food & Grocery Delivery
 
-- Paddleboard/boats http://www.pujcovna-lodek-brno.cz/cenik.html
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Rozvoz jídla: [damejidlo.cz](https://damejidlo.cz), [wolt.com](https://wolt.com/en/cze/brno) | Food delivery: [damejidlo.cz](https://damejidlo.cz), [wolt.com](https://wolt.com/en/cze/brno) |
+| Rozvoz nákupů: [rohlik.cz](https://rohlik.cz), [Tesco online](https://nakup.itesco.cz/groceries/en-GB) | Grocery delivery: [rohlik.cz](https://rohlik.cz), [Tesco online](https://nakup.itesco.cz/groceries/en-GB) |
+| Krabičková dieta - hledejte "brno jídlo krabičky" | Meal prep boxes - search "brno jídlo krabičky" |
 
-- Lasergame / laser labyrinth
-  - http://www.laserlabyrinthbrno.cz/cs/cenik/
-  - http://lasergamebrno.cz/cs/
+## Odpady / Waste
 
-- Exit game http://theroombrno.cz/paralelni-vesmir/ https://brainfaq.cz/en/booking/cuckoos-nest (and multiple others)
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| **Poplatky za odpady** - Všichni žijící v Brně déle než 3 měsíce (i studenti!) musí platit poplatky za svoz odpadu. Město je bude vymáhat i po vašem odjezdu! | **Waste collection fees** - Everyone living in Brno for 3+ months (including students!) must pay waste fees. The city will demand these even after you leave! |
+| Detaily: [brno.cz](https://www.brno.cz/en/city-administration/brno-city-municipality/usek-1-namestka-primatorky/environmental-department/oddeleni-spravy-poplatku-za-komunalni-odpad/waste-collection/#c4467888) | Details: [brno.cz](https://www.brno.cz/en/city-administration/brno-city-municipality/usek-1-namestka-primatorky/environmental-department/oddeleni-spravy-poplatku-za-komunalni-odpad/waste-collection/#c4467888) |
+| Platba přes [BrnoID](https://www.brnoid.cz/en/) | Pay via [BrnoID](https://www.brnoid.cz/en/) |
+| Třídění odpadu: [sako.cz](https://www.sako.cz/page/en/606/waste-sorting-in-brno/) | Waste sorting: [sako.cz](https://www.sako.cz/page/en/606/waste-sorting-in-brno/) |
+| Sběrná střediska: [sako.cz](https://www.sako.cz/page/en/608/waste-collection-centre/) | Collection centers: [sako.cz](https://www.sako.cz/page/en/608/waste-collection-centre/) |
+| Mapa kontejnerů: [sako.cz/mapa](https://www.sako.cz/sberna-strediska-a-kontejnery/cz/) | Container map: [sako.cz/mapa](https://www.sako.cz/sberna-strediska-a-kontejnery/cz/) |
 
-- Science world - fun with kid https://vida.cz/
+---
 
-- Visit beer brewery https://www.hauskrecht.cz/prohlidky
+# Studium v Brně / Studying in Brno
 
-- Gun range https://www.triggerservice.cz/en/
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Brno je známé jako studentské město. Najdete tu lidi z celé Evropy. Je to skvělá základna pro cestování - letiště v Bratislavě, Vídni i Praze jsou blízko. Studentský život je super, hlavně pokud rádi pártyje a děláte věci. | Brno is well known as a student city. You'll find people from all over Europe. It's a great base for traveling - airports in Bratislava, Vienna and Prague are nearby. Student life is great, especially if you like to party and do stuff. |
+| ESN BUT se stará o Erasmus studenty - organizují párty, výlety a další aktivity. Mají i buddy systém, který pomůže na začátku. | ESN BUT cares about Erasmus students - they organize parties, trips and other activities. They also have a buddy system which helps at the beginning. |
+| **Orientační ceny:** | **Rough prices:** |
+| • Oběd v menze: 2-3 € | • Canteen lunch: 2-3 € |
+| • Restaurace: 7+ € | • Restaurant: 7+ € |
+| • MHD kupon (3 měsíce): < 30 € | • Transit pass (3 months): < 30 € |
+| • Kolej: ~120-130 €/měsíc | • Dorm: ~120-130 €/month |
+| • Pivo v hospodě: ~1.1 € | • Beer in pub: ~1.1 € |
+| • Pivo v obchodě: ~0.3 € | • Beer in shop: ~0.3 € |
 
-##Restaurants and food
+---
 
-Based on [/u/xH4rRy](https://www.reddit.com/r/Brno/comments/p6mp40/best_restaurant_in_brno/h9gsqza?utm_source=share&utm_medium=web2x&context=3)'s comment and other suggestions in the thread
+# Turismus / Tourism
 
-  - Pizza 🍕: Doe boy, Piazza Omega, Tusto Titanium, Pizza Coloseum, U Fidela, Suzzie's, La Speranza
-  - Italian 🍝: Jean Paul's, Cattani, Tefiti, Spageta Bistro, Pulli Delivery,
-  - Vegetarian 🥗: Forky's, Rebio, Die Küche
-  - Greek 🇬🇷: Cosmopolis, Ellas, Kousek Řecka na talíři
-  - Mexican 🇲🇽: Bistro Bastardo, Taco Bonito, Blue Demon
-  - Ice cream 🍦: Ještě jednu, Tutti Frutti, Na Zmrzlinu, Čokoládovna Minach,
-  - India 🍛: Padagali, Buddha
-  - Russian 🇷🇺: Samovar
-  - Vietnamese/Asian🍜: Little Saigon, Ramen Brno, Mr. Sushito, Menynem, Diandi, Viet Tam
-  - Burger 🍔: [NettsBBQ](https://g.page/NettsBBQ?share), East village bar, Don Antonio, Pablo Escobar
-  - Luxus 💲: Faircafe Restaurant, Butcher's Grill and Pasta, Borgo Agnese
-  - Cuban 🇨🇺: Havana
-  - Brunch 🥞🍳: Coffee Trail Bar, waf-waf, Kafe v rozkladu, Divinero bar
-  - Steak 🥩: Butchers, Monte Bu, Lets steaking, Steak House K1, La Bouchée
-  - Československá 🇨🇿🇸🇰: Sherwood, Pivnice a bar pod Studnou, restaurace Pastouška, Nok Nok, Mazaný anděl, Stronghold, London Inn, Lokál u Caipla
-  - Netradiční fastfood🌭🥯: Soul Bistro, Hotdogys, Fryends
-  - Drinks 🍹: Jekyll a Hyde, Bar ktory neexistuje, 4 pokoje, Super panda circus, Slast, Divinero bar
-  - Kafe ☕: motmot, Podobrazy, SKØG, Monogram, La Casa Verde, Fabrik Urban House, Kafec, Nilaja, Marináda, Riverside Coffee, Rebelbean Vlněna, Plovárna, Poppy Beans
-  - Wine 🍷: Na stopce, U Rybníčku, Garage Vine, U Karafy, Moravský Hrozen Řečkovice, Klášterní vinárna , U Tří knížat, Vinárium, Marináda
-  - Sushi 🍱: 3F, Mori restaurant and lounge, Koichi, Diandi, Konoha sushi, Kodo
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Oficiální turistický portál: [gotobrno.cz](https://www.gotobrno.cz/en/) | Official tourism portal: [gotobrno.cz](https://www.gotobrno.cz/en/) |
+
+## Co navštívit / Places to Visit
+
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| **Otevřené sklepy** - Akce ve vinařských vesnicích, kde můžete ochutnávat od vinaře k vinaři, často s večerní zábavou a folklorní hudbou. Někdy ve více vesnicích najednou - dá se jezdit na kole. | **Open wine cellars** - Events in wine villages where you tour from maker to maker, often with evening entertainment and folk music. Sometimes in multiple villages - you can bike between them. |
+| **Jeskyně** - Pro odvážné: prolézání podzemních jeskyní [Rudické propadání](https://www.kudyznudy.cz/aktivity/rudicke-propadani) | **Caves** - For the hardcore: literally crawl through underground caves [Rudické propadání](https://www.kudyznudy.cz/aktivity/rudicke-propadani) |
+| **Cyklo singletraily** - Mariánské údolí a Jedovnice (v Jedovnicích půjčovna kol včetně elektrokol) | **Bike trails** - Mariánské údolí and Jedovnice (bike rental available at Jedovnice, including e-bikes) |
+| **Hrady a zámky** - [informuji.cz](https://www.informuji.cz/hrady-zamky/jhm/) | **Castles** - [informuji.cz](https://www.informuji.cz/hrady-zamky/jhm/) |
+| **Aqualand** - [aqualand-moravia.cz](https://www.aqualand-moravia.cz/) | **Aqualand** - [aqualand-moravia.cz](https://www.aqualand-moravia.cz/) |
+| **Wakeboard** - [wakemerkur.cz](http://wakemerkur.cz/) | **Wakeboard** - [wakemerkur.cz](http://wakemerkur.cz/) |
+| **Paddleboard/loďky** - [pujcovna-lodek-brno.cz](http://www.pujcovna-lodek-brno.cz/cenik.html) | **Paddleboard/boats** - [pujcovna-lodek-brno.cz](http://www.pujcovna-lodek-brno.cz/cenik.html) |
+| **Lasergame** - [laserlabyrinthbrno.cz](http://www.laserlabyrinthbrno.cz/cs/cenik/), [lasergamebrno.cz](http://lasergamebrno.cz/cs/) | **Lasergame** - [laserlabyrinthbrno.cz](http://www.laserlabyrinthbrno.cz/cs/cenik/), [lasergamebrno.cz](http://lasergamebrno.cz/cs/) |
+| **Únikové hry** - [theroombrno.cz](http://theroombrno.cz/paralelni-vesmir/), [brainfaq.cz](https://brainfaq.cz/en/booking/cuckoos-nest) a další | **Escape rooms** - [theroombrno.cz](http://theroombrno.cz/paralelni-vesmir/), [brainfaq.cz](https://brainfaq.cz/en/booking/cuckoos-nest) and more |
+| **VIDA! Science centrum** - Skvělé s dětmi [vida.cz](https://vida.cz/) | **VIDA! Science center** - Great with kids [vida.cz](https://vida.cz/) |
+| **Prohlídka pivovaru** - [hauskrecht.cz](https://www.hauskrecht.cz/prohlidky) | **Brewery tour** - [hauskrecht.cz](https://www.hauskrecht.cz/prohlidky) |
+| **Střelnice** - [triggerservice.cz](https://www.triggerservice.cz/en/) | **Gun range** - [triggerservice.cz](https://www.triggerservice.cz/en/) |
+
+## Restaurace a jídlo / Restaurants and Food
+
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| Podívejte se na **[/r/brno/wiki/awesome](/r/brno/wiki/awesome)** - obsahuje rozsáhlý seznam restaurací, kaváren, barů a dalších podniků podle kategorií. | Check out **[/r/brno/wiki/awesome](/r/brno/wiki/awesome)** - it contains an extensive list of restaurants, cafes, bars and other places organized by category. |
