@@ -21,6 +21,7 @@ jobs:
       - name: Send to Windmill
         env:
           WINDMILL_TOKEN: ${{ secrets.WINDMILL_TOKEN }}
+          WINDMILL_URL: ${{ secrets.WINDMILL_URL }}
         run: |
           # Read file contents, using empty string if file doesn't exist
           INDEX_CONTENT=$(cat wiki/index.md 2>/dev/null || echo "")
@@ -60,7 +61,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $WINDMILL_TOKEN" \
             -d "$PAYLOAD" \
-            "https://wm.kerray.cz/api/w/kerraycz/jobs/run_wait_result/p/f%2Freddit_bot%2Ftasks%2Fwiki%2Fsync_wiki_from_github")
+            "$WINDMILL_URL")
 
           echo "Windmill response:"
           echo "$RESPONSE" | jq .
