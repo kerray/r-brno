@@ -1,0 +1,73 @@
+name: Sync Wiki to Reddit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'wiki/**'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch brno-awesome README
+        run: |
+          curl -sL https://raw.githubusercontent.com/scherrer-txt/brno-awesome/main/README.md \
+            -o /tmp/brno-awesome.md || echo "" > /tmp/brno-awesome.md
+
+      - name: Send to Windmill
+        env:
+          WINDMILL_TOKEN: ${{ secrets.WINDMILL_TOKEN }}
+        run: |
+          # Read file contents, using empty string if file doesn't exist
+          INDEX_CONTENT=$(cat wiki/index.md 2>/dev/null || echo "")
+          INSTRUCTIONS_CONTENT=$(cat wiki/moderation_instructions.yaml 2>/dev/null || echo "")
+          AUTOMODERATOR_CONTENT=$(cat wiki/config/automoderator.yaml 2>/dev/null || echo "")
+          SIDEBAR_CONTENT=$(cat wiki/config/sidebar.md 2>/dev/null || echo "")
+          DESCRIPTION_CONTENT=$(cat wiki/config/description.md 2>/dev/null || echo "")
+          AWESOME_CONTENT=$(cat /tmp/brno-awesome.md 2>/dev/null || echo "")
+
+          # Build JSON payload
+          PAYLOAD=$(jq -n \
+            --arg index "$INDEX_CONTENT" \
+            --arg instructions "$INSTRUCTIONS_CONTENT" \
+            --arg automoderator "$AUTOMODERATOR_CONTENT" \
+            --arg sidebar "$SIDEBAR_CONTENT" \
+            --arg description "$DESCRIPTION_CONTENT" \
+            --arg awesome "$AWESOME_CONTENT" \
+            --arg commit_sha "${{ github.sha }}" \
+            --arg commit_message "${{ github.event.head_commit.message }}" \
+            '{
+              reddit_resource: "$res:u/kerray/reddit_ponocny_bot",
+              files: {
+                "index": $index,
+                "moderation_instructions": $instructions,
+                "automoderator": $automoderator,
+                "sidebar": $sidebar,
+                "description": $description,
+                "awesome": $awesome
+              },
+              subreddit: "brno",
+              commit_sha: $commit_sha,
+              commit_message: $commit_message
+            }')
+
+          # Send to Windmill
+          RESPONSE=$(curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $WINDMILL_TOKEN" \
+            -d "$PAYLOAD" \
+            "https://wm.kerray.cz/api/w/kerraycz/jobs/run_wait_result/p/f%2Freddit_bot%2Ftasks%2Fwiki%2Fsync_wiki_from_github")
+
+          echo "Windmill response:"
+          echo "$RESPONSE" | jq .
+
+          # Check for errors
+          ERRORS=$(echo "$RESPONSE" | jq -r '.errors // 0')
+          if [ "$ERRORS" != "0" ]; then
+            echo "::error::Wiki sync had $ERRORS errors"
+            exit 1
+          fi

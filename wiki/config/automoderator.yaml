@@ -1,0 +1,111 @@
+domain: [
+   "parlamentnilisty.cz",
+   "parlamentni-listy.cz",
+   "aeronet.cz",
+   "sputnik.cz",
+   "sputniknews.com",
+   "ac24.cz",
+   "protiproud.cz",
+   "cz24.news",
+   "svetkolemnas.info",
+   "nwoo.org",
+   "infowars.cz",
+   "mikan.cz",
+   "vlastnihlavou.cz",
+   "isstras.eu",
+   "paratdnes.cz",
+   "e-republika.cz",
+   "infokuryr.cz",
+   "osud.cz",
+   "ceskoaktualne.cz",
+   "vlasteneckenoviny.cz",
+   "orgo-net.blogspot.cz",
+   "eurasia24.cz",
+   "prvopodstata.com",
+   "czechfreepress.cz",
+   "svobodnenoviny.eu",
+   "lajkit.cz",
+   "novarepublika.cz",
+   "zvedavec.org",
+   "bezpolitickekorektnosti.cz",
+   "rukojmi.cz",
+   "casopis-sifra.cz",
+   "almanach.cz",
+   "pravdive.eu",
+   "vinegret.cz",
+   "skrytapravda.cz",
+   "eurodenik.cz",
+   "freeglobe.cz",
+   "euportal.cz",
+   "euserver.cz",
+   "eurabia.cz",
+   "cesky-portal.cz",
+   "nezdravi.cz",
+   "borea.cz",
+   "prvnizpravy.cz",
+   "megazine.cz",
+   "megazpravy.cz",
+   "antiilluminati.net",
+   "zastavmezlodeje.com",
+   "dt24.cz"
+]
+action: remove
+action_reason: Dezinformační doména
+message: Zpráva od robota v /r/{{subreddit}} - Sorry, o [odkazy na dezinformační weby]({{permalink}}) nestojíme.
+modmail: DOMAIN_BLOCKED Příspěvek [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli doméně (po approve se zobrazí)
+---
+type: submission
+author:
+    account_age: < 30 day
+action: remove
+message: |
+         Zpráva od robota v /r/{{subreddit}} - Váš účet je příliš nový, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
+
+         Bot message from /r/{{subreddit}} - your account is newer then 30 days, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
+modmail: ACCOUNT_AGE_BLOCKED_SUBMISSION [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli příliš novému účtu (po approve se zobrazí)
+---
+type: comment
+author:
+    account_age: < 30 day
+    is_submitter: false
+action: remove
+message: |
+         Zpráva od robota v /r/{{subreddit}} - Váš účet je příliš nový, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
+
+         Bot message from /r/{{subreddit}} - your account is newer then 390 days, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
+modmail: ACCOUNT_AGE_BLOCKED_COMMENT [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli příliš novému účtu (po approve se zobrazí)
+---
+type: comment
+author:
+    combined_karma: < 1
+    is_submitter: false
+action: remove
+message: |
+         Zpráva od robota v /r/{{subreddit}} - Váš účet má kombinovanou karmu nižší než 1, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
+
+         Bot message from /r/{{subreddit}} - your account has combined karma lower then 1, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
+modmail: KARMA_BLOCKED_COMMENT [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli nízké karmě (po approve se zobrazí)
+---
+type: submission
+author:
+    combined_karma: < 1
+action: remove
+message: |
+         Zpráva od robota v /r/{{subreddit}} - Váš účet má kombinovanou karmu nižší než 1, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
+
+         Bot message from /r/{{subreddit}} - your account has combined karma lower then 1, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
+modmail: KARMA_BLOCKED_SUBMISSION [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli nízké karmě (po approve se zobrazí)
+---
+title+media_title (regex): ['weed', 'thc']
+action: remove
+action_reason: "Sorry, not the way to score weed [{{match}}]"
+modmail: REGEX_BLOCKED_SUBMISSION [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný klíčovému slovu [{{match}}] (po approve se zobrazí)
+---
+#Fiter users without banning them, replaces shadow ban
+type: any
+author:
+    name: [ Masivni_prunik_fixou, kokotizasrani]
+action: remove
+message: |
+         Zpráva od robota v /r/{{subreddit}} - Než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
+modmail: SHADOWBAN_BLOCKED [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný pro shadowban (po approve se zobrazí)
