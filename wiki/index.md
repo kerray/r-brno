@@ -45,6 +45,8 @@
 | • Posílání Slováků a jiných domů | • Telling Slovaks and others to go home |
 | • Vousaté vtipy o Brně od Pražáků | • Tired jokes about Brno from Prague folks |
 | • Spam a reklama bez svolení moderátorů | • Spam and advertising without moderator approval |
+| **Představení nových podniků** | **New business introductions** |
+| Nové lokální podniky (restaurace, kavárny, obchody, firmy, atrakce, živnostníci, spolky, kluby) mohou zveřejnit jeden představovací příspěvek. Musí jít o textový příspěvek z účtu podniku nebo jeho majitele/zakladatele, kde se představíte, řeknete co děláte a přidáte odkazy na své sítě/web. Čistě reklamní příspěvky a promo akce tu nechceme. | New local businesses (restaurants, cafes, shops, companies, attractions, freelancers, associations, clubs) may post one introduction. It must be a text post from the business account or owner/founder, where you introduce yourself, explain what you do, and include links to your social media/website. Pure ads and promotional offers are not welcome here. |
 | Bavte se ve slušnosti, respektujte se, nejlépe k sobě buďte milí a chápaví. | Be civil, be respectful, and preferably be kind and understanding to each other. |
 
 ---
