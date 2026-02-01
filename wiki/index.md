@@ -32,6 +32,8 @@
 | [index](/r/brno/wiki/index) | Tato stránka / This page |
 | [awesome](/r/brno/wiki/awesome) | Kurátorovaný seznam zdrojů / Curated list of resources |
 | [moderation_instructions](/r/brno/wiki/moderation_instructions) | Instrukce pro bota / Bot moderation instructions |
+| [ponocny](/r/brno/wiki/ponocny) | Osobnost ponocného bota / Night watchman bot personality |
+| [seznamovaci_prispevek](/r/brno/wiki/seznamovaci_prispevek) | Role pro měsíční seznamovací příspěvky / Monthly meetup post role |
 
 ## Pravidla komunity / Community Rules
 
