@@ -37,7 +37,7 @@ flair_instructions: |
   - RŮZNÉ-VARIOUS: Miscellaneous, jokes, doesn't fit other categories
   - Z BRNA: Photos from Brno, local sightings
 
-preferred_model: "$res:u/kerray/llm_anthropic_claude-4-5-sonnet_moderation"
+preferred_model: "claude-sonnet-4-5"
 
 special_rules:
   - "Not a bulletin board - no dating ads or 'looking for X' posts. Questions like 'where/how to meet people in Brno' are OK"
