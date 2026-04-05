@@ -127,6 +127,13 @@
 | Sběrná střediska: [sako.cz](https://www.sako.cz/page/en/608/waste-collection-centre/) | Collection centers: [sako.cz](https://www.sako.cz/page/en/608/waste-collection-centre/) |
 | Mapa kontejnerů: [sako.cz/mapa](https://www.sako.cz/sberna-strediska-a-kontejnery/cz/) | Container map: [sako.cz/mapa](https://www.sako.cz/sberna-strediska-a-kontejnery/cz/) |
 
+## Hlášení závad / Reporting Issues
+
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| **Brňáci pro Brno** - Appka od Brněnských komunikací (BKOM) pro hlášení závad na silnicích, chodnících, dopravním značení, veřejném osvětlení a dalších problémů ve veřejném prostoru. | **Brňáci pro Brno** - App by Brněnské komunikace (BKOM) for reporting defects on roads, sidewalks, traffic signs, street lighting and other public space issues. |
+| [brnaciprobrno.cz](https://brnaciprobrno.cz/) | [brnaciprobrno.cz](https://brnaciprobrno.cz/) |
+
 ---
 
 # Studium v Brně / Studying in Brno
