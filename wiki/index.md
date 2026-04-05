@@ -102,11 +102,18 @@
 
 | 🇨🇿 | 🇬🇧 |
 |-----|-----|
-| Kupte si dlouhodobý kupon online - [brnoid.cz](https://www.brnoid.cz/en/) | Buy long-term tickets online - [brnoid.cz](https://www.brnoid.cz/en/) |
-| Mapa s aktuálními pozicemi vozidel - [iris.bmhd.cz](http://iris.bmhd.cz/) | Live map with vehicle positions - [iris.bmhd.cz](http://iris.bmhd.cz/) |
-| Vyhledávání spojení - [jizdnirady.idnes.cz](https://jizdnirady.idnes.cz/brno/spojeni/) | Route planner - [jizdnirady.idnes.cz](https://jizdnirady.idnes.cz/brno/spojeni/) |
-| Oficiální appka DPMB: [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo) / [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431) | Official DPMB app: [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo) / [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431) |
-| Google Maps umí vyhledat spojení MHD | Google Maps can look up public transport connections |
+| **Pípni a jeď** - Nejjednodušší způsob placení. Přiložte bezkontaktní kartu (nebo mobil/hodinky) ke žlutému čtecímu zařízení ve vozidle při nástupu i výstupu. Platba se strhne na konci dne. Pokud zapomenete "odpípnout" při výstupu, zaplatíte jako byste jeli na konečnou. | **Beep & Go** - Easiest way to pay. Tap your contactless card (or phone/watch) on the yellow reader when boarding and exiting. You're charged at the end of the day. If you forget to tap out, you'll be charged as if you rode to the final stop. |
+| Detaily: [pipniajed.cz](https://www.pipniajed.cz/en.html) | Details: [pipniajed.cz](https://www.pipniajed.cz/en.html) |
+| **Dlouhodobý kupon (šalinkarta)** - Pokud jezdíte denně, vyplatí se měsíční/roční předplatné přes [BrnoID](https://www.brnoid.cz/en/). Kupon se naváže na vaši platební kartu - stačí ji přiložit při kontrole. Studenti mají slevy. | **Long-term pass (šalinkarta)** - If you ride daily, get a monthly/yearly pass via [BrnoID](https://www.brnoid.cz/en/). The pass is linked to your payment card - just tap it for inspectors. Student discounts available. |
+| **Poseidon** - Appka pro nákup jednorázových jízdenek v celém Jihomoravském kraji (IDS JMK). S přednabitým kreditem nejlevnější jízdenky (např. 45 min v Brně za 19,50 Kč místo 25 Kč). Umí naplánovat trasu a automaticky spočítat potřebné zóny - ideální pro cesty mimo Brno nebo doplatek zón k šalinkartě. Jen česky. | **Poseidon** - App for buying single-trip tickets across the whole South Moravian region (IDS JMK). Cheapest tickets with pre-loaded credit (e.g. 45 min in Brno for 19.50 Kč instead of 25 Kč). Plans routes and auto-calculates needed zones - great for trips outside Brno or topping up zones with an existing pass. Czech only. |
+| [idsjmk.cz/poseidon](https://www.idsjmk.cz/a/poseidon.html) - [Android](https://play.google.com/store/apps/details?id=cz.devsoft.poseidon) / [iOS](https://apps.apple.com/cz/app/ids-jmk-poseidon/id871192147) | [idsjmk.cz/poseidon](https://www.idsjmk.cz/a/poseidon.html) - [Android](https://play.google.com/store/apps/details?id=cz.devsoft.poseidon) / [iOS](https://apps.apple.com/cz/app/ids-jmk-poseidon/id871192147) |
+| **Vyhledávání spojení:** | **Route planners:** |
+| • [idos.cz](https://idos.cz/) - Vyhledávání spojení po celé ČR (i vlaky, autobusy). Appka: [Pubtran](https://play.google.com/store/apps/details?id=cz.fhejl.pubtran) (hezčí rozhraní, stejná data) | • [idos.cz](https://idos.cz/) - Route planner for all of CZ (trains, buses too). App: [Pubtran](https://play.google.com/store/apps/details?id=cz.fhejl.pubtran) (nicer UI, same data) |
+| • Google Maps umí vyhledat spojení MHD (a zná rozmístění zastávek) | • Google Maps can look up transit connections (and knows stop locations) |
+| **Aktuální polohy vozidel:** | **Live vehicle tracking:** |
+| • [iris.bmhd.cz](http://iris.bmhd.cz/) - Mapa s reálnými pozicemi tramvají, autobusů a trolejbusů | • [iris.bmhd.cz](http://iris.bmhd.cz/) - Live map with real positions of trams, buses and trolleybuses |
+| • Oficiální appka DPMBinfo: [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo) / [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431) - polohy vozidel, zpoždění, výluky, nejlevnější jízdenky v rámci Brna | • Official DPMBinfo app: [Android](https://play.google.com/store/apps/details?id=cz.dpmb.dpmbinfo) / [iOS](https://apps.apple.com/cz/app/dpmbinfo/id1269475431) - vehicle positions, delays, detours, cheapest tickets within Brno |
+| **Vlaky mimo Brno:** [Můj vlak](https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an) (České dráhy), [RegioJet](https://regiojet.cz/) | **Trains out of Brno:** [Můj vlak](https://play.google.com/store/apps/details?id=cz.cd.mujvlak.an) (Czech Railways), [RegioJet](https://regiojet.cz/) |
 
 ## Rozvoz jídla a nákupů / Food & Grocery Delivery
 
