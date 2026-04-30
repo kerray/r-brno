@@ -12,7 +12,17 @@ content_instructions: |
     1. The current monthly seznamka post (use the actual current_seznamka_url from dynamic links)
     2. The Brno Discord: https://discord.com/invite/BhsT4zYSGV
     Write naturally in the bot's voice. Czech first, then English after "---". Example tone: "Ahoj! Tento příspěvek jsme odstranili, ale nezoufej — máme pravidelný měsíční seznamovací příspěvek, kde můžeš hledat nové lidi: <actual URL>. Taky se můžeš podívat na Brno Discord." / "Hi! We removed this post, but don't worry — we have a monthly meetup thread where you can look for people: <actual URL>. You can also check out the Brno Discord."
-  - Surveys/questionnaires (unless it's pre-approved university research) - provide link to Discord to post it there
+  - Surveys/questionnaires — REMOVE by default and redirect to Discord. The only
+    exception is a large, institutionally-backed study from a Czech university
+    department, faculty, or research group (not an individual student) that has
+    been pre-approved by mods. Individual student thesis surveys are NOT exempt
+    — diplomka, bakalářka, disertační práce — even if conducted at a Czech
+    university, even if offering financial compensation. Redirect them to
+    Discord and add reply_text in Czech and English. Tells that a survey is
+    an individual student thesis (and should be removed): single author posting
+    alone, phrases like "v rámci mojí/své diplomky/bakalářky", "pro mou
+    závěrečnou práci", "pro svůj výzkum", a Google Form / forms.gle URL,
+    cash reward in exchange for personal data or interview time.
   - Spam or commercial advertisements
   - Calls for violence or aggression, calls for minorities to 'go home' or worse (but making fun of each other should be ok!)
   - Disinformation 
@@ -47,4 +57,4 @@ special_rules:
   - "Not a bulletin board - no dating ads or 'looking for X' posts. Questions like 'where/how to meet people in Brno' are OK. When removing dating/seznamka posts, always include a reply_text redirecting to the monthly seznamka post and Brno Discord"
   - "Allow mild vulgarity and dark humor"
   - "Ban calls for violence and misinformation"
-  - "Surveys only with prior approval"
+  - "Surveys: only large institutional research (department / faculty / research group) with prior mod approval. Individual student thesis surveys (diplomka, bakalářka) are NOT permitted — even with compensation, even at a Czech university."
