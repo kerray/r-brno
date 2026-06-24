@@ -34,7 +34,7 @@ content_instructions: |
   - Community discussions
   - Helpful recommendations
 
-  When rejecting, provide reason in both Czech and English (e.g., "Osobní inzerát / Personal ad").
+  When removing or holding a post, write the `reason` field BILINGUALLY in the exact format `Český text / English text`: the natural Czech translation FIRST, then ` / ` (space-slash-space) as the separator, then the English version. The bot splits this field on ` / ` and shows the Czech half to the user and the English half below it, so the Czech side MUST be a genuine, fluent Czech translation of your finding — NEVER the English text repeated. Translate the whole explanation, not just a short label (e.g. "Osobní inzerát — pro hledání lidí použij měsíční seznamovací příspěvek nebo Brno Discord. / Personal ad — please use the monthly seznamka thread or the Brno Discord to look for people.").
 
 flair_instructions: |
   Assign appropriate category flair to the post.
