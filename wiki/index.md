@@ -170,6 +170,9 @@
 | 🇨🇿 | 🇬🇧 |
 |-----|-----|
 | **Otevřené sklepy** - Akce ve vinařských vesnicích, kde můžete ochutnávat od vinaře k vinaři, často s večerní zábavou a folklorní hudbou. Někdy ve více vesnicích najednou - dá se jezdit na kole. | **Open wine cellars** - Events in wine villages where you tour from maker to maker, often with evening entertainment and folk music. Sometimes in multiple villages - you can bike between them. |
+| **Vila Tugendhat** - Funkcionalistická vila z roku 1930, památka UNESCO. Prohlídky nutno rezervovat s velkým předstihem: [tugendhat.eu](https://www.tugendhat.eu/) | **Villa Tugendhat** - Functionalist villa from 1930, UNESCO World Heritage site. Tours must be booked well in advance: [tugendhat.eu](https://www.tugendhat.eu/) |
+| **Vodojemy na Žlutém kopci** - Unikátní historické podzemní nádrže na vodu: [vodojemybrno.cz](https://vodojemybrno.cz/) | **Water reservoirs on Žlutý kopec** - Unique historic underground water tanks: [vodojemybrno.cz](https://vodojemybrno.cz/en/) |
+| **Labyrint pod Zelným trhem** - Brněnské podzemí: [podzemibrno.cz](https://podzemibrno.cz/mista/labyrint-pod-zelnym-trhem/) | **Labyrinth under the Vegetable Market** - Brno underground: [podzemibrno.cz](https://podzemibrno.cz/en/mista/labyrint-pod-zelnym-trhem/) |
 | **Jeskyně** - Pro odvážné: prolézání podzemních jeskyní [Rudické propadání](https://www.kudyznudy.cz/aktivity/rudicke-propadani) | **Caves** - For the hardcore: literally crawl through underground caves [Rudické propadání](https://www.kudyznudy.cz/aktivity/rudicke-propadani) |
 | **Cyklo singletraily** - Mariánské údolí a Jedovnice (v Jedovnicích půjčovna kol včetně elektrokol) | **Bike trails** - Mariánské údolí and Jedovnice (bike rental available at Jedovnice, including e-bikes) |
 | **Hrady a zámky** - [informuji.cz](https://www.informuji.cz/hrady-zamky/jhm/) | **Castles** - [informuji.cz](https://www.informuji.cz/hrady-zamky/jhm/) |
@@ -181,6 +184,25 @@
 | **VIDA! Science centrum** - Skvělé s dětmi [vida.cz](https://vida.cz/) | **VIDA! Science center** - Great with kids [vida.cz](https://vida.cz/) |
 | **Prohlídka pivovaru** - [hauskrecht.cz](https://www.hauskrecht.cz/prohlidky) | **Brewery tour** - [hauskrecht.cz](https://www.hauskrecht.cz/prohlidky) |
 | **Střelnice** - [triggerservice.cz](https://www.triggerservice.cz/en/) | **Gun range** - [triggerservice.cz](https://www.triggerservice.cz/en/) |
+
+## Výlety z Brna / Day Trips from Brno
+
+Tipy z komunity (např. [tento thread](https://www.reddit.com/r/Brno/comments/1vwkbd7/day_trips_from_brno/)) / Community tips (e.g. [this thread](https://www.reddit.com/r/Brno/comments/1vwkbd7/day_trips_from_brno/)):
+
+| 🇨🇿 | 🇬🇧 |
+|-----|-----|
+| **Moravský kras** - [Punkevní jeskyně](https://www.cavemk.cz/) s propastí Macocha (plavba na lodičkách po podzemní říčce), dále Balcarka nebo Sloupsko-šošůvské jeskyně. | **Moravian Karst** - [Punkva Caves](https://www.cavemk.cz/en/) with the Macocha Abyss (boat ride on an underground river), plus Balcarka or Sloupsko-šošůvské caves. |
+| **Pálava** - Krásná hřebenovka přes Děvičky a Pavlov, vinařské vesnice pod kopci. | **Pálava** - Beautiful ridge hike over Děvičky castle ruins and Pavlov, wine villages below the hills. |
+| **Mikulov** - Historické městečko s zámkem; výšlap na Svatý kopeček, ideálně před západem slunce. Po cestě do Vídně. | **Mikulov** - Historic town with a chateau; climb Svatý kopeček, ideally around golden hour before sunset. On the way to Vienna. |
+| **Lednicko-valtický areál** - Památka UNESCO, zámky, park, minaret - dá se projet i na kole. | **[Lednice-Valtice Area](https://en.wikipedia.org/wiki/Lednice%E2%80%93Valtice_Cultural_Landscape)** - UNESCO World Heritage site, chateaux, landscaped park, minaret - great to explore by bike. |
+| **Rosa Coeli** (Dolní Kounice) - Zřícenina gotického kláštera kousek od Brna. | **Rosa Coeli** (Dolní Kounice) - Ruin of a Gothic monastery a short trip from Brno. |
+| **Moravský Krumlov** - Slovanská epopej Alfonse Muchy, sada obřích pláten: [mucha-epopej.cz](https://www.mucha-epopej.cz/) | **Moravský Krumlov** - Alfons Mucha's Slav Epic, a set of room-sized canvases: [mucha-epopej.cz](https://www.mucha-epopej.cz/) |
+| **Kroměříž** - Zámek a zahrady, památka UNESCO. | **[Kroměříž](https://en.wikipedia.org/wiki/Krom%C4%9B%C5%99%C3%AD%C5%BE_Castle)** - Baroque castle and gardens, UNESCO World Heritage site. |
+| **Telč, Litomyšl, Olomouc** - Historická města v dojezdu na výlet (Telč a Litomyšl UNESCO, Olomouc má druhou největší památkovou rezervaci po Praze). | **Telč, Litomyšl, Olomouc** - Historic towns within day-trip range (Telč and Litomyšl are UNESCO sites, Olomouc has the second largest heritage reserve after Prague). |
+| **Sky Bridge 721** (Dolní Morava) - Nejdelší visutý most pro pěší na světě, už je to ale dál (cca 2,5 h). | **[Sky Bridge 721](https://en.wikipedia.org/wiki/Sky_Bridge_721)** (Dolní Morava) - The world's longest suspension footbridge, though a longer trip (~2.5 h). |
+| **Vídeň** - Rychlé a časté vlakové spojení (~1,5 h), pohodlný jednodenní výlet. | **Vienna** - Fast and frequent train connections (~1.5 h), a comfortable day trip. |
+| **Praha** - Vlakem ~2,5-3 h; na jednodenní výlet je to spíš daleko, lepší s přespáním. | **Prague** - ~2.5-3 h by train; a bit far for a day trip, better with an overnight stay. |
+| **Doprava** - Vlaky a autobusy ČD a [RegioJet](https://regiojet.cz/), po Jihomoravském kraji [IDS JMK](https://www.idsjmk.cz/) (viz sekce MHD). | **Getting around** - Trains and buses by ČD and [RegioJet](https://regiojet.com/), around the South Moravian Region use [IDS JMK](https://www.idsjmk.cz/) (see the Public Transit section). |
 
 ## Restaurace a jídlo / Restaurants and Food
 
