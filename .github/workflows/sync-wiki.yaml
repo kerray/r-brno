@@ -61,6 +61,16 @@ jobs:
             fi
           done
 
+          # Handle ama/ subdirectory (maps to ama/pagename on Reddit)
+          for file in wiki/ama/*.md; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              key="ama/${filename%.*}"
+              content=$(cat "$file")
+              FILES_JSON=$(echo "$FILES_JSON" | jq --arg k "$key" --arg v "$content" '. + {($k): $v}')
+            fi
+          done
+
           # Add brno-awesome from external repo
           if [ -f "/tmp/brno-awesome.md" ]; then
             content=$(cat /tmp/brno-awesome.md)
