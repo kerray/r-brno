@@ -60,7 +60,11 @@ Délka okna, počet povinných otázek i pravidla jsou stejné pro sólo hosta i
 - **Odpovědět na 15 povinných otázek.** Je to závazek, ke kterému se předem veřejně přihlásíte. Nemáme jak ho vynutit — jediným důsledkem nesplnění je zveřejněný záznam.
 - **Být tam aspoň dvě hodiny** a psát sám za sebe.
 - **Ověřit se**: zveřejnit ze svého oficiálního kanálu (web, ověřený profil) odkaz na AMA **a jmenný seznam účtů**, které za vás budou odpovídat. My na to odkážeme zpět. Bez toho nemáme jak odlišit vašeho člověka od podvodníka.
-- **Účet starý aspoň 30 dní s nenulovou historií.** Není to formalita: Reddit čerstvým účtům omezuje frekvenci příspěvků (zhruba jeden za 5–10 minut) a s tím **nezmůžeme nic ani my**. S novým účtem si dvouhodinové AMA neodbudete. Ideálně účty pár týdnů předem „zahřejte" běžnými komentáři.
+- **Účet starý aspoň 30 dní s nenulovou karmou.** Není to formalita a nejsou to formality dvě různé:
+  - **Naše pravidlo.** r/Brno posílá příspěvky a komentáře z účtů mladších 30 dní nebo s karmou pod 1 ke schválení. U ohlášených účtů tohle pravidlo na dobu AMA vypneme — ale právě proto potřebujeme jména účtů **předem**, ne až na místě.
+  - **Redditovo pravidlo, se kterým nezmůžeme nic.** Reddit sám omezuje, jak často mohou nové účty s malou karmou přispívat (hláška *„You're doing that too much"*). Přesné hodnoty [nezveřejňuje](https://support.reddithelp.com/hc/en-us/articles/204579879-Why-am-I-being-told-You-re-doing-that-too-much) a moderátor je vypnout neumí; jediné, co podle Redditu pomáhá, je mít nějakou karmu.
+
+  S čerstvě založeným účtem si dvouhodinové AMA neodbudete. Ideálně účty pár týdnů předem „zahřejte" běžnými komentáři.
 - **Nevyzývat k hlasování o otázkách.** Odkaz na AMA klidně sdílejte, ale výzva typu „podpořte naše otázky" je porušení pravidel Redditu (manipulace s hlasy) a hlásíme ji provozovateli. Doporučená formulace: *„Ptejte se nás na r/Brno."*
 - **Žádné dárcovské odkazy a čísla kandidátek** v odpovědích. Nemažeme je — zaznamenáme je do shrnutí.
 
