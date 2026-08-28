@@ -22,6 +22,12 @@ jobs:
         env:
           WINDMILL_TOKEN: ${{ secrets.WINDMILL_TOKEN }}
           WINDMILL_URL: ${{ secrets.WINDMILL_URL }}
+          # Passed as env, NEVER interpolated into the script body with ${{ }}:
+          # a commit message containing shell metacharacters (parentheses,
+          # backticks, $(...)) would otherwise break the run - or execute.
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          REPO_URL: https://github.com/${{ github.repository }}
         run: |
           # Auto-discover all wiki files and build JSON payload
           # This handles any .md or .yaml file in wiki/ directory
@@ -83,9 +89,9 @@ jobs:
           # Build final payload
           PAYLOAD=$(jq -n \
             --argjson files "$FILES_JSON" \
-            --arg commit_sha "${{ github.sha }}" \
-            --arg commit_message "${{ github.event.head_commit.message }}" \
-            --arg repo_url "https://github.com/${{ github.repository }}" \
+            --arg commit_sha "$COMMIT_SHA" \
+            --arg commit_message "$COMMIT_MESSAGE" \
+            --arg repo_url "$REPO_URL" \
             '{
               reddit_resource: "$res:u/kerray/reddit_ponocny_bot",
               files: $files,
