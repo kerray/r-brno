@@ -1,5 +1,10 @@
 # Dotaz na ÚDHPSH — znění a stav
 
+> **STAV: znění připravené, zatím NEODESLÁNO.**
+> Zveřejňujeme ho v této fázi schválně — aby bylo vidět, na co se ptáme, ještě než
+> odpověď existuje. Datum odeslání se doplní do tabulky níže a údaje v hranatých
+> závorkách se před odesláním vyplní.
+
 *Tato stránka je generovaná z [github.com/kerray/r-brno](https://github.com/kerray/r-brno) — změny se dělají tam, přes pull request. Historie je veřejná.*
 
 AMA s politikem šest týdnů před volbami je de facto kampaňová událost a nebudeme dělat, že není.

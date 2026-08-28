@@ -1,5 +1,12 @@
 # Pozvánka: AMA s r/Brno před komunálními volbami
 
+> **STAV: návrh před rozesláním. Pozvánky zatím nikomu neodešly.**
+> Vystavujeme text dřív, než ho pošleme, schválně — aby bylo možné namítat proti
+> podmínkám dřív, než podle nich někoho pozveme. Místa v hranatých závorkách
+> (`[datum]`, `[kontakt]`) se doplní při rozeslání.
+> **Připomínky jsou vítané teď**: modmailem r/Brno, nebo jako issue či pull request
+> v [github.com/kerray/r-brno](https://github.com/kerray/r-brno).
+
 *Text pozvánky, kterou rozesíláme všem uskupením kandidujícím do Zastupitelstva města Brna. Zveřejňujeme ho, aby si kdokoli mohl ověřit, za jakých podmínek koho zveme — a aby byl čas na připomínky dřív, než pozvánky odejdou. Generováno z [github.com/kerray/r-brno](https://github.com/kerray/r-brno).*
 
 ---
