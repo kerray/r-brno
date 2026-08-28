@@ -1,6 +1,6 @@
 # Pozvánka: AMA s r/Brno před komunálními volbami
 
-*Text, který jsme rozeslali všem kandidujícím uskupením. Zveřejňujeme ho, aby si kdokoli mohl ověřit, za jakých podmínek jsme koho zvali. Generováno z [github.com/kerray/r-brno](https://github.com/kerray/r-brno).*
+*Text pozvánky, kterou rozesíláme všem uskupením kandidujícím do Zastupitelstva města Brna. Zveřejňujeme ho, aby si kdokoli mohl ověřit, za jakých podmínek koho zveme — a aby byl čas na připomínky dřív, než pozvánky odejdou. Generováno z [github.com/kerray/r-brno](https://github.com/kerray/r-brno).*
 
 ---
 
@@ -22,7 +22,7 @@ Formát se jmenuje **AMA** — *Ask Me Anything*, „zeptejte se mě na cokoliv"
 
 Šest týdnů před volbami je jakákoliv akce s politiky de facto součástí kampaně. Nechceme dělat, že to tak není. Naše obrana je **symetrie**: zveme všechna uskupení kandidující do Zastupitelstva města Brna za stejných podmínek, zveřejníme rozpis i to, kdo pozvání odmítl nebo neodpověděl.
 
-Moderátoři r/Brno jsou dobrovolníci. **Nikdo z nás za tuto sérii nedostává žádnou odměnu a nikdo z hostů si účast nijak neplatí.** Neděláme placenou propagaci. Písemný dotaz, zda tento formát spadá pod zákon o volebních kampaních, jsme poslali na ÚDHPSH a jeho znění i případnou odpověď zveřejníme, ať dopadne jakkoliv.
+Moderátoři r/Brno jsou dobrovolníci. **Nikdo z nás za tuto sérii nedostává žádnou odměnu a nikdo z hostů si účast nijak neplatí.** Neděláme placenou propagaci. Písemný dotaz, zda tento formát spadá pod zákon o volebních kampaních, posíláme na ÚDHPSH; jeho **znění i datum odeslání jsou veřejné** na [/r/brno/wiki/ama/dotaz-udhpsh](/r/brno/wiki/ama/dotaz-udhpsh) a odpověď zveřejníme doslova, ať dopadne jakkoliv.
 
 ## 4. Jak to probíhá — časová osa
 
@@ -90,7 +90,8 @@ Není to podmínka, je to zkušenost z toho, jak Reddit funguje:
 - **Citujte otázku** (na Redditu se to dělá znakem `>` na začátku řádku) a teprve pak odpovídejte. Vaše odpověď je pak srozumitelná i samostatně.
 - **Přiznaná neznalost je tu silnější než vytáčka.** „Tohle nevím, zjistím a doplním" je odpověď, kterou publikum ocení. Vyhýbavá odpověď se pozná okamžitě a někdo pod ní napíše, že jste neodpověděl — a dostane za to hodně hlasů.
 - **Nepište to za vás týmem, který sem nechodí.** Je to poznat.
-- Limit jednoho příspěvku je 10 000 znaků; delší odpověď rozdělte a označte 1/2, 2/2.
+- Limit jednoho příspěvku je 10 000 znaků; delší odpověď rozdělte a označte 1/2, 2/2. Citace se do limitu počítá — u dlouhé otázky stačí odcitovat klíčovou větu.
+- Pravidla, podle kterých se ptají čtenáři, jsou veřejná na [/r/brno/wiki/ama/jak-se-ptat](/r/brno/wiki/ama/jak-se-ptat) — stejná norma platí i na vás.
 
 ## 10. Drobný tisk
 

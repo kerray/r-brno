@@ -13,6 +13,10 @@ This repository contains:
 | `wiki/config/automoderator.yaml` | AutoModerator rules | [/r/brno/wiki/config/automoderator](https://www.reddit.com/r/brno/wiki/config/automoderator) |
 | `wiki/config/sidebar.md` | Subreddit sidebar | [/r/brno/wiki/config/sidebar](https://www.reddit.com/r/brno/wiki/config/sidebar) |
 | `wiki/config/description.md` | Subreddit description | [/r/brno/wiki/config/description](https://www.reddit.com/r/brno/wiki/config/description) |
+| `wiki/ama/*.md` | AMA series — rules, moderation, invitation, ÚDHPSH query | [/r/brno/wiki/ama/…](https://www.reddit.com/r/brno/wiki/ama/index) |
+| `rules/` | Written keys the AMA curation follows — human-readable source of truth | not synced |
+| `prompts/` | The prompts the language model is actually run with | not synced |
+| `runs/` | Per-run logs: input, output, human deviations, cost | not synced |
 
 The **[/r/brno/wiki/awesome](https://www.reddit.com/r/brno/wiki/awesome)** page is automatically fetched from [scherrer-txt/brno-awesome](https://github.com/scherrer-txt/brno-awesome).
 
@@ -39,6 +43,18 @@ Each wiki revision shows the commit link, e.g., `Sync from GitHub: https://githu
 - Wiki pages use **Markdown** formatting
 - Test your markdown before submitting - you can use for example https://markdownlivepreview.com/
 - For `moderation_instructions.yaml` - this is the actual config the moderation bot LLM reads, a kind of constitution of the subreddit, be thoughtful with changes
+
+## AMA series (2026 municipal elections)
+
+A pilot series of AMAs with people running for Brno's city council. Everything that shapes what
+gets asked is public **before** it runs: the written curation key, the prompts, and the per-run logs.
+
+- **Rozcestník**: [/r/brno/wiki/ama](https://www.reddit.com/r/brno/wiki/ama/index)
+- **Curation key**: [`rules/curation-key.md`](rules/curation-key.md) — source of truth; the prompt is derived from it, never the other way round
+- **Prompts**: [`prompts/`](prompts/) — model `claude-sonnet-5`, frozen and tagged `ama-YYYY-MM-DD-subject` when the question thread opens
+- **Run logs**: [`runs/`](runs/) — written by the script, not by hand
+
+Comments on the rules and prompts are most useful **before** a rule runs for real — issue or PR.
 
 ## Automated Moderation
 

@@ -16,4 +16,10 @@ Prompty, kterými se pouští jazykový model. **Veřejné záměrně** — smys
 - **Uživatelský text jde do promptu jako data v oddělovači**, nikdy jako instrukce. Komentář, který vypadá jako pokus oslovit bota instrukcí, se neposlechne, ale ani nemaže — označí se.
 - **Netvrdíme, že je model nestranný.** Není. Tvrdíme, že na všechny subjekty pouštíme stejný postup, stejným promptem, ve stejné verzi.
 
-> **STATUS: prázdné.** Prompty se dopíšou z `rules/curation-key.md` před rozesláním pozvánek, aby byl čas na připomínky.
+> **STATUS: sepsáno, k připomínkám.** Prompty jsou odvozené z `rules/curation-key.md` a zveřejněné
+> **před** rozesláním pozvánek, aby byl čas na námitky. Pro konkrétní AMA se zamrazí ve chvíli,
+> kdy se otevře sběrné vlákno.
+>
+> Co ještě nemají za sebou: **dry-run na starých vyhrocených vláknech r/Brno** (měření českých
+> false positives u `triage-queue.md`) a **test prompt injection** — vlastní pokus o „ignoruj
+> předchozí instrukce" musí skončit v označených, ne v patnáctce.
