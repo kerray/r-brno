@@ -1,3 +1,28 @@
+# =====================================================================
+# AutoModerator pro r/Brno
+#
+# Tenhle soubor je VEŘEJNÝ: github.com/kerray/r-brno. Není to jen
+# konfigurace, je to i dokument, podle kterého si můžete zkontrolovat,
+# co se tu s příspěvky děje. Proto ty komentáře.
+#
+# ---------------------------------------------------------------------
+# DVĚ AKCE, KTERÉ SE PLETOU: `remove` vs `filter`
+#
+#   filter  = příspěvek počká ve frontě, než se na něj podívá člověk.
+#             Nezmizel, jen ještě není vidět. Moderátor ho schválí a
+#             objeví se, jako by se nic nedělo.
+#
+#   remove  = totéž, ale navíc to Reddit bere jako "tenhle člověk sem
+#             nesmí". Reddit pak takovým lidem zobrazí rovnou při psaní
+#             hlášku, že do komunity nemůžou přispívat, a příspěvek se
+#             ani neodešle. Naše zpráva "moderátoři to schválí" se pak
+#             nemá jak doručit — není co schvalovat.
+#
+# Reddit sám doporučuje `filter` všude, kde se počítá s tím, že si to
+# moderátor projde a většinu pustí. Přesně to tady děláme, takže
+# `filter` je správně a `remove` byl omyl.
+# =====================================================================
+
 domain: [
    "parlamentnilisty.cz",
    "parlamentni-listy.cz",
@@ -49,59 +74,83 @@ domain: [
    "zastavmezlodeje.com",
    "dt24.cz"
 ]
+# Tady `remove` ZŮSTÁVÁ, a je to schválně.
+# U seznamu domén výše už rozhodnutí padlo — seznam je veřejný a dá se
+# proti němu argumentovat, ale u konkrétního odkazu není co posuzovat.
+# Když si myslíte, že doména na seznam nepatří, napište nám; o tom se
+# bavíme, ne o jednotlivých odkazech.
 action: remove
 action_reason: Dezinformační doména
 message: Zpráva od robota v /r/{{subreddit}} - Sorry, o [odkazy na dezinformační weby]({{permalink}}) nestojíme.
 modmail: DOMAIN_BLOCKED Příspěvek [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli doméně (po approve se zobrazí)
 ---
+# Nový účet, který zakládá příspěvek.
+# `filter`, ne `remove`: chceme se na to podívat, ne to zahodit. Většinu
+# pouštíme. Kdyby tu bylo `remove`, Reddit by novým lidem rovnou při psaní
+# oznámil, že sem přispívat nemůžou — a to není pravda, jen si to nejdřív
+# přečteme.
 type: submission
 author:
     account_age: < 30 day
-action: remove
+action: filter
+action_reason: "Novy ucet (< 30 dni) - prispevek"
 message: |
          Zpráva od robota v /r/{{subreddit}} - Váš účet je příliš nový, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
 
-         Bot message from /r/{{subreddit}} - your account is newer then 30 days, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
+         Bot message from /r/{{subreddit}} - your account is newer than 30 days, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
 modmail: ACCOUNT_AGE_BLOCKED_SUBMISSION [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli příliš novému účtu (po approve se zobrazí)
 ---
+# Nový účet, který komentuje.
+# Viz výše — `filter`, aby komentář počkal, ne aby zmizel.
 type: comment
 author:
     account_age: < 30 day
     is_submitter: false
-action: remove
+action: filter
+action_reason: "Novy ucet (< 30 dni) - komentar"
 message: |
          Zpráva od robota v /r/{{subreddit}} - Váš účet je příliš nový, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
 
-         Bot message from /r/{{subreddit}} - your account is newer then 390 days, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
+         Bot message from /r/{{subreddit}} - your account is newer than 30 days, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
 modmail: ACCOUNT_AGE_BLOCKED_COMMENT [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli příliš novému účtu (po approve se zobrazí)
 ---
+# Účet s nulovou nebo zápornou karmou, který komentuje.
+# Karma pod 1 mívá buď úplný nováček, nebo někdo, koho komunita opakovaně
+# odmítla. Rozdíl mezi tím pozná jedině člověk, takže `filter`.
 type: comment
 author:
     combined_karma: < 1
     is_submitter: false
-action: remove
+action: filter
+action_reason: "Karma pod 1 - komentar"
 message: |
          Zpráva od robota v /r/{{subreddit}} - Váš účet má kombinovanou karmu nižší než 1, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
 
          Bot message from /r/{{subreddit}} - your account has combined karma lower then 1, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
 modmail: KARMA_BLOCKED_COMMENT [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli nízké karmě (po approve se zobrazí)
 ---
+# Účet s nulovou nebo zápornou karmou, který zakládá příspěvek.
 type: submission
 author:
     combined_karma: < 1
-action: remove
+action: filter
+action_reason: "Karma pod 1 - prispevek"
 message: |
          Zpráva od robota v /r/{{subreddit}} - Váš účet má kombinovanou karmu nižší než 1, takže než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
 
          Bot message from /r/{{subreddit}} - your account has combined karma lower then 1, so before [your post]({{permalink}}) gets displayed, moderators need to approve it first.
 modmail: KARMA_BLOCKED_SUBMISSION [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli nízké karmě (po approve se zobrazí)
 ---
+# `remove` zůstává: sub není místo na sháněčku drog.
 title+media_title (regex): ['weed', 'thc']
 action: remove
 action_reason: "Sorry, not the way to score weed [{{match}}]"
 modmail: REGEX_BLOCKED_SUBMISSION [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný klíčovému slovu [{{match}}] (po approve se zobrazí)
 ---
-#Fiter users without banning them, replaces shadow ban
+# Filtrování konkrétních účtů místo banu.
+# `remove` zůstává, protože tohle NENÍ omyl ani nováček — jsou to účty,
+# u kterých už proběhlo moderační rozhodnutí. Mírnější varianta banu:
+# můžou dál číst i psát, jen to napřed uvidí člověk.
 type: any
 author:
     name: [ Masivni_prunik_fixou, kokotizasrani]
