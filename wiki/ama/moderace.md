@@ -90,15 +90,39 @@ repozitáře. Stránky `config/automoderator`, `config/sidebar` a
 nich zapisovat. Bez toho by nešlo mít pravidla subredditu veřejně verzovaná, a to
 je vlastnost, které si tu ceníme víc než úzce nastavených práv.
 
-Nemůžeme vám tedy nabídnout záruku ve tvaru *„technicky to neumí"*. Nabízíme
-slabší, ale pravdivou:
+### Co je a co není veřejné — bez přikrášlení
 
-> **Bot nemá vlastní vůli.** Dělá to, co je v kódu — a ten kód si můžete přečíst.
-> Pravidla subredditu se nasazují z veřejného repozitáře, takže jejich změna je
-> pull request, který je vidět, a další synchronizace přepíše cokoliv, co by se do
-> konfigurace dostalo mimo něj. Skripty obsluhující AMA neumí měnit pravidla ani
-> nikoho banovat — ne proto, že by jim to Reddit zakazoval, ale proto, že to
-> nemají v kódu.
+Nemůžeme vám nabídnout záruku ve tvaru *„technicky to neumí"*. A nenabídneme vám
+ani *„přečtěte si kód"* — **zdrojový kód bota veřejný není** a upřímně řečeno ho
+ani nemáme jak zveřejnit: běží uvnitř naší osobní automatizace, propletený
+s věcmi, které s r/Brno nesouvisejí.
+
+Bylo by snadné to zamlčet a nechat vás v dojmu, že „všechno je open source".
+Radši to řekneme přesně:
+
+| Veřejné a ověřitelné | Neveřejné |
+|---|---|
+| **prompty** — doslovný text, kterým se model ptáme | zdrojový kód bota |
+| **psaný klíč** pro výběr povinných otázek | napojení na Reddit API, provozní skripty |
+| **konfigurace subredditu** (AutoModerator, sidebar) | |
+| **logy běhů** — vstup, výstup a každá lidská odchylka | |
+| **tenhle text** a jeho revizní historie | |
+
+Rozdělení není náhodné a stojí za jednu větu: **veřejné je všechno, co formuje
+rozhodnutí. Neveřejné je jen to, co ho vykonává.** Prompt a klíč určují, které
+otázky se dostanou k hostovi; kód je jen dopravní pás. Kdo chce ověřit, jestli
+jsme výběr nevychýlili, potřebuje první sloupec — a ten má celý.
+
+Co z toho plyne pro vaši důvěru:
+
+> Neříkejte si „to je transparentní, protože si to můžu přečíst". Řekněte si
+> **„můžu si to přepočítat"** — vstup, prompt i model id zveřejňujeme, takže
+> kdokoliv s pár dolary API kreditu si výběr povinných otázek zopakuje sám a
+> porovná ho s naším. To je jediná kontrola, která nezávisí na naší dobré vůli.
+
+A u pravidel subredditu platí ještě něco navíc: nasazují se z veřejného
+repozitáře, takže **jejich změna je pull request, který je vidět** — a další
+synchronizace přepíše cokoliv, co by se do konfigurace dostalo mimo něj.
 
 Kdyby vám tohle rozlišení přišlo jako slovíčkaření: je to rozdíl mezi *„nemůže"*
 a *„nemůže potají"*. To druhé je slabší tvrzení a jediné, které umíme doložit.
