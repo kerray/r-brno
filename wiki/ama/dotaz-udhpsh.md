@@ -32,7 +32,7 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 > Vážení,
 >
 > jsem moderátorem internetové diskuzní komunity r/Brno na platformě Reddit
-> (https://www.reddit.com/r/Brno/), která sdružuje přibližně 26 000 uživatelů se vztahem k Brnu.
+> (https://www.reddit.com/r/Brno/), která sdružuje přes 20 tisíc uživatelů se vztahem k Brnu.
 > Komunita je provozována dobrovolnicky, nemá právní subjektivitu, nevydává ani nepřijímá žádné
 > platby a není spojena s žádným politickým subjektem.
 >
@@ -80,8 +80,8 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 > Předem děkuji za odpověď.
 >
 > S pozdravem
-> [JMÉNO], moderátor komunity r/Brno
-> [KONTAKT]
+> Jaromír Matýšek, moderátor komunity r/Brno
+> kerray@kerray.cz
 
 ---
 
