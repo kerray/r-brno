@@ -1,9 +1,9 @@
 # Dotaz na ÚDHPSH — znění a stav
 
-> **STAV: znění připravené, zatím NEODESLÁNO.**
-> Zveřejňujeme ho v této fázi schválně — aby bylo vidět, na co se ptáme, ještě než
-> odpověď existuje. Datum odeslání se doplní do tabulky níže a údaje v hranatých
-> závorkách se před odesláním vyplní.
+> **STAV: ODESLÁNO 31. 8. 2026 datovou schránkou. Odpověď zatím nedorazila.**
+> Zveřejňujeme znění i datum, ne až odpověď — a zveřejnili jsme ho ještě předtím,
+> než jsme dotaz odeslali. Až odpověď přijde, doplníme ji sem **doslova**, ať dopadne
+> jakkoliv.
 
 *Tato stránka je generovaná z [github.com/kerray/r-brno](https://github.com/kerray/r-brno) — změny se dělají tam, přes pull request. Historie je veřejná.*
 
@@ -19,9 +19,9 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 | | |
 |---|---|
 | Adresát | Úřad pro dohled nad hospodařením politických stran a politických hnutí, Brno |
-| Odesláno | *(doplní se při odeslání)* |
+| Odesláno | **31. 8. 2026** |
 | Způsob | datová schránka |
-| Stav | *(odesláno / odpovězeno DD. MM. RRRR)* |
+| Stav | odesláno, čeká se na odpověď |
 
 ---
 
@@ -32,7 +32,7 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 > Vážení,
 >
 > jsem moderátorem internetové diskuzní komunity r/Brno na platformě Reddit
-> (https://www.reddit.com/r/Brno/), která sdružuje přibližně [POČET] uživatelů se vztahem k Brnu.
+> (https://www.reddit.com/r/Brno/), která sdružuje přibližně 26 000 uživatelů se vztahem k Brnu.
 > Komunita je provozována dobrovolnicky, nemá právní subjektivitu, nevydává ani nepřijímá žádné
 > platby a není spojena s žádným politickým subjektem.
 >
@@ -88,3 +88,8 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 ## Odpověď
 
 *(Zveřejní se sem doslova, jakmile dorazí.)*
+
+První AMA série proběhne **2. 9. 2026**, tedy dřív, než může odpověď reálně dorazit.
+Je to vědomé rozhodnutí, ne přehlédnutí: doklad o dobré víře vzniká **odesláním** dotazu,
+ne přijetím odpovědi, a čekat na ni by znamenalo sérii před volbami vůbec neudělat.
+Kdyby odpověď dopadla tak, že formát takhle nejde, zveřejníme to a zařídíme se podle toho.
