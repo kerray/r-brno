@@ -49,7 +49,10 @@ jazykovém modelu. Jeho úkoly: seskupování duplicitních otázek ve sběrném
 vlákně, výběr části povinných otázek podle psaného klíče, řazení fronty
 pro moderátory podle závažnosti, upozornění na vzorce koordinovaného
 chování a po skončení roztřídění zodpovězeno/nezodpovězeno pro shrnutí
-(včetně toho, kdo z hostů na co odpověděl). **Nemá oprávnění nic smazat.**
+(včetně toho, kdo z hostů na co odpověděl). **Sám nerozhoduje** — navrhuje
+a označuje, rozhoduje člověk. Jaká má technicky oprávnění a proč, je
+rozepsané níže; nebudeme tvrdit, že „nemůže nic smazat", protože by to
+nebyla pravda.
 
 ### Který model to je a podle čeho jede
 
@@ -62,11 +65,43 @@ Neříkáme „používáme AI". Říkáme tohle:
 | Psaný klíč pro výběr otázek | [`rules/curation-key.md`](https://github.com/kerray/r-brno/blob/main/rules/curation-key.md) |
 | Počet běhů | jeden rozhodující; druhý „stínový" jen na měření, bez pravomoci |
 | Logy běhů | [`runs/`](https://github.com/kerray/r-brno/tree/main/runs) — vstup, výstup, lidské odchylky |
-| Oprávnění | **žádné mazání**, jen navrhuje a označuje |
+| Oprávnění | plná moderátorská práva — **proč, a co z toho neplyne, je hned pod tabulkou** |
 
 Prompt platný pro dané AMA **zamrzne ve chvíli, kdy se otevře sběrné vlákno**,
 a otaguje se `ama-RRRR-MM-DD-subjekt`. Od té chvíle se nemění jinak než veřejně,
 s poznámkou ve vlákně a novým commitem.
+
+### Jaká má bot oprávnění — a proč zrovna taková
+
+Bot má na r/Brno **plná moderátorská práva**. Je to technická nutnost, ne
+přehlédnutí, a je lepší to říct sami než čekat, až si to někdo najde.
+
+**Proč umí odstraňovat:** Reddit nemá tlačítko „skrýt". Jediný způsob, jak
+dostat komentář z vlákna do fronty k posouzení, se jmenuje *remove* — a je to
+**vratné zadržení**, ne smazání. Obsah nemizí, moderátor ho pořád vidí a
+schválením se vrátí na místo. **Skutečně smazat obsah může jen jeho autor**; to
+nesvede ani moderátor, ani administrátor komunity. Takže věta „bot nemůže nic
+smazat" by byla doslova nepravdivá v jednom směru a zbytečně uklidňující ve druhém.
+
+**Proč umí měnit nastavení:** bot si sám nasazuje konfiguraci z veřejného
+repozitáře. Stránky `config/automoderator`, `config/sidebar` a
+`config/description` se synchronizují z
+[github.com/kerray/r-brno](https://github.com/kerray/r-brno) — proto má právo do
+nich zapisovat. Bez toho by nešlo mít pravidla subredditu veřejně verzovaná, a to
+je vlastnost, které si tu ceníme víc než úzce nastavených práv.
+
+Nemůžeme vám tedy nabídnout záruku ve tvaru *„technicky to neumí"*. Nabízíme
+slabší, ale pravdivou:
+
+> **Bot nemá vlastní vůli.** Dělá to, co je v kódu — a ten kód si můžete přečíst.
+> Pravidla subredditu se nasazují z veřejného repozitáře, takže jejich změna je
+> pull request, který je vidět, a další synchronizace přepíše cokoliv, co by se do
+> konfigurace dostalo mimo něj. Skripty obsluhující AMA neumí měnit pravidla ani
+> nikoho banovat — ne proto, že by jim to Reddit zakazoval, ale proto, že to
+> nemají v kódu.
+
+Kdyby vám tohle rozlišení přišlo jako slovíčkaření: je to rozdíl mezi *„nemůže"*
+a *„nemůže potají"*. To druhé je slabší tvrzení a jediné, které umíme doložit.
 
 **Netvrdíme, že je model nestranný.** Není — má trénovací bias a je citlivý na
 formulaci promptu. Tvrdíme něco slabšího a doložitelného: *na všechny subjekty
