@@ -1,0 +1,67 @@
+{
+  "beh": "2026-09-02-zelene-brno",
+  "subjekt": "Zelené Brno",
+  "ama": {
+    "datum": "2026-09-02",
+    "cas": "9:00–11:30",
+    "sberne_vlakno_id": "1w3ahgu",
+    "sberne_vlakno_url": "https://redd.it/1w3ahgu",
+    "uzaverka_sberu": "2026-09-01T18:00:00+02:00",
+    "snapshot_porizen": "2026-09-01T16:23:00+02:00"
+  },
+  "vstup": {
+    "kandidatnich_otazek": 14,
+    "unikatnich_autoru": 10,
+    "povinnych_slotu_dle_klice": 15,
+    "snapshot": "snapshot.json"
+  },
+  "model": {
+    "model_id": null,
+    "model_invoked": false,
+    "duvod": "Kandidátních otázek bylo 14, tedy méně než 15 povinných slotů. Podle rules/curation-key.md (oddíl „Když je způsobilých otázek méně než 15\") jde do povinné sady všech N způsobilých otázek a slotové rozdělení 10/3/2 se neuplatní — nebylo tedy co vybírat a model se vůbec nepustil."
+  },
+  "prompt": {
+    "soubor": "prompts/curation-top15.md",
+    "tag": "ama-2026-09-02-zelene-brno",
+    "commit": "8a4c855",
+    "zamrzly": true,
+    "pouzity": false
+  },
+  "kurace": {
+    "probehla": false,
+    "stinovy_beh_probehl": false,
+    "soubory_ktere_v_tomto_behu_nevznikaji": [
+      "input.json",
+      "output.json",
+      "shadow.json",
+      "agreement.md"
+    ],
+    "poznamka": "Chybějící soubory nejsou rozdělaná práce. Vznikají při běhu kurace; ta se nekonala, protože nebylo z čeho vybírat."
+  },
+  "vystup": {
+    "povinnych_otazek": 14,
+    "slotove_rozdeleni_10_3_2_uplatneno": false,
+    "wildcard_slotu_k_dispozici": 2,
+    "wildcard_slotu_pouzito": 0,
+    "lidskych_odchylek_od_vystupu_modelu": 0,
+    "poznamka_k_odchylkam": "Nula odchylek zde neznamená shodu s modelem — nebylo do čeho zasahovat.",
+    "zverejneno": {
+      "soubor": "final.md",
+      "comment_id": "p78oxkn",
+      "cas": "2026-09-01T21:38:00+02:00",
+      "ucet": "/u/ponocny_bot",
+      "distinguished": true,
+      "stickied": true
+    }
+  },
+  "rozhodujici_moderator": {
+    "jmeno": "kerray",
+    "reddit": "/u/kerray"
+  },
+  "naklad_api": {
+    "mena": "CZK",
+    "volani_celkem": 0,
+    "kumulativne": 0,
+    "poznamka": "Žádné volání modelu — kurace ani stínový běh se nekonaly."
+  }
+}

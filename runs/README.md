@@ -1,7 +1,8 @@
 # runs/ — logy jednotlivých běhů
 
 Už prázdné není. První běh je [`2026-09-02-zelene-brno/`](2026-09-02-zelene-brno) — pilotní AMA
-se Zeleným Brnem, zatím jen se snapshotem sběrného vlákna.
+se Zeleným Brnem. Soubory kurace v něm chybí schválně: otázek přišlo míň než slotů, takže se
+nevybíralo a model se vůbec nepustil.
 
 Adresář zapisuje a commituje **skript, který kuraci pouští** — ne člověk. Když je publikování logu
 ruční krok navíc, přestane se do třetího AMA dělat a nikdo si toho nevšimne dřív než při první
@@ -30,6 +31,13 @@ runs/RRRR-MM-DD-subjekt/
 
 Soubory přibývají postupně, jak běh postupuje — složka s jedním snapshotem je legitimní stav
 (znamená „sběr skončil, kurace ještě neproběhla"), ne rozdělaná práce.
+
+A některé soubory v konkrétním běhu **nevzniknou vůbec**. Když je způsobilých otázek méně než 15,
+klíč výběr neuplatňuje a model se nepouští — pak `input.json`, `output.json`, `shadow.json`
+a `agreement.md` nemají obsah, který by dávaly, a chybí právem. Co se nekonalo a proč, patří
+do `decisions.md`; `meta.json` to nese strojově čitelně (`model_invoked: false` a seznam
+nevzniklých souborů). **Prázdné soubory na oko se nezakládají** — zmizel by rozdíl mezi
+„neproběhlo" a „proběhlo a nic nevyšlo".
 
 | Soubor | Vzniká | Co v něm je |
 |---|---|---|
