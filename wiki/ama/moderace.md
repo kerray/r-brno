@@ -145,7 +145,7 @@ nemaže** — vyřadí se z výběru povinných otázek, označí pro moderátor
 ve statistikách jako samostatná kolonka.
 
 ## Odvolání
-Nesouhlasíte se zásahem → modmail, odpovíme do 24 hodin.
+Nesouhlasíte se zásahem → modmail r/Brno nebo e-mail (kerray@kerray.cz), odpovíme do 24 hodin.
 
 Postup: odvolání spustí **druhý průchod s promptem, jehož úkolem je najít
 důvody, proč byl původní zásah špatný** — ne ho potvrdit. Konečné

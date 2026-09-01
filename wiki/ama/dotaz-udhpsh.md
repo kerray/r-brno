@@ -85,6 +85,14 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 
 ---
 
+> **Poznámka k přesnosti dotazu (doplněno 1. 9. 2026).** Věta o tom, že pozvánku
+> obdrží všechna uskupení současně, popisuje rozesílku pozvánek — ta proběhla
+> jednorázově a za totožných podmínek. Pilotní AMA se Zeleným Brnem bylo domluveno
+> dřív, samostatně; uvádíme to i v pozvánce (§10, Pořadí a termíny). Znění
+> odeslaného podání neupravujeme, doplňujeme jen tuto poznámku.
+
+---
+
 ## Odpověď
 
 *(Zveřejní se sem doslova, jakmile dorazí.)*
