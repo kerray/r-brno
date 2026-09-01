@@ -173,3 +173,4 @@ odvolání a jejich výsledek. U povinné patnáctky rozpad
 - [/r/brno/wiki/ama/jak-se-ptat](/r/brno/wiki/ama/jak-se-ptat) — vzory podsouvání a modelové dvojice
 - [/r/brno/wiki/ama/pozvanka](/r/brno/wiki/ama/pozvanka) — text pozvánky pro kandidující uskupení
 - [/r/brno/wiki/ama/dotaz-udhpsh](/r/brno/wiki/ama/dotaz-udhpsh) — dotaz na ÚDHPSH a jeho stav
+- [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu) — prohlášení o střetu zájmů rozhodujícího moderátora

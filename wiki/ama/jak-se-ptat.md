@@ -92,5 +92,6 @@ Host taky podsouvá — tazatelům i konkurenci. Nemažeme mu to stejně jako v�
 ## Souvisí
 
 - [/r/brno/wiki/ama/moderace](/r/brno/wiki/ama/moderace) — co se skutečně vymáhá a jak se odvolat
+- [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu) — prohlášení o střetu zájmů rozhodujícího moderátora
 - [`rules/curation-key.md`](https://github.com/kerray/r-brno/blob/main/rules/curation-key.md) — psaný klíč pro výběr patnáctky
 - [`prompts/curation-top15.md`](https://github.com/kerray/r-brno/blob/main/prompts/curation-top15.md) — prompt, který ho provádí
