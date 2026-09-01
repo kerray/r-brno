@@ -1,6 +1,6 @@
 # Prohlášení o střetu zájmů
 
-**AMA série r/Brno před komunálními volbami 2026** · vydáno 1. 9. 2026
+**AMA série r/Brno před komunálními volbami 2026** · vydáno 1. 9. 2026 · doplněno 1. 9. 2026
 
 *Tato stránka je generovaná z [github.com/kerray/r-brno](https://github.com/kerray/r-brno) — změny se dělají tam, přes pull request. Historie je veřejná.*
 
@@ -31,7 +31,7 @@ Uvádím ale vazbu na městské peníze, i když je vzdálená. Externě dělám
 
 Ověřil jsem to i proti veřejným zdrojům: **v registru smluv není ke dni 1. 9. 2026 evidována žádná smlouva mezi Naverticou a SAKO Brno, statutárním městem Brnem, žádnou brněnskou městskou částí ani žádnou brněnskou městskou firmou.** Registr pokrývá smlouvy nad 50 000 Kč od července 2016, takže starší nebo drobnější plnění by v něm nebylo — SAKO v něm ale svých 7 455 smluv publikuje, takže ta nepřítomnost není jen dírou v evidenci. SAKO nekandiduje; o jeho vlastníkovi ale rozhoduje zastupitelstvo, o které v této sérii jde.
 
-**Osobní vztahy.** S **Adamem Zbiejczukem**, který je v týmu Zeleného Brna pro pilotní AMA, se osobně znám — potkáme se jednou za pár let a prohodíme pár slov. Uvedl jsem to i v komentáři pod oznámením série, když se na to někdo zeptal. S nikým dalším z kandidátů ani mluvčích osobní vztah nemám.
+**Osobní vztahy.** S **Adamem Zbiejczukem**, který je v týmu Zeleného Brna pro pilotní AMA, se osobně znám — potkáme se jednou za pár let a prohodíme pár slov. Uvedl jsem to i v komentáři pod oznámením série, když se na to někdo zeptal. Kromě rodinné vazby uvedené výše nemám s nikým dalším z kandidátů ani mluvčích osobní vztah.
 
 **Podpora kampaní.** Nikomu z kandidujících jsem nepřispěl, nesbíral podpisy ani nedobrovolničil.
 
