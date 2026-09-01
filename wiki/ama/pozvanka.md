@@ -91,7 +91,7 @@ Tohle je místo, kde bychom mohli sérii nenápadně vychýlit — proto je cel�
 
 Kroky 11–13 dělá jazykový model **Claude Sonnet 5**. Prompt, podle kterého vybírá, je **veřejný na `github.com/kerray/r-brno`** a zamrzne v okamžiku otevření sběrného vlákna. Neříkáme, že je model nestranný — není, má trénovací bias. Říkáme, že **na všechny subjekty pouštíme stejný postup, stejným promptem, ve stejné verzi**, a že si to můžete přepočítat.
 
-Rozdělení moci nad výběrem: **hlasování 10, model 3, jmenovaný moderátor 2.**
+Rozdělení moci nad výběrem: **hlasování 10, model 3, jmenovaný moderátor 2.** U jednoho uskupení se tato dělba liší v jeho prospěch — moderátor u něj nepoužije ani jeden wildcard slot. Důvod i rozsah jsou v [prohlášení o střetu zájmů](/r/brno/wiki/ama/stret-zajmu).
 
 ## 9. Rada, jak si z toho odnést maximum
 

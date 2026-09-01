@@ -91,6 +91,12 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 > dřív, samostatně; uvádíme to i v pozvánce (§10, Pořadí a termíny). Znění
 > odeslaného podání neupravujeme, doplňujeme jen tuto poznámku.
 
+> **Poznámka k přesnosti dotazu (doplněno 1. 9. 2026).** Věta „Komunita … není spojena
+> s žádným politickým subjektem" popisuje komunitu r/Brno jako takovou, ne osobní vazby
+> moderátora. Ty jsou v úplnosti uvedené v [prohlášení o střetu zájmů](/r/brno/wiki/ama/stret-zajmu)
+> — včetně toho, že manželka moderátora kandiduje za jedno ze zvaných uskupení. Znění
+> odeslaného podání neupravujeme, doplňujeme jen tuto poznámku.
+
 ---
 
 ## Odpověď
