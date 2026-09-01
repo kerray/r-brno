@@ -17,6 +17,7 @@ This repository contains:
 | `rules/` | Written keys the AMA curation follows — human-readable source of truth | not synced |
 | `prompts/` | The prompts the language model is actually run with | not synced |
 | `runs/` | Per-run logs: input, output, human deviations, cost | not synced |
+| `tools/` | Scripts that decide something a moderator would otherwise decide — e.g. the public AMA slot draw | not synced |
 
 The **[/r/brno/wiki/awesome](https://www.reddit.com/r/brno/wiki/awesome)** page is automatically fetched from [scherrer-txt/brno-awesome](https://github.com/scherrer-txt/brno-awesome).
 
@@ -53,6 +54,7 @@ gets asked is public **before** it runs: the written curation key, the prompts, 
 - **Curation key**: [`rules/curation-key.md`](rules/curation-key.md) — source of truth; the prompt is derived from it, never the other way round
 - **Prompts**: [`prompts/`](prompts/) — model `claude-sonnet-5`, frozen and tagged `ama-YYYY-MM-DD-subject` when the question thread opens
 - **Run logs**: [`runs/`](runs/) — written by the script, not by hand
+- **Draw**: [`tools/losovani.py`](tools/losovani.py) — when more groups want the same slot, the order is drawn publicly; the seed is the ČNB EUR/CZK rate published that day, so anyone can recompute it ([`tools/README.md`](tools/README.md))
 
 Comments on the rules and prompts are most useful **before** a rule runs for real — issue or PR.
 

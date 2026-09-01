@@ -1,13 +1,13 @@
 # Pozvánka: AMA s r/Brno před komunálními volbami
 
-> **STAV: návrh před rozesláním. Pozvánky zatím nikomu neodešly.**
-> Vystavujeme text dřív, než ho pošleme, schválně — aby bylo možné namítat proti
-> podmínkám dřív, než podle nich někoho pozveme. Místa v hranatých závorkách
-> (`[datum]`, `[kontakt]`) se doplní při rozeslání.
-> **Připomínky jsou vítané teď**: modmailem r/Brno, nebo jako issue či pull request
+> **STAV: platné znění pozvánky rozesílané kandidujícím uskupením.**
+> Termín pro odpověď: **pondělí 8. 9. 2026**, kontakt **kerray@kerray.cz**.
+> Dokument se zveřejňuje současně s rozesláním, aby si kdokoli mohl ověřit,
+> za jakých podmínek jsme koho zvali.
+> **Připomínky jsou vítané**: modmailem r/Brno, nebo jako issue či pull request
 > v [github.com/kerray/r-brno](https://github.com/kerray/r-brno).
 
-*Text pozvánky, kterou rozesíláme všem uskupením kandidujícím do Zastupitelstva města Brna. Zveřejňujeme ho, aby si kdokoli mohl ověřit, za jakých podmínek koho zveme — a aby byl čas na připomínky dřív, než pozvánky odejdou. Generováno z [github.com/kerray/r-brno](https://github.com/kerray/r-brno).*
+*Text pozvánky, kterou rozesíláme všem uskupením kandidujícím do Zastupitelstva města Brna. Zveřejňujeme ho, aby si kdokoli mohl ověřit, za jakých podmínek koho zveme. Generováno z [github.com/kerray/r-brno](https://github.com/kerray/r-brno).*
 
 ---
 
@@ -19,7 +19,7 @@ Formát se jmenuje **AMA** — *Ask Me Anything*, „zeptejte se mě na cokoliv"
 
 ## 2. Co je Reddit a co je r/Brno
 
-**Reddit** je diskuzní síť rozdělená na tisíce tematických komunit. Na rozdíl od Facebooku tu není algoritmus, který by vám vnucoval obsah podle toho, co vás rozčílí — **o pořadí příspěvků rozhodují hlasy čtenářů**. Dobrá otázka jde nahoru, prázdná dolů. Diskuze je stromová: pod každou odpovědí může kdokoli pokračovat.
+**Reddit** je diskuzní síť rozdělená na tisíce tematických komunit. Na rozdíl od Facebooku tu algoritmus nevnucuje obsah podle toho, co vás rozčílí — **o pořadí příspěvků rozhodují hlasy čtenářů**. Dobrá otázka jde nahoru, prázdná dolů. Diskuze je stromová: pod každou odpovědí může kdokoli pokračovat.
 
 **r/Brno** je brněnská komunita. Píše se tam česky, čtou ji lidé, kteří v Brně bydlí, pracují nebo studují. Je to jedno z mála míst, kde spolu Brňané diskutují mimo Facebook.
 
@@ -77,7 +77,7 @@ Délka okna, počet povinných otázek i pravidla jsou stejné pro sólo hosta i
 - **Vaše odpovědi nezkracujeme, needitujeme a nezměkčujeme.**
 - **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek.
 - **Máte právo odmítnout premisu.** Když otázka obsahuje tvrzení, které odmítáte, můžete místo odpovědi říct které a proč. Ve shrnutí to bude vedeno jako samostatná kategorie — moderátoři neposuzují, jestli je vaše odmítnutí oprávněné.
-- **Veškerá komunikace s vámi probíhá modmailem a celé vlákno zveřejníme** spolu se shrnutím. Chrání to vás i nás před tvrzením, že se něco domlouvalo bokem.
+- **Komunikaci s vámi vedeme modmailem r/Brno nebo e-mailem a zveřejníme ji** spolu se shrnutím. První oslovení šlo přes Facebook a e-mail, protože jinak jsme se k vám nedostali; i to je součástí zveřejněného záznamu. Chrání to vás i nás před tvrzením, že se něco domlouvalo bokem.
 
 ## 8. Jak se vybírá 15 povinných otázek
 
@@ -112,7 +112,7 @@ Není to podmínka, je to zkušenost z toho, jak Reddit funguje:
 
 **Archivace vašich odpovědí.** Vaše odpovědi během AMA zaznamenáváme a **pozdější úpravu nebo smazání uvedeme ve shrnutí**. Právním základem je oprávněný zájem a novinářský účel u osob jednajících ve veřejné politické roli. U běžných diskutujících nic takového neděláme — u nich zaznamenáváme jen fakt, že k úpravě došlo, nikdy obsah. Ten rozdíl je záměrný: účelem série je odpovědnost politiků, ne sledování čtenářů.
 
-**Pořadí a termíny.** V tomto pilotním kole je pořadí dané prostě tím, **kdo kývl a kdy** — nevybírali jsme ho. Až bude o termíny konkurence, zavedeme veřejné losování a ohlásíme to předem.
+**Pořadí a termíny.** Pilotní AMA (Zelené Brno, 2. 9.) proběhlo dřív, než tyto pozvánky vyšly — pořadí jsme nevybírali, kývli na nabídnutý termín jako první. Pro zbytek série platí: rozpis vznikne po 8. 9. podle toho, kolik uskupení projeví zájem, a pošleme ho všem najednou. **Pokud o jeden termín projeví zájem víc uskupení, rozhodne veřejné losování.** Losovací skript je předem zveřejněný na `github.com/kerray/r-brno`; jako náhodný vstup použijeme kurz ČNB EUR/CZK vyhlášený v den losování — nikdo z nás ho neovlivní a každý si výsledek může zpětně přepočítat. Vstup i výsledek zveřejníme.
 
 **Poslední živé okno proběhne nejpozději 6. 10.**, poslední shrnutí vyjde 7. 10.; v době volebního moratoria nepublikujeme nic.
 
@@ -122,12 +122,17 @@ Není to podmínka, je to zkušenost z toho, jak Reddit funguje:
 
 ## Odpověď
 
-Prosíme o odpověď do **[datum]**, ideálně přes modmail r/Brno nebo na [kontakt]. V odpovědi:
+Prosíme o odpověď do **pondělí 8. 9. 2026**, ideálně přes modmail r/Brno nebo na **kerray@kerray.cz**.
+
+**V prvním kole potřebujeme jen dvě věci:**
 
 1. Máte zájem? ano / ne
-2. Preferovaný termín z nabídnutých
-3. Jmenný seznam odpovídajících (jméno, role, reddit účet), **kdo je garant** — nejpozději 72 h před termínem
-4. Kontakt na osobu, se kterou domluvíme ověření
+2. Kontakt na osobu, se kterou domluvíme podrobnosti
+
+Rozpis termínů sestavíme až podle počtu zájemců a pošleme ho všem najednou. Teprve potom od vás budeme potřebovat:
+
+3. Preferovaný termín z nabídnutých
+4. Jmenný seznam odpovídajících (jméno, role, reddit účet) a **kdo je garant** — nejpozději 72 h před termínem
 
 Za moderátory r/Brno,
 /u/kerray
