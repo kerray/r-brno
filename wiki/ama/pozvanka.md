@@ -108,7 +108,7 @@ Není to podmínka, je to zkušenost z toho, jak Reddit funguje:
 
 **Moderátorský tým.** r/Brno má aktuálně **jednoho lidského moderátora** (/u/kerray) a pomocného bota (/u/ponocny_bot). Nebudeme předstírat, že „rozhodl modtým". Kdo rozhoduje, je vždy jmenovitě uvedený, a proto je všechno logované a veřejné — kontrolou je komunita.
 
-**Prohlášení o střetu zájmů** je součástí oznámení série: jméno rozhodujícího moderátora a jeho vztah (či nevztah) ke kandidujícím subjektům.
+**Prohlášení o střetu zájmů** je součástí oznámení série a trvale na [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu): jméno rozhodujícího moderátora a jeho vztah (či nevztah) ke kandidujícím subjektům.
 
 **Archivace vašich odpovědí.** Vaše odpovědi během AMA zaznamenáváme a **pozdější úpravu nebo smazání uvedeme ve shrnutí**. Právním základem je oprávněný zájem a novinářský účel u osob jednajících ve veřejné politické roli. U běžných diskutujících nic takového neděláme — u nich zaznamenáváme jen fakt, že k úpravě došlo, nikdy obsah. Ten rozdíl je záměrný: účelem série je odpovědnost politiků, ne sledování čtenářů.
 

@@ -40,3 +40,13 @@ Kurace používá **Claude Sonnet 5** od Anthropicu. Přístup platím ze svého
 ## Když konflikt vznikne během série
 
 Jsem jediný moderátor, takže se nemám komu odrolovat. Když u některého subjektu vznikne vztah, který tady není uvedený, udělám dvě věci: doplním ho do tohoto prohlášení — wiki má revizní historii, takže je změna dohledatelná — a **u toho subjektu nepoužiju wildcard sloty**. Všech 15 otázek se pak vezme mechanicky: 12 podle hlasů, 3 podle modelu.
+
+Je to jediné místo, kde se postup mezi subjekty liší. Za porušení záruky stejných podmínek to nepovažuji — počet otázek i pravidla zůstávají stejné a posun je směrem k menší moci moderátora, ne větší — ale říkám to radši nahlas.
+
+## Souvisí
+
+- [/r/brno/wiki/ama](/r/brno/wiki/ama) — rozcestník série
+- [/r/brno/wiki/ama/pozvanka](/r/brno/wiki/ama/pozvanka) — text pozvánky, kde je tohle prohlášení slíbené
+- [/r/brno/wiki/ama/moderace](/r/brno/wiki/ama/moderace) — jaká má bot oprávnění, jak se odvolat a kdo rozhoduje
+- [/r/brno/wiki/ama/dotaz-udhpsh](/r/brno/wiki/ama/dotaz-udhpsh) — dotaz na ÚDHPSH a jeho stav
+- [`prompts/`](https://github.com/kerray/r-brno/tree/main/prompts) — prompty, kterými se model pouští
