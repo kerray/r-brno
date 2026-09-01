@@ -3,14 +3,19 @@
 | | |
 |---|---|
 | Zveřejněno | **2026-09-01 21:38** |
+| Opraveno | **2026-09-01 22:13** — edit týmž účtem, Reddit komentář označuje jako editovaný |
 | Kým | `/u/ponocny_bot` |
 | Kam | sběrné vlákno [`1w3ahgu`](https://redd.it/1w3ahgu), jako distinguished + sticky komentář |
 | Comment id | `p78oxkn` |
 | Permalink | https://www.reddit.com/r/Brno/comments/1w3ahgu/-/p78oxkn/ |
 
-Níže je **doslovný záznam zveřejněného textu**. Nesahá se do něj ani při pozdějším nálezu
-nesrovnalosti — případné rozdíly proti [`snapshot.json`](snapshot.json) se zapisují do
-[`decisions.md`](decisions.md), nikdy přepisem tohohle souboru.
+Níže je **doslovné znění po opravě z 22:13**. Opravilo se jediné: u položky 14 bylo omylem
+uvedeno skóre `(2)`, správně je `(1)` podle [`snapshot.json`](snapshot.json) — a pod seznam
+přibyla viditelná poznámka o opravě, která je součástí zveřejněného textu níže.
+
+Původní znění se sem neukládá: oprava je patrná přímo na Redditu (komentář je označený jako
+editovaný) a přiznaná v jeho vlastním textu, takže druhá kopie by nic nedoložila navíc.
+Kontext rozhodnutí je v [`decisions.md`](decisions.md).
 
 ---
 
@@ -33,8 +38,12 @@ Pořadí je podle hlasů ke stavu při uzávěrce. Hosté dostávají tenhle sez
 11. **S kým do koalice a s kým ne** — [u/holkazmesta](/r/Brno/comments/1w3ahgu/-/p757vmc/) (1)
 12. **Fotbalový stadion a nový stadion v Lužánkách** — [u/holkazmesta](/r/Brno/comments/1w3ahgu/-/p758kw1/) (1)
 13. **Bezpečnost a bezdomovectví na frekventovaných místech** — [u/holkazmesta](/r/Brno/comments/1w3ahgu/-/p75hhec/) (1)
-14. **Konkrétní kroky k uhlíkové neutralitě** — [u/Outrageous-Gas3025](/r/Brno/comments/1w3ahgu/-/p75vfyb/) (2)
+14. **Konkrétní kroky k uhlíkové neutralitě** — [u/Outrageous-Gas3025](/r/Brno/comments/1w3ahgu/-/p75vfyb/) (1)
 
 Zítra v 8:30 se každá z nich objeví v AMA vlákně jako samostatný komentář v plném znění, odpovědi půjdou pod ně.
 
 Snapshot vlákna při uzávěrce je uložený v [runs/](https://github.com/kerray/r-brno/tree/main/runs) — kdokoli si může přepočítat, že se pořadí ani složení nezměnilo.
+
+---
+
+*Oprava (1. 9. 2026 22:13): u položky 14 bylo omylem uvedeno skóre 2, správně je 1. Rozhodující je [snapshot v runs/](https://github.com/kerray/r-brno/tree/main/runs/2026-09-02-zelene-brno) pořízený při uzávěrce. Na složení povinné sady to nemá vliv — nevybíralo se, povinných je všech 14 otázek.*

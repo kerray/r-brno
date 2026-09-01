@@ -41,6 +41,33 @@ takže není co měřit. První použitelné srovnání přijde až u subjektu, 
 
 ---
 
+## Rozhodnutí 2 — překlep ve zveřejněném skóre opraven editem
+
+**Kdy:** 2026-09-01 ve 22:13, tedy 35 minut po zveřejnění povinné sady.
+
+**Co se stalo:** ve zveřejněném komentáři `p78oxkn` bylo u položky 14
+([`p75vfyb`](https://www.reddit.com/r/Brno/comments/1w3ahgu/-/p75vfyb/)) uvedeno skóre **(2)**,
+zatímco [`snapshot.json`](snapshot.json) má u téhož komentáře **1**. Překlep v přepisu, ne rozdíl
+v datech — snapshot se nezměnil.
+
+**Rozhodnutí:** komentář **editován týmž účtem** (`/u/ponocny_bot`): skóre opraveno na `(1)`
+a pod seznam přidána viditelná poznámka o opravě, která říká, co bylo špatně a že rozhodující je
+snapshot. [`final.md`](final.md) nese znění po opravě.
+
+**Odůvodnění:** Reddit označuje editovaný komentář jako editovaný, takže tichá oprava tu ani není
+technicky možná — a i kdyby byla, oprava přiznaná v samotném textu je to jediné, co odpovídá tomu,
+co si tenhle repozitář o sobě tvrdí. Nechat překlep stát a odkázat lidi do logu by po čtenáři
+chtělo práci navíc kvůli naší chybě.
+
+**Na složení povinné sady to nemělo vliv.** Nevybíralo se (viz Rozhodnutí 1), povinných je všech
+14 otázek bez ohledu na pořadí i na to číslo. Kdyby se vybíralo, byl by to zásah do výsledku
+a patřil by sem s úplně jinou vahou.
+
+**Rozhodující je snapshot.** Do [`snapshot.json`](snapshot.json) se nesáhlo a sahat se nebude —
+je to fotka vlákna při uzávěrce a přesně proti ní si má kdokoli výběr přepočítat.
+
+---
+
 ## Co se v tomhle běhu nekonalo
 
 | Krok | Stav |
@@ -55,11 +82,13 @@ Náklad na API za tenhle běh je **0 Kč** — žádné volání modelu. Viz [`m
 
 ---
 
-## Poznámka k záznamu (doplněno po zveřejnění)
+## Poznámka k záznamu — časové razítko snapshotu
 
-Ve zveřejněném textu ([`final.md`](final.md)) je u položky 14 uvedeno skóre **(2)**, zatímco
-v [`snapshot.json`](snapshot.json) má komentář `p75vfyb` skóre **1**. Rozhodující je snapshot —
-je to fotka vlákna při uzávěrce a nesahá se do něj. Na složení povinné sady to nemá vliv:
-výběr se nekonal, povinných je všech 14 otázek bez ohledu na pořadí. `final.md` zůstává
-doslovným záznamem toho, co bylo zveřejněno, i s tímhle rozdílem — přepisovat zveřejněný text
-zpětně by bylo horší než ho nechat a označit.
+V [`snapshot.md`](snapshot.md) bylo u řádku „Pořízeno" napsáno `16:23`, protože razítko vzniklo
+na stroji běžícím v UTC. Správně je **18:23 CEST**; snapshot je pořízený po uzávěrce (18:00), jen
+byl špatně popsaný. Opraven popisek v `snapshot.md` a pole `ama.snapshot_porizen` v
+[`meta.json`](meta.json).
+
+Je to **jediná výjimka z pravidla „do snapshotu se nesahá"** a stojí za to říct, kde přesně vede
+hranice: neopravil se obsah snapshotu — ani jeden komentář, skóre, id ani pořadí — jen chybně
+zapsané časové pásmo u razítka. Kdyby šlo o data, oprava by se nedělala a rozdíl by se popsal tady.

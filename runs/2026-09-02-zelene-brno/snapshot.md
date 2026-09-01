@@ -1,6 +1,6 @@
 # Snapshot sběrného vlákna — AMA Zelené Brno (2026-09-02)
 
-- Pořízeno: **2026-09-01 16:23** (po uzávěrce 1. 9. 18:00)
+- Pořízeno: **2026-09-01 18:23 CEST** (po uzávěrce 1. 9. 18:00)
 - Vlákno: https://redd.it/1w3ahgu
 - Prompt zamrzlý na tagu `ama-2026-09-02-zelene-brno` (commit `8a4c855`)
 - **Kandidátních otázek: 14** od 10 různých účtů; žádné odpovědi pod otázkami
