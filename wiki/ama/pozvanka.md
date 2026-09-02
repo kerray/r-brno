@@ -40,6 +40,7 @@ Moderátoři r/Brno jsou dobrovolníci. **Nikdo z nás za tuto sérii nedostáv�
 | **24 h předem** | Vybere se **15 povinných otázek** a hned se zveřejní. Dostanete na ně odkaz — nedostáváte nic, co by zároveň neviděla veřejnost. |
 | **den D** | **Živé okno, minimálně 2 hodiny.** Odpovídáte psaně, přímo ve vlákně. |
 | **+24 h** | **Okno na doplnění** — můžete dopsat, na co jste nestihli odpovědět. |
+| **po okně na doplnění** | **Vlákno se uzavírá pro nové diskutující — vy píšete dál.** Vaše účty zůstávají odemčené, aby šlo dopsat i po termínu; nové komentáře od ostatních bot odstraňuje s uvedeným důvodem. Podrobně na [/r/brno/wiki/ama/moderace](/r/brno/wiki/ama/moderace). |
 | **+48 h** | **Shrnutí**: co bylo zodpovězeno, co ne, a nejvýraznější reakce čtenářů. |
 
 ## 5. Kdo za vás odpovídá — rozhodujete vy

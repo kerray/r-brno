@@ -6,8 +6,9 @@
 1. **O politickém obsahu nikdy nerozhoduje stroj sám.** Bot ani filtr
    nemažou názory. Co bot zachytí, posoudí člověk — a **když to
    nestihne do 12 hodin, komentář se automaticky pustí.** Nedostatek
-   naší kapacity nesmí být tichým mazáním. (Výjimka: osobní údaje
-   a výhrůžky, kategorie A.)
+   naší kapacity nesmí být tichým mazáním. (Výjimky: osobní údaje
+   a výhrůžky, kategorie A; a komentáře napsané po uzavření vlákna,
+   viz níže — tam se nerozhoduje o obsahu, ale o čase.)
 2. **Držení není mazání.** Zachycený komentář čeká ve frontě;
    většinu schválíme, nebo vám pomůžeme ho opravit.
 3. **Moderujeme formu, ne rétoriku.** Nadávka a osobní útok jsou
@@ -21,7 +22,8 @@
 
 ## Čtyři kategorie zásahů
 **A. Okamžité odstranění (bez diskuze):** osobní údaje třetích osob,
-výhrůžky, spam. Jediná kategorie, kde automatika koná sama.
+výhrůžky, spam. Jediná z těchto čtyř kategorií, kde automatika koná
+sama; druhý případ je uzavření vlákna po AMA, viz níže.
 
 **B. Podržení s možností opravy:** vulgarita nebo osobní útok
 obalený kolem jinak legitimní otázky. Dostanete od nás zprávu
@@ -42,6 +44,29 @@ Návrh dostanete **veřejnou odpovědí ve vlákně, ne soukromou zprávou**
 a jde to snadno vyprovokovat). Přijmout nemusíte — do povinné patnáctky
 ale vybíráme otázky, které se ptají. Tohle je jediná kategorie, kde se bavíme o formulaci, a
 jediná, kde z odmítnutí naší nabídky **neplyne vůbec nic**.
+
+## Uzavření vlákna po AMA
+
+Když skončí okno na doplnění — tedy **24 hodin po konci živého okna** —
+vlákno se uzavírá. Ne zámkem: **hosté s označením `AMA host — <subjekt>`
+píšou dál** a můžou dokončit odpovědi i reagovat na to, co pod nimi
+mezitím přibylo. **Nové komentáře od všech ostatních se od té chvíle
+automaticky odstraňují.**
+
+Proč ne tvrdý zámek: zamčené vlákno na Redditu pustí ke slovu jen
+moderátory. Zamknout ho by tedy umlčelo i hosta — a ten má mít možnost
+dopsat, co nestihl. Selektivní režim je jediný způsob, jak vlákno uzavřít
+pro nové diskutující a nechat ho přitom otevřené pro toho, kvůli komu
+vzniklo.
+
+Dělá to náš bot podle fáze běhu, ne AutoModerator — ten neumí podmínku
+„až po tomto okamžiku". **Odstranění je vždy s uvedeným důvodem, ne tiché:**
+kdo komentář napíše, dozví se, že vlákno je po termínu uzavřené.
+
+**Není to moderace obsahu.** Odstraňuje se za načasování, ne za to, co
+v komentáři stojí — dopadne tak stejně pochvala i kritika. Nikoho to
+nediskvalifikuje z dalších AMA v sérii a nemá to žádný jiný následek.
+**Počet takto odstraněných komentářů jde do shrnutí AMA.**
 
 ## Co bot je a co dělá
 Používáme vlastního asistenčního bota (/u/ponocny_bot) postaveného na
@@ -163,6 +188,7 @@ použijeme.
 Zveřejníme: počet komentářů, počet zachycených, počet skutečně
 odstraněných (podle kategorie), počet oprav dle bodu B, počet
 nabídnutých a přijatých přeformulování dle bodu D, počet
+komentářů odstraněných po uzavření vlákna, počet
 zamčených větví i s důvodem, počet
 odvolání a jejich výsledek. U povinné patnáctky rozpad
 **zodpovězeno / odmítnuta premisa / bez odpovědi**.
