@@ -106,6 +106,17 @@ type: comment
 author:
     account_age: < 30 day
     is_submitter: false
+# VÝJIMKA PRO AMA VLÁKNA (viz /r/brno/wiki/ama/moderace)
+# Host AMA si kvůli sérii často zakládá účet pár dní předem. Bez téhle
+# výjimky ho filtr trestá přesně za to, kvůli čemu tu je — při pilotu
+# 2. 9. spadly odpovědi garantky do fronty dvanáctkrát za tři hodiny a
+# každou musel někdo ručně pustit. Zasáhlo to i tazatele.
+# `~` znamená "ne": pravidlo se použije jen tam, kde flair nadřazeného
+# příspěvku NEobsahuje "AMA". Kryje obě používané nálepky, "AMA"
+# i "AMA — sběr" (template id ca7cdcdc-a52a-11f1-a45d-ee72ed683a24
+# a d106ca9c-a50f-11f1-b43b-06c9fb59ea9e).
+parent_submission:
+    ~flair_text (includes): "AMA"
 action: filter
 action_reason: "Novy ucet (< 30 dni) - komentar"
 message: |
@@ -121,6 +132,17 @@ type: comment
 author:
     combined_karma: < 1
     is_submitter: false
+# VÝJIMKA PRO AMA VLÁKNA (viz /r/brno/wiki/ama/moderace)
+# Host AMA si kvůli sérii často zakládá účet pár dní předem. Bez téhle
+# výjimky ho filtr trestá přesně za to, kvůli čemu tu je — při pilotu
+# 2. 9. spadly odpovědi garantky do fronty dvanáctkrát za tři hodiny a
+# každou musel někdo ručně pustit. Zasáhlo to i tazatele.
+# `~` znamená "ne": pravidlo se použije jen tam, kde flair nadřazeného
+# příspěvku NEobsahuje "AMA". Kryje obě používané nálepky, "AMA"
+# i "AMA — sběr" (template id ca7cdcdc-a52a-11f1-a45d-ee72ed683a24
+# a d106ca9c-a50f-11f1-b43b-06c9fb59ea9e).
+parent_submission:
+    ~flair_text (includes): "AMA"
 action: filter
 action_reason: "Karma pod 1 - komentar"
 message: |

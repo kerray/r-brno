@@ -18,6 +18,12 @@
    vlákna, a vždy s viditelným originálem. Jak se ptát tak, aby otázka
    nešla obejít, je rozepsané na [/r/brno/wiki/ama/jak-se-ptat](/r/brno/wiki/ama/jak-se-ptat).
 4. **Vše logujeme a čísla zveřejníme** (viz níže).
+5. **Hosté AMA jsou vyňati z automatických filtrů.** Filtry na stáří účtu
+   a na karmu jinak trestají hosta přesně za to, kvůli čemu tu je — že si
+   účet založil kvůli AMA. **U pilotu 2. 9. se to nestihlo nastavit** a
+   odpovědi garantky spadly do fronty dvanáctkrát za tři hodiny; každou
+   musel někdo ručně pustit. Výjimka je vidět ve veřejné konfiguraci
+   [`config/automoderator`](/r/brno/wiki/config/automoderator).
 
 ## Čtyři kategorie zásahů
 **A. Okamžité odstranění (bez diskuze):** osobní údaje třetích osob,
