@@ -15,16 +15,28 @@ Celé je to mechanické schválně. Shrnutí je **dokumentační záruka**, ne r
 | Vstup | patnáctka, všechny komentáře hostů, reakce na ně, moderační log |
 | Výstup | strukturovaný, z něj se šablonou vyrenderuje markdown |
 
-## Prahy, které se zamrazují spolu s promptem
+## Výběr reakcí — pevný počet, ne bodový práh
 
 „Výrazná reakce" na odpověď hosta musí být **vzorec, ne odhad**. Proto:
 
-- práh: skóre ≥ 50 % skóre nejvýše hodnocené reakce v daném podvlákně **a zároveň** ≥ 10,
-- strop: nejvýše **5** reakcí u jedné otázky,
-- když se něco uřízlo stropem, **přizná se to** („zobrazeno 5 z 9 reakcí nad prahem").
+- do shrnutí jde **pět nejvýše hlasovaných reakcí** na otázku, se skóre **alespoň 2**,
+- **shoda skóre: rozhoduje dřívější čas komentáře**,
+- když jich vyhovuje míň než pět, **uvede se kolik** („zobrazeny 3 reakce"),
+  a když víc, uřízne se na pět a **přizná se to** („zobrazeno 5 z 9").
 
-Prahy se zamrazují **před** AMA, ne po něm. Měnit je až po tom, co je vidět, jak dopadly
-odpovědi, je nejtišší možný způsob, jak shrnutí vychýlit.
+**Proč pevný počet, a ne bodový práh.** Do 2026-09-02 tu stál absolutní práh
+(≥ 50 % skóre nejlepší reakce **a zároveň** ≥ 10 bodů). Data z pilotu ukázala, že je
+**nedosažitelný**: nejvýše hlasovaná *otázka* měla 9 bodů, reakce ještě míň — práh by
+nevybral nic a shrnutí by vycházela prázdná. Jediná oprava by byla práh v polovině
+série snížit, a to je přesně **nejtišší možný způsob, jak shrnutí vychýlit**.
+
+Pevný počet **nemá co driftovat**. Je **srovnatelný napříč subjekty**: u AMA s devíti
+body i u AMA se čtyřiceti dostanete pět reakcí a jdou porovnat mezi sebou. A **nedá se
+doladit** v polovině série, až bude vidět, jak odpovědi dopadly — což je právě to, co
+má invariant o konzistenci hlídat. Minimum 2 body je jen pojistka proti tomu, aby se do
+shrnutí dostal komentář, kterého si nikdo nevšiml.
+
+Pravidlo se zamrazuje **před** AMA, ne po něm.
 
 ## Kategorie odpovědi
 
@@ -53,7 +65,7 @@ nepíše, jestli host obstál.
 ## Co děláš
 
 Pro každou z povinných otázek spáruješ: otázku → odpověď hosta (doslovně,
-NEZKRACUJEŠ a NEPARAFRÁZUJEŠ) → výrazné reakce čtenářů podle prahů níže.
+NEZKRACUJEŠ a NEPARAFRÁZUJEŠ) → výrazné reakce čtenářů podle pravidla níže.
 
 ## Kategorizace odpovědi — mechanicky
 
@@ -66,10 +78,11 @@ otázku i odpověď a udělá si obrázek sám.
 
 ## Výrazné reakce
 
-Zařaď reakci na odpověď hosta, když má skóre alespoň 50 % skóre nejvýše
-hodnocené reakce v témž podvláknu A ZÁROVEŇ alespoň 10 bodů.
-Nejvýše 5 na otázku, seřazené podle skóre. Když jsi některé uřízl,
-uveď kolik ("zobrazeno 5 z 9 nad prahem").
+Vyber PĚT nejvýše hlasovaných reakcí na odpověď hosta, které mají skóre
+ALESPOŇ 2. Řaď sestupně podle skóre; při shodě skóre rozhoduje DŘÍVĚJŠÍ
+ČAS komentáře. Vyhovuje-li jich míň než pět, vrať všechny a do
+`reakce_uriznuto` dej 0. Vyhovuje-li jich víc, vrať pět a počet zbylých
+uveď v `reakce_uriznuto` ("zobrazeno 5 z 9").
 Nevybíráš je podle obsahu ani podle toho, jestli jsou k hostovi vlídné.
 
 ## Rozpad po lidech
@@ -169,7 +182,7 @@ Cíl: `/r/Brno/wiki/ama/RRRR-MM-DD-subjekt`.
 # AMA [SUBJEKT] — shrnutí
 
 *Živé okno RRRR-MM-DD HH:MM–HH:MM. Okno na doplnění skončilo RRRR-MM-DD HH:MM.
-Shrnutí generováno automaticky, prahy zamrzlé před AMA. Zdroj: github.com/kerray/r-brno, tag `ama-RRRR-MM-DD-subjekt`.*
+Shrnutí generováno automaticky, pravidlo výběru reakcí zamrzlé před AMA. Zdroj: github.com/kerray/r-brno, tag `ama-RRRR-MM-DD-subjekt`.*
 
 ## Odpovídali
 
@@ -197,7 +210,7 @@ Shrnutí generováno automaticky, prahy zamrzlé před AMA. Zdroj: github.com/ke
 **Odpověď ([účet], HH:MM):**
 > …
 
-**Výrazné reakce** *(práh ≥50 % top a ≥10, zobrazeno N z M):*
+**Výrazné reakce** *(pět nejvýše hlasovaných se skóre ≥ 2, zobrazeno N z M):*
 > …
 
 ---
