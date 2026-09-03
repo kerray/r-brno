@@ -103,3 +103,78 @@ Přepočítat: random.Random(seed).shuffle(sorted(subjekty))
   neexistuje a skript to řekne — losujeme tedy v pracovní den.
 - Připomínky k metodě jsou nejužitečnější **dřív, než se podle ní losuje**:
   issue nebo pull request.
+
+## `overit_citace.py` — kontrola, že citace ve shrnutí sedí doslova
+
+Shrnutí AMA slibuje, že se **otázky ani odpovědi hostů neupravují a nezkracují**.
+Je to slib, který se dá porušit nenápadně — vypadlé souvětí, uhlazená formulace,
+zkrácený odstavec — a od kterého by čtenář neměl mít jen naše ujištění. Proto ho
+jde zkontrolovat strojově.
+
+Skript ze shrnutí vytáhne každou citaci i s ID komentáře, načte týž komentář ze
+zdroje a porovná **znak po znaku**. Návratový kód 0 znamená, že sedí všechny;
+u každé, která nesedí, vypíše unifikovaný diff.
+
+### Dva zdroje
+
+**Snímek** — offline, bez sítě a bez přihlášení. Pořizuje se při zveřejnění
+shrnutí a leží ve stejném repozitáři jako ono, takže kontrola dá stejný výsledek
+i za rok:
+
+```bash
+./tools/overit_citace.py wiki/ama/2026-09-02-zelene-brno.md \
+    --snimek runs/2026-09-02-zelene-brno/answers.json
+```
+
+**Živý Reddit** — porovná shrnutí proti tomu, co ve vlákně stojí teď:
+
+```bash
+./tools/overit_citace.py wiki/ama/2026-09-02-zelene-brno.md --zive
+```
+
+Veřejné `.json` endpointy Reddit z části adres blokuje (HTTP 403). Když se to
+stane, použijte vlastní Reddit aplikaci přes proměnné prostředí
+`REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`, `REDDIT_PASSWORD`.
+Účet stačí jakýkoli — číst veřejné komentáře smí každý; není potřeba být
+moderátor r/Brno.
+
+### Proč jsou snímek i živý režim, a ne jen jeden
+
+Nedělají totéž a ani jeden sám nestačí.
+
+- **Snímek** dokazuje, že jsme při psaní shrnutí necitovali jinak, než jak text
+  v tu chvíli zněl. Nedokazuje, že snímek odpovídá Redditu — to musíte ověřit
+  živým režimem, ideálně brzy po zveřejnění.
+- **Živý režim** dokazuje shodu s Redditem právě teď. Když ale autor komentář
+  mezitím upraví, začne hlásit rozdíl — a **nejde z něj poznat**, jestli jsme
+  citovali špatně my, nebo jestli se změnil originál. Reddit předchozí verze
+  komentářů nevydává; nikdo je nemá, ani moderátoři.
+
+Skript proto u každého komentáře vypisuje příznak `edited`. Kde se sejde
+„snímek sedí, živý Reddit ne, komentář je označený jako editovaný", je to
+úprava po zveřejnění, ne naše chyba — a je to přesně ten případ, kvůli kterému
+se snímek pořizuje.
+
+### Co se kontroluje
+
+| Co | Proti čemu |
+|---|---|
+| znění **povinné otázky** | citace uvnitř komentáře, kterým ji bot vložil do AMA vlákna |
+| znění **odpovědi hosta** | tělo komentáře hosta |
+| **autor** odpovědi | pole `author` u téhož komentáře |
+
+Nekontroluje se, jestli shrnutí uvádí *všechny* odpovědi — na to slouží čísla
+v `runs/<beh>/summary.md` a samotné vlákno.
+
+### Co tenhle skript NENÍ
+
+Není to zdrojový kód bota a nenahrazuje ho. **Kód bota veřejný není** a tenhle
+nástroj na tom nic nemění — ověřuje se jím **výstup**, ne stroj, který ho vyrobil.
+Rozdělení na to, co zveřejňujeme a co ne, je popsané na
+[/r/brno/wiki/ama/moderace](https://www.reddit.com/r/Brno/wiki/ama/moderace);
+kontrolní skripty v `tools/` patří do veřejné půlky, provozní kód bota do neveřejné.
+
+### Když nesedí
+
+Je to buď naše chyba, nebo úprava po zveřejnění. Obojí chceme vědět:
+[issue](https://github.com/kerray/r-brno/issues) nebo modmail r/Brno.
