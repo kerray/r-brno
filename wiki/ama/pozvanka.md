@@ -40,7 +40,8 @@ Moderátoři r/Brno jsou dobrovolníci. **Nikdo z nás za tuto sérii nedostáv�
 | **24 h předem** | Vybere se **15 povinných otázek** a hned se zveřejní. Dostanete na ně odkaz — nedostáváte nic, co by zároveň neviděla veřejnost. |
 | **den D** | **Živé okno, minimálně 2 hodiny.** Odpovídáte psaně, přímo ve vlákně. |
 | **+24 h** | **Okno na doplnění** — můžete dopsat, na co jste nestihli odpovědět. |
-| **+48 h** | **Shrnutí**: co bylo zodpovězeno, co ne, a nejvýraznější reakce čtenářů. |
+| **po okně na doplnění** | **Vlákno se uzavírá pro nové otázky — vy dopisujete dál.** Odstraňuje se jen nový komentář, jehož rodičem je samotný příspěvek; odpovídání uvnitř existujících větví běží dál vám i čtenářům. Nové samostatné komentáře v hlavní úrovni už nezakládáte ani vy. Podrobně na [/r/brno/wiki/ama/moderace](/r/brno/wiki/ama/moderace). |
+| **+48 h** | **Shrnutí**: co bylo zodpovězeno, co ne, a nejvýraznější reakce čtenářů. **Se shrnutím vlákno zamykáme natvrdo** — nejpozději před začátkem volebního moratoria. Od té chvíle nepíše nikdo. |
 
 ## 5. Kdo za vás odpovídá — rozhodujete vy
 
@@ -75,7 +76,7 @@ Délka okna, počet povinných otázek i pravidla jsou stejné pro sólo hosta i
 - **Stejné podmínky pro všechny.** Stejná délka, stejná pravidla, stejný počet povinných otázek.
 - **Žádný soukromý seznam otázek.** Patnáctka se zveřejní ve stejnou chvíli, kdy ji dostanete vy.
 - **Vaše odpovědi nezkracujeme, needitujeme a nezměkčujeme.**
-- **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek.
+- **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek. Jediné další, co odstraňujeme, je **nový komentář, jehož rodičem je samotný příspěvek**, napsaný po uzavření vlákna — tedy nová samostatná otázka. Odpovídání uvnitř už existujících větví běží dál, včetně doplňujících otázek pod povinnou patnáctkou.
 - **Máte právo odmítnout premisu.** Když otázka obsahuje tvrzení, které odmítáte, můžete místo odpovědi říct které a proč. Ve shrnutí to bude vedeno jako samostatná kategorie — moderátoři neposuzují, jestli je vaše odmítnutí oprávněné.
 - **Komunikaci s vámi vedeme modmailem r/Brno nebo e-mailem a zveřejníme ji** spolu se shrnutím. První oslovení šlo přes Facebook a e-mail, protože jinak jsme se k vám nedostali; i to je součástí zveřejněného záznamu. Chrání to vás i nás před tvrzením, že se něco domlouvalo bokem.
 
@@ -110,13 +111,15 @@ Není to podmínka, je to zkušenost z toho, jak Reddit funguje:
 
 **Prohlášení o střetu zájmů** je součástí oznámení série a trvale na [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu): jméno rozhodujícího moderátora a jeho vztah (či nevztah) ke kandidujícím subjektům.
 
-**Archivace vašich odpovědí.** Vaše odpovědi během AMA zaznamenáváme a **pozdější úpravu nebo smazání uvedeme ve shrnutí**. Právním základem je oprávněný zájem a novinářský účel u osob jednajících ve veřejné politické roli. U běžných diskutujících nic takového neděláme — u nich zaznamenáváme jen fakt, že k úpravě došlo, nikdy obsah. Ten rozdíl je záměrný: účelem série je odpovědnost politiků, ne sledování čtenářů.
+**Archivace vašich odpovědí.** Vaše odpovědi během AMA zaznamenáváme a **pozdější úpravu nebo smazání uvedeme ve shrnutí**. Právním základem je oprávněný zájem a novinářský účel u osob jednajících ve veřejné politické roli. U běžných diskutujících odpovědi takhle nesledujeme — u nich zaznamenáváme jen fakt, že k úpravě došlo, nikdy obsah. Ten rozdíl je záměrný: účelem série je odpovědnost politiků, ne sledování čtenářů.
+
+**Jedna výjimka, kterou je férové říct rovnou: otázky ze sběrného vlákna.** V okamžiku uzávěrky sběru pořizujeme snapshot — **každou otázku v plném znění, se jménem autora, skóre a časem** — a ukládáme ho **natrvalo do veřejného repozitáře** `github.com/kerray/r-brno` jako `runs/<běh>/snapshot.json` a `snapshot.md`. Bez něj se nedá přepočítat, jak vznikla povinná patnáctka; je to cena za to, že si výběr může kdokoli zopakovat. **Kdo to nechce, může svou otázku smazat kdykoli před uzávěrkou sběru** — co v tu chvíli ve vlákně není, do snapshotu se nedostane. Od dalších AMA na to upozorníme rovnou v úvodu sběrného vlákna.
 
 **Pořadí a termíny.** Pilotní AMA se Zeleným Brnem proběhne 2. 9., tedy ještě dřív, než na tyto pozvánky stihnete odpovědět. Pořadí jsme nevybírali — Zelené Brno kývlo a nabídlo termín jako první, ještě před touto rozesílkou. Pro zbytek série platí: rozpis vznikne po 8. 9. podle toho, kolik uskupení projeví zájem, a pošleme ho všem najednou. **Pokud o jeden termín projeví zájem víc uskupení, rozhodne veřejné losování.** Losovací skript je předem zveřejněný na `github.com/kerray/r-brno`; jako náhodný vstup použijeme kurz ČNB EUR/CZK vyhlášený v den losování — nikdo z nás ho neovlivní a každý si výsledek může zpětně přepočítat. Vstup i výsledek zveřejníme.
 
 **Poslední živé okno proběhne nejpozději 6. 10.**, poslední shrnutí vyjde 7. 10.; v době volebního moratoria nepublikujeme nic.
 
-**Odmítnutí.** Když pozvání odmítnete, uvedeme to v rozpisu bez komentáře — a pokud nám k tomu dodáte vlastní vyjádření, zveřejníme ho doslova.
+**Odmítnutí.** Když pozvání odmítnete, uvedeme to v rozpisu bez komentáře — a pokud nám k tomu dodáte vlastní vyjádření, zveřejníme ho doslova. Platí pro něj strop: **nejvýše 500 znaků, bez odkazů**, a **stejná pravidla jako pro komentáře ve vlákně** (žádné osobní útoky, žádné osobní údaje třetích osob). Delší text vám vrátíme s prosbou o zkrácení; když ho nezkrátíte, otiskneme prvních 500 znaků a napíšeme u toho, že jsme to udělali. Není to redakce obsahu — je to strop, aby z odmítnutí nevznikl neomezený a neredigovaný prostor, jaký nedostane ani ten, kdo si přijde pro dvě hodiny ostrých otázek.
 
 ---
 

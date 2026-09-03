@@ -98,6 +98,29 @@ cesta k vyřazení bota za spam a jde to snadno vyprovokovat.
 
 ---
 
+## U — komentář po uzavření vlákna
+
+Po skončení okna na doplnění se vlákno uzavírá pro nové otázky. Odstraňuje se
+**jen nový komentář, jehož rodičem je samotný příspěvek**; odpovědi uvnitř
+existujících větví se neodstraňují. Není to posouzení obsahu — rozhoduje čas.
+
+### U1 — nová otázka po uzavření vlákna
+
+> Tvůj komentář jsme odstranili, protože **AMA vlákno je od [ČAS] uzavřené
+> pro nové otázky** — okno na doplnění skončilo a shrnutí se už píše.
+> **Není to o obsahu.** Neposuzovali jsme, co v komentáři stojí; odstranilo by
+> se stejně tak pochvalné jako kritické. Nikoho to nediskvalifikuje z dalších
+> AMA v sérii a nemá to žádný jiný následek.
+> Odpovídat uvnitř už rozjetých větví jde dál — včetně doptávání pod povinnou
+> patnáctkou. Odstraňují se jen nové samostatné otázky.
+> **Odvolání tu nedává smysl**, protože není co posuzovat: čas je čas. Ale
+> pokud jsme se spletli v tom *co* jsme odstranili — třeba to nebyl nový
+> komentář v hlavní úrovni, nebo přišel ještě před uzávěrkou — je to naše
+> chyba, napiš nám modmailem a vrátíme ho.
+> Počet takto odstraněných komentářů zveřejníme ve shrnutí AMA.
+
+---
+
 ## Živé okno — veřejné poznámky
 
 Ne removal reasons, ale texty, které se v živém okně píšou pod tlakem. Proto předem.

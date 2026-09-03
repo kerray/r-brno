@@ -52,6 +52,7 @@ gets asked is public **before** it runs: the written curation key, the prompts, 
 
 - **Rozcestník**: [/r/brno/wiki/ama](https://www.reddit.com/r/brno/wiki/ama/index)
 - **Curation key**: [`rules/curation-key.md`](rules/curation-key.md) — source of truth; the prompt is derived from it, never the other way round
+- **Summary key**: [`rules/summary-key.md`](rules/summary-key.md) — same for the post-AMA summary: contents and order, how stand-out reactions are picked, what must be reported even when it is unflattering
 - **Prompts**: [`prompts/`](prompts/) — model `claude-sonnet-5`, frozen and tagged `ama-YYYY-MM-DD-subject` when the question thread opens
 - **Run logs**: [`runs/`](runs/) — written by the script, not by hand
 - **Draw**: [`tools/losovani.py`](tools/losovani.py) — when more groups want the same slot, the order is drawn publicly; the seed is the ČNB EUR/CZK rate published that day, so anyone can recompute it ([`tools/README.md`](tools/README.md))

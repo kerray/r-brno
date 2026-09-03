@@ -22,6 +22,7 @@ Všechna pravidla, prompty i logy běhů jsou veřejné v [github.com/kerray/r-b
 
 - `wiki/ama/` — tyto stránky
 - `rules/curation-key.md` — psaný klíč pro výběr povinných 15 otázek
+- `rules/summary-key.md` — psaný klíč pro shrnutí: co v něm je, jak se vybírají výrazné reakce a co se uvádí povinně
 - `rules/removal-reasons.md` — přesná znění, která dostanete při moderačním zásahu
 - `prompts/` — prompty, kterými se pouští jazykový model (`claude-sonnet-5`)
 - `runs/` — logy jednotlivých běhů (vstup, výstup, lidské odchylky, náklad)

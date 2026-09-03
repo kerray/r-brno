@@ -6,8 +6,9 @@
 1. **O politickém obsahu nikdy nerozhoduje stroj sám.** Bot ani filtr
    nemažou názory. Co bot zachytí, posoudí člověk — a **když to
    nestihne do 12 hodin, komentář se automaticky pustí.** Nedostatek
-   naší kapacity nesmí být tichým mazáním. (Výjimka: osobní údaje
-   a výhrůžky, kategorie A.)
+   naší kapacity nesmí být tichým mazáním. (Výjimky: osobní údaje
+   a výhrůžky, kategorie A; a nové otázky napsané po uzavření vlákna,
+   viz níže — tam se nerozhoduje o obsahu, ale o čase.)
 2. **Držení není mazání.** Zachycený komentář čeká ve frontě;
    většinu schválíme, nebo vám pomůžeme ho opravit.
 3. **Moderujeme formu, ne rétoriku.** Nadávka a osobní útok jsou
@@ -21,7 +22,8 @@
 
 ## Čtyři kategorie zásahů
 **A. Okamžité odstranění (bez diskuze):** osobní údaje třetích osob,
-výhrůžky, spam. Jediná kategorie, kde automatika koná sama.
+výhrůžky, spam. Jediná z těchto čtyř kategorií, kde automatika koná
+sama; druhý případ je uzavření vlákna po AMA, viz níže.
 
 **B. Podržení s možností opravy:** vulgarita nebo osobní útok
 obalený kolem jinak legitimní otázky. Dostanete od nás zprávu
@@ -42,6 +44,49 @@ Návrh dostanete **veřejnou odpovědí ve vlákně, ne soukromou zprávou**
 a jde to snadno vyprovokovat). Přijmout nemusíte — do povinné patnáctky
 ale vybíráme otázky, které se ptají. Tohle je jediná kategorie, kde se bavíme o formulaci, a
 jediná, kde z odmítnutí naší nabídky **neplyne vůbec nic**.
+
+## Uzavření vlákna po AMA
+
+Když skončí okno na doplnění — tedy **24 hodin po konci živého okna** —
+vlákno se uzavírá. Ne zámkem: **hosté s označením `AMA host — <subjekt>`
+můžou dál odpovídat uvnitř existujících větví** a dokončit, co nestihli.
+**Od všech ostatních se od té chvíle odstraňuje nový komentář, jehož
+rodičem je samotný příspěvek** — tedy nová samostatná otázka.
+
+Všechno ostatní zůstává, a jeden případ si zaslouží vypsat zvlášť:
+**doplňující otázka napsaná pod některou z povinných patnácti otázek se
+neodstraňuje.** Patnáctku sem vyvěšuje bot jako komentáře v hlavní
+úrovni, takže reakce pod nimi jsou pokračování existující větve, ne nová
+otázka — a je to nejpřirozenější místo, kam se doptat. Totéž platí pro
+diskuzi pod odpověďmi hostů; ta se podle pravidel naopak sbírá do shrnutí.
+
+**Nové komentáře v hlavní úrovni nezakládají ani hosté.** V uzavřeném
+režimu jen odpovídají uvnitř existujících větví. Jinak by mohli po
+umlčení čtenářů vyvěsit závěrečné prohlášení, na které už nikdo nemůže
+odpovědět na stejné úrovni — a to není diskuze, to je poslední slovo.
+
+Proč ne rovnou tvrdý zámek: zamčené vlákno na Redditu pustí ke slovu jen
+moderátory. Zamknout ho hned by tedy umlčelo i hosta — a ten má mít
+možnost dopsat, co nestihl. Selektivní režim je jediný způsob, jak vlákno
+uzavřít pro nové otázky a nechat ho přitom otevřené pro toho, kvůli komu
+vzniklo.
+
+**Uzavřený režim má ale konec.** Při zveřejnění shrnutí vlákno **zamkneme
+natvrdo**, nejpozději před začátkem volebního moratoria. Od té chvíle
+nepíše nikdo, hosty v to počítaje.
+
+**Zatím to nikde neběží.** Pilotní AMA 2. 9. se na konci zamklo natvrdo;
+selektivní režim popsaný výše nasadíme **od druhého AMA v sérii**. Dělat
+ho bude náš bot podle fáze běhu, ne AutoModerator — ten neumí podmínku
+„až po tomto okamžiku". **Odstranění bude vždy s uvedeným důvodem, ne
+tiché:** kdo takovou otázku napíše, dozví se, že vlákno je pro nové otázky
+po termínu uzavřené. Přesné znění té zprávy je předem veřejné jako makro
+**U1** v [`rules/removal-reasons.md`](https://github.com/kerray/r-brno/blob/main/rules/removal-reasons.md).
+
+**Není to moderace obsahu.** Odstraňuje se za načasování, ne za to, co
+v komentáři stojí — dopadne tak stejně pochvala i kritika. Nikoho to
+nediskvalifikuje z dalších AMA v sérii a nemá to žádný jiný následek.
+**Počet takto odstraněných komentářů jde do shrnutí AMA.**
 
 ## Co bot je a co dělá
 Používáme vlastního asistenčního bota (/u/ponocny_bot) postaveného na
@@ -163,6 +208,7 @@ použijeme.
 Zveřejníme: počet komentářů, počet zachycených, počet skutečně
 odstraněných (podle kategorie), počet oprav dle bodu B, počet
 nabídnutých a přijatých přeformulování dle bodu D, počet
+komentářů odstraněných po uzavření vlákna, počet
 zamčených větví i s důvodem, počet
 odvolání a jejich výsledek. U povinné patnáctky rozpad
 **zodpovězeno / odmítnuta premisa / bez odpovědi**.
