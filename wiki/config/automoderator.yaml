@@ -263,3 +263,23 @@ action: remove
 message: |
          Zpráva od robota v /r/{{subreddit}} - Než se [Váš příspěvek]({{permalink}}) začne zobrazovat, musí ho schválit moderátoři.
 modmail: SHADOWBAN_BLOCKED [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný pro shadowban (po approve se zobrazí)
+---
+# AMA: cizi flair "AMA host" -> oznacit, NIC vic
+# Vydavat se za mluvciho kandidujiciho uskupeni je zavazne, ale akce je
+# `report`: komentar zustava viditelny a rozhoduje clovek. Ban tudy
+# nevede a vest nema - viz /r/brno/wiki/ama/moderace, oddil "Kdyz si
+# nekdo nasadi flair AMA host".
+# POZOR: jmenny seznam se MENI KAZDE AMA. Pri kazdem behu sem patri ucty
+# hostu daneho uskupeni, jinak pravidlo oznaci i je.
+# Falesny poplach je tu snadny ("nejsem AMA host" taky obsahuje "AMA host"),
+# proto se timhle pravidlem nic neodstranuje ani nezadrzuje.
+type: any
+author:
+    flair_text (includes-word): ["AMA host"]
+~author:
+    name: [ Natalie_Vencovska, zbiejczuk, MichalBerg ]
+action: report
+action_reason: "AMA: flair 'AMA host' u uctu mimo jmenny seznam"
+modmail: |
+    AMA_FALESNY_HOST_FLAIR - /u/{{author}} ma flair "AMA host" a neni na jmennem
+    seznamu hostu tohohle behu. Zkontrolovat a rozhodnout rucne: {{permalink}}
