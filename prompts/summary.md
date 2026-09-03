@@ -29,8 +29,9 @@ Celé je to mechanické schválně. Shrnutí je **dokumentační záruka**, ne r
 
 **Proč pevný počet, a ne bodový práh.** Do 2026-09-02 tu stál absolutní práh
 (≥ 50 % skóre nejlepší reakce **a zároveň** ≥ 10 bodů). Data z pilotu ukázala, že je
-**nedosažitelný**: nejvýše hlasovaná *otázka* měla 9 bodů, reakce ještě míň — práh by
-nevybral nic a shrnutí by vycházela prázdná. Jediná oprava by byla práh v polovině
+**nedosažitelný**: nejvýše hlasovaná čtenářská reakce pod odpovědí hosta měla **5 bodů**
+(a reakce vznikly jen pod čtyřmi ze čtrnácti otázek) — práh by nevybral nic a shrnutí by
+vycházela prázdná. Skóre samotných otázek je jiné číslo a do prahu nevstupuje. Jediná oprava by byla práh v polovině
 série snížit, a to je přesně **nejtišší možný způsob, jak shrnutí vychýlit**.
 
 Pevný počet **nemá co driftovat**. Je **srovnatelný napříč subjekty**: u AMA s devíti
@@ -112,7 +113,10 @@ V souhrnu spočítej, kolik otázek zodpověděl kdo. Nekomentuj to.
 ## Editace a smazání
 
 U odpovědí HOSTŮ (účty s flairem AMA host) uveď, že byly editovány nebo
-smazány, a doplň původní znění — je to podmínka účasti, kterou host přijal.
+smazány, a to i s časem — je to podmínka účasti, kterou host přijal.
+Původní znění doplň JEN TEHDY, když ho máš ze snímků vlákna. Reddit
+předchozí verze komentářů nevydává; když snímek chybí, napiš, že původní
+znění nemáme, a NEDOMÝŠLEJ ho.
 U běžných uživatelů uveď POUZE fakt a čas úpravy, NIKDY obsah.
 ```
 

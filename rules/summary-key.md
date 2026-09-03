@@ -49,7 +49,9 @@ tagu (viz „Změny uprostřed série" níže).
 
 **Proč pevný počet, a ne bodový práh.** Do 2026-09-02 tu stál absolutní práh (≥ 50 % skóre
 nejlepší reakce **a zároveň** ≥ 10 bodů). Data z pilotu ukázala, že je nedosažitelný: nejvýše
-hlasovaná *otázka* měla 9 bodů. Práh by nevybral nic a shrnutí by vycházela prázdná; jediná
+hlasovaná **čtenářská reakce pod odpovědí hosta** měla 5 bodů, a reakce vznikly jen pod čtyřmi
+ze čtrnácti otázek. (Skóre samotných otázek je jiné číslo a do prahu nevstupuje.) Práh by
+nevybral nic a shrnutí by vycházela prázdná; jediná
 oprava by byla práh v polovině série snížit, což je **nejtišší možný způsob, jak shrnutí
 vychýlit**. Pevný počet **nemá co driftovat**, je **srovnatelný napříč subjekty** (u AMA s devíti
 body i se čtyřiceti dostanete pět reakcí) a **nedá se doladit**, až bude vidět, jak odpovědi
@@ -109,11 +111,22 @@ subjekty — je to taky informace.
 - **hodnocení, jestli host odpověděl dobře**, a jakýkoli názor na politické postoje kohokoli,
 - **obsah smazaných komentářů běžných uživatelů** — jen fakt, že reakce byla smazána, a její
   skóre. U hostů je to jinak: jejich pozdější úprava nebo smazání se ve shrnutí uvádí, protože
-  jednají ve veřejné politické roli,
+  jednají ve veřejné politické roli — **uvádí se ale jen fakt a čas úpravy, ne původní znění**,
+  pokud ho nemáme ze snímků vlákna (viz níže),
 - **obnovené znění obsahu odstraněného kvůli osobním údajům** — žádné screenshoty ani přepisy;
   do logu jde jen permalink, čas a report ID. Shrnutí nesmí být cestou, jak si přečíst to, co
   jsme odstranili právě proto, aby to nikdo nečetl,
 - obsah komentářů odstraněných v kategorii A obecně.
+
+### Původní znění editované odpovědi hosta jde uvést jen ze snímku
+
+**Reddit předchozí verze komentářů nevydává** — API vrací jen příznak `edited` a čas úpravy.
+Doplnit původní znění lze tedy výhradně tehdy, když se vlákno v průběhu AMA snímalo. Kde snímek
+není, **shrnutí napíše, že původní znění nemáme**, a nedomýšlí ho.
+
+Zjištěno na pilotu: odpověď na otázku 1 (`p7c59e4`) byla editována 55 sekund po konci živého okna
+a předchozí verze už nebyla k dispozici — prompt přitom její doplnění sliboval. Slib byl opraven;
+průběžné snímání odpovědí hostů je úkol pro AMA #2.
 
 ## Změny uprostřed série
 
