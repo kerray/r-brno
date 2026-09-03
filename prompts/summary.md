@@ -7,6 +7,9 @@ a navíc revizní historii).
 Celé je to mechanické schválně. Shrnutí je **dokumentační záruka**, ne recenze:
 *nemůžeme slíbit dobré odpovědi, můžeme slíbit, že bude vidět, jaké odpovědi jste dostali.*
 
+> **Tenhle prompt se odvozuje z [`rules/summary-key.md`](../rules/summary-key.md)**, ne obráceně.
+> Když se klíč a prompt rozejdou, **platí klíč** a prompt se opravuje.
+
 | | |
 |---|---|
 | Model | `claude-sonnet-5` |
@@ -35,6 +38,13 @@ body i u AMA se čtyřiceti dostanete pět reakcí a jdou porovnat mezi sebou. A
 doladit** v polovině série, až bude vidět, jak odpovědi dopadly — což je právě to, co
 má invariant o konzistenci hlídat. Minimum 2 body je jen pojistka proti tomu, aby se do
 shrnutí dostal komentář, kterého si nikdo nevšiml.
+
+**Od kdy platí:** od **druhého AMA v sérii**. Pilotní AMA 2026-09-02 se Zeleným Brnem se
+dokončuje podle verze zamrzlé na tagu `ama-2026-09-02-zelene-brno`, tedy ještě s prahem ≥ 10 —
+a jeho sekce výrazných reakcí proto vyjde prázdná. Měnit pravidlo zpětně, když už je vidět, jak
+skóre dopadla, by bylo přesně to, čemu má zamrazení bránit. Důvod je rozepsaný v
+[`runs/2026-09-02-zelene-brno/decisions.md`](../runs/2026-09-02-zelene-brno/decisions.md),
+Rozhodnutí 3.
 
 Pravidlo se zamrazuje **před** AMA, ne po něm.
 

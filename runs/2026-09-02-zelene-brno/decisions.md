@@ -68,6 +68,48 @@ je to fotka vlákna při uzávěrce a přesně proti ní si má kdokoli výběr 
 
 ---
 
+## Rozhodnutí 3 — shrnutí pilotu se dělá podle zamrzlého prahu, i když vyjde prázdné
+
+**Kdy:** 2026-09-02, po skončení AMA, při přípravě shrnutí.
+
+**Co se stalo:** prompt zamrzlý na tagu `ama-2026-09-02-zelene-brno` vybírá „výrazné reakce"
+prahem *skóre ≥ 50 % nejlepší reakce v podvláknu **a zároveň** ≥ 10 bodů*. V tomhle vlákně je
+ten práh **nedosažitelný**: nejvýše hlasovaná **otázka** měla 9 bodů (viz
+[`snapshot.md`](snapshot.md)), reakce na odpovědi ještě míň. Prahem neprojde nic.
+
+**Byly tři možnosti:**
+
+| | Co by to znamenalo |
+|---|---|
+| 1. Nechat práh a shrnutí vydat | sekce výrazných reakcí vyjde **prázdná** |
+| 2. Vyměnit pravidlo a použít ho zpětně | pět reakcí by se objevilo, ale pravidlo by se měnilo po výsledku |
+| 3. Vyměnit pravidlo **až od dalšího AMA** | pilot se dokončí podle zamrzlé verze, prázdná sekce zůstane |
+
+**Rozhodnutí: možnost 3.** Shrnutí pilotu se generuje **podle tagu**, s původním prahem, a sekce
+výrazných reakcí v něm bude prázdná s vysvětlením. Nové pravidlo (pět nejvýše hlasovaných reakcí
+se skóre ≥ 2) platí **od druhého AMA v sérii**.
+
+**Odůvodnění — je v jedné větě a je to celý smysl zamrazování: skóre už známe.** Kdybychom teď
+pravidlo vyměnili a použili zpětně, udělali bychom přesně ten úkon, proti kterému je zamrazení
+postavené — změnu pravidla poté, co je vidět, jak dopadne. Že by nová verze byla *lepší*, na tom
+nic nemění; lepší pravidlo zavedené se znalostí výsledku je pořád pravidlo zavedené se znalostí
+výsledku. **Prázdná sekce s vysvětlením je doklad, že mechanismus funguje. Pět zpětně vytažených
+reakcí by byl doklad opaku.**
+
+**Navržené znění do shrnutí** místo prázdné sekce (schvaluje kerray):
+
+> **Výrazné reakce:** žádné. Ne proto, že by čtenáři nereagovali — ale protože práh zamrzlý před
+> tímhle AMA (skóre ≥ 10) je v takhle velkém vlákně nedosažitelný; nejvýše hlasovaná *otázka*
+> měla 9 bodů. Práh jsme **nezměnili zpětně**, protože skóre už bylo vidět a měnit pravidlo podle
+> výsledku je přesně to, čemu má zamrazení bránit. Od dalšího AMA platí pevný počet místo prahu:
+> pět nejvýše hlasovaných reakcí se skóre aspoň 2. Rozhodnutí i důvod:
+> [`runs/2026-09-02-zelene-brno/decisions.md`](https://github.com/kerray/r-brno/blob/main/runs/2026-09-02-zelene-brno/decisions.md).
+
+**Změna pravidla je zapsaná** v [`prompts/summary.md`](../../prompts/summary.md) a v novém psaném
+klíči [`rules/summary-key.md`](../../rules/summary-key.md), obojí s poznámkou, od kdy platí.
+
+---
+
 ## Co se v tomhle běhu nekonalo
 
 | Krok | Stav |
