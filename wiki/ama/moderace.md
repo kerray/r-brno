@@ -213,12 +213,18 @@ Radši to řekneme přesně:
 | **psaný klíč** pro výběr povinných otázek | napojení na Reddit API, provozní skripty |
 | **konfigurace subredditu** (AutoModerator, sidebar) | |
 | **logy běhů** — vstup, výstup a každá lidská odchylka | |
+| **kontrolní skripty** v [`tools/`](https://github.com/kerray/r-brno/tree/main/tools) — losování pořadí AMA a kontrola, že citace ve shrnutí sedí doslova | |
 | **tenhle text** a jeho revizní historie | |
 
 Rozdělení není náhodné a stojí za jednu větu: **veřejné je všechno, co formuje
 rozhodnutí. Neveřejné je jen to, co ho vykonává.** Prompt a klíč určují, které
 otázky se dostanou k hostovi; kód je jen dopravní pás. Kdo chce ověřit, jestli
 jsme výběr nevychýlili, potřebuje první sloupec — a ten má celý.
+
+Skripty v `tools/` do prvního sloupce patří právě proto, že **nejsou bot**. Nic
+nevykonávají za nás — jenom umožňují přepočítat si po nás výsledek: los pořadí AMA
+a shodu citací ve shrnutí s tím, co doopravdy stojí ve vlákně. Že jsou veřejné,
+tedy **neznamená, že je veřejný kód bota**; ten není a netvrdíme to.
 
 Co z toho plyne pro vaši důvěru:
 

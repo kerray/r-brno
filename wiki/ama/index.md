@@ -14,7 +14,13 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 | [/r/brno/wiki/ama/dotaz-udhpsh](/r/brno/wiki/ama/dotaz-udhpsh) | Dotaz na Úřad pro dohled nad hospodařením politických stran — znění, datum, stav |
 | [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu) | Prohlášení o střetu zájmů — kdo rozhoduje, jeho vztahy ke kandidujícím subjektům a co se stane, když konflikt vznikne |
 
-Shrnutí jednotlivých AMA přibývají jako `ama/RRRR-MM-DD-subjekt`.
+## Shrnutí proběhlých AMA
+
+| AMA | Kdy | Shrnutí |
+|---|---|---|
+| **Zelené Brno** (pilot) | 2. 9. 2026 | [/r/brno/wiki/ama/2026-09-02-zelene-brno](/r/brno/wiki/ama/2026-09-02-zelene-brno) |
+
+Další přibývají jako `ama/RRRR-MM-DD-subjekt`.
 
 ## Kde se to dělá
 
