@@ -97,6 +97,34 @@ v komentáři stojí — dopadne tak stejně pochvala i kritika. Nikoho to
 nediskvalifikuje z dalších AMA v sérii a nemá to žádný jiný následek.
 **Počet takto odstraněných komentářů jde do shrnutí AMA.**
 
+## Když si někdo nasadí flair „AMA host"
+
+Hosté AMA mají po dobu vlákna uživatelský flair `AMA host — [uskupení]`. Je to
+vizuální zkratka, ne důkaz — **skutečné ověření je jmenný seznam účtů v úvodu AMA
+příspěvku**, potvrzený z oficiálního kanálu daného uskupení. Ten seznam si přečtěte;
+flair je jen barevný štítek.
+
+Vlastní text flairu si na r/Brno může nastavit každý, a je to vlastnost, o kterou
+nechceme přijít. Napsat si „AMA host" tedy technicky jde — ale **vydávat se za
+mluvčího kandidujícího uskupení pár týdnů před volbami není vtip a řešíme to takhle:**
+
+| Krok | Kdo |
+|---|---|
+| označení flairu, který nesedí se jmenným seznamem | AutoModerator, mechanicky |
+| **sundání flairu** | bot, porovnáním se jmenným seznamem — bez modelu, bez posouzení obsahu |
+| **dočasný ban, řádově dny** | **člověk**, případ od případu |
+
+**Ban nikdy nedává bot.** Trest v předvolební diskuzi má rozhodnout člověk, který se
+za něj podepíše, ne shoda řetězce ve flairu — o to spíš, že falešný poplach je tady
+snadný (i „nejsem AMA host" obsahuje „AMA host"). Sundání flairu je vratné a není
+trest; ban je trest, a proto ho nikdo neautomatizuje.
+
+**Komentářů se to netýká.** Cizí flair je důvod k zásahu proti *účtu*, ne k mazání
+toho, co napsal. Co s obsahem, se řídí kategoriemi A–D výš jako u kohokoli jiného.
+
+Ban se dá **odvolat** stejně jako každý jiný zásah (viz Odvolání níže) a **počet
+těchto případů jde do shrnutí** po každém AMA — u pilotu 2. 9. byl nula.
+
 ## Co bot je a co dělá
 Používáme vlastního asistenčního bota (/u/ponocny_bot) postaveného na
 jazykovém modelu. Jeho úkoly: seskupování duplicitních otázek ve sběrném
