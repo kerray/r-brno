@@ -96,8 +96,17 @@ modmail: DOMAIN_BLOCKED Příspěvek [{{title}}]({{permalink}}) od uživatele /u
 # člověk, takže komentář počká ve frontě místo aby zmizel.
 # Výjimka pro AMA vlákna: v předvolebním AMA je citace dezinformačního
 # webu v otázce legitimní („co říkáte na tohle, co o vás píšou").
+#
+# POZOR, PROČ TU NENÍ `domain:`. AutoModerator umí `domain` jen u příspěvků;
+# u `type: comment` uložení celého configu ODMÍTNE s hláškou
+# "Can't search `domain` on this type in rule" — a odmítne ho CELÝ, takže
+# se nenasadí ani pravidla, která s tímhle nesouvisejí. Přesně to se stalo
+# 3. 9. 2026 a AMA výjimky níž kvůli tomu několik hodin nebyly na Redditu.
+# U komentářů se proto hledá text odkazu v těle přes `body (includes)`.
+# Cena za to: chytne to i metadiskuzi („parlamentnilisty.cz jsou dezinfo").
+# Proto je akce `filter`, ne `remove` — podívá se na to člověk.
 type: comment
-domain: [
+body (includes): [
    "parlamentnilisty.cz",
    "parlamentni-listy.cz",
    "aeronet.cz",
