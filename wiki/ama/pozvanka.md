@@ -76,7 +76,7 @@ Délka okna, počet povinných otázek i pravidla jsou stejné pro sólo hosta i
 - **Stejné podmínky pro všechny.** Stejná délka, stejná pravidla, stejný počet povinných otázek.
 - **Žádný soukromý seznam otázek.** Patnáctka se zveřejní ve stejnou chvíli, kdy ji dostanete vy.
 - **Vaše odpovědi nezkracujeme, needitujeme a nezměkčujeme.**
-- **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek.
+- **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek. Jediné další, co odstraňujeme, je komentář napsaný **po uzavření vlákna**, a to bez ohledu na to, co v něm stojí.
 - **Máte právo odmítnout premisu.** Když otázka obsahuje tvrzení, které odmítáte, můžete místo odpovědi říct které a proč. Ve shrnutí to bude vedeno jako samostatná kategorie — moderátoři neposuzují, jestli je vaše odmítnutí oprávněné.
 - **Komunikaci s vámi vedeme modmailem r/Brno nebo e-mailem a zveřejníme ji** spolu se shrnutím. První oslovení šlo přes Facebook a e-mail, protože jinak jsme se k vám nedostali; i to je součástí zveřejněného záznamu. Chrání to vás i nás před tvrzením, že se něco domlouvalo bokem.
 
