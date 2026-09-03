@@ -40,7 +40,7 @@ Moderátoři r/Brno jsou dobrovolníci. **Nikdo z nás za tuto sérii nedostáv�
 | **24 h předem** | Vybere se **15 povinných otázek** a hned se zveřejní. Dostanete na ně odkaz — nedostáváte nic, co by zároveň neviděla veřejnost. |
 | **den D** | **Živé okno, minimálně 2 hodiny.** Odpovídáte psaně, přímo ve vlákně. |
 | **+24 h** | **Okno na doplnění** — můžete dopsat, na co jste nestihli odpovědět. |
-| **po okně na doplnění** | **Vlákno se uzavírá pro nové diskutující — vy píšete dál.** Vaše účty zůstávají odemčené, aby šlo dopsat i po termínu; nové komentáře od ostatních bot odstraňuje s uvedeným důvodem. Podrobně na [/r/brno/wiki/ama/moderace](/r/brno/wiki/ama/moderace). |
+| **po okně na doplnění** | **Vlákno se uzavírá pro nové diskutující — vy píšete dál.** Vaše účty zůstávají odemčené, aby šlo dopsat i po termínu; nové otázky v hlavní úrovni od ostatních bot odstraňuje s uvedeným důvodem, ale diskuze pod vašimi odpověďmi běží dál. Podrobně na [/r/brno/wiki/ama/moderace](/r/brno/wiki/ama/moderace). |
 | **+48 h** | **Shrnutí**: co bylo zodpovězeno, co ne, a nejvýraznější reakce čtenářů. |
 
 ## 5. Kdo za vás odpovídá — rozhodujete vy
@@ -76,7 +76,7 @@ Délka okna, počet povinných otázek i pravidla jsou stejné pro sólo hosta i
 - **Stejné podmínky pro všechny.** Stejná délka, stejná pravidla, stejný počet povinných otázek.
 - **Žádný soukromý seznam otázek.** Patnáctka se zveřejní ve stejnou chvíli, kdy ji dostanete vy.
 - **Vaše odpovědi nezkracujeme, needitujeme a nezměkčujeme.**
-- **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek. Jediné další, co odstraňujeme, je komentář napsaný **po uzavření vlákna**, a to bez ohledu na to, co v něm stojí.
+- **Neodstraníme otázku proto, že je nepříjemná.** Moderace se týká nadávek, osobních útoků, osobních údajů a spamu — ne obsahu otázek. Jediné další, co odstraňujeme, je **nový komentář v hlavní úrovni vlákna** napsaný po jeho uzavření — tedy nová otázka. Diskuze pod už existujícími odpověďmi běží dál.
 - **Máte právo odmítnout premisu.** Když otázka obsahuje tvrzení, které odmítáte, můžete místo odpovědi říct které a proč. Ve shrnutí to bude vedeno jako samostatná kategorie — moderátoři neposuzují, jestli je vaše odmítnutí oprávněné.
 - **Komunikaci s vámi vedeme modmailem r/Brno nebo e-mailem a zveřejníme ji** spolu se shrnutím. První oslovení šlo přes Facebook a e-mail, protože jinak jsme se k vám nedostali; i to je součástí zveřejněného záznamu. Chrání to vás i nás před tvrzením, že se něco domlouvalo bokem.
 

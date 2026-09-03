@@ -7,7 +7,7 @@
    nemažou názory. Co bot zachytí, posoudí člověk — a **když to
    nestihne do 12 hodin, komentář se automaticky pustí.** Nedostatek
    naší kapacity nesmí být tichým mazáním. (Výjimky: osobní údaje
-   a výhrůžky, kategorie A; a komentáře napsané po uzavření vlákna,
+   a výhrůžky, kategorie A; a nové otázky napsané po uzavření vlákna,
    viz níže — tam se nerozhoduje o obsahu, ale o čase.)
 2. **Držení není mazání.** Zachycený komentář čeká ve frontě;
    většinu schválíme, nebo vám pomůžeme ho opravit.
@@ -50,8 +50,10 @@ jediná, kde z odmítnutí naší nabídky **neplyne vůbec nic**.
 Když skončí okno na doplnění — tedy **24 hodin po konci živého okna** —
 vlákno se uzavírá. Ne zámkem: **hosté s označením `AMA host — <subjekt>`
 píšou dál** a můžou dokončit odpovědi i reagovat na to, co pod nimi
-mezitím přibylo. **Nové komentáře od všech ostatních se od té chvíle
-automaticky odstraňují.**
+mezitím přibylo. **Od všech ostatních se od té chvíle automaticky
+odstraňují nové komentáře v hlavní úrovni vlákna — tedy nové otázky.
+Diskuze pod už existujícími odpověďmi běží dál**, ta se podle pravidel
+naopak sbírá.
 
 Proč ne tvrdý zámek: zamčené vlákno na Redditu pustí ke slovu jen
 moderátory. Zamknout ho by tedy umlčelo i hosta — a ten má mít možnost
@@ -61,7 +63,8 @@ vzniklo.
 
 Dělá to náš bot podle fáze běhu, ne AutoModerator — ten neumí podmínku
 „až po tomto okamžiku". **Odstranění je vždy s uvedeným důvodem, ne tiché:**
-kdo komentář napíše, dozví se, že vlákno je po termínu uzavřené.
+kdo takovou otázku napíše, dozví se, že vlákno je pro nové otázky
+po termínu uzavřené.
 
 **Není to moderace obsahu.** Odstraňuje se za načasování, ne za to, co
 v komentáři stojí — dopadne tak stejně pochvala i kritika. Nikoho to
