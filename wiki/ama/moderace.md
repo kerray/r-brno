@@ -49,10 +49,11 @@ jazykovém modelu. Jeho úkoly: seskupování duplicitních otázek ve sběrném
 vlákně, výběr části povinných otázek podle psaného klíče, řazení fronty
 pro moderátory podle závažnosti, upozornění na vzorce koordinovaného
 chování a po skončení roztřídění zodpovězeno/nezodpovězeno pro shrnutí
-(včetně toho, kdo z hostů na co odpověděl). **Sám nerozhoduje** — navrhuje
-a označuje, rozhoduje člověk. Jaká má technicky oprávnění a proč, je
-rozepsané níže; nebudeme tvrdit, že „nemůže nic smazat", protože by to
-nebyla pravda.
+(včetně toho, kdo z hostů na co odpověděl). **O tom, co ve vlákně zůstane,
+rozhoduje člověk** — bot navrhuje, označuje a zadržuje, zadržení je vratné
+a schvaluje ho moderátor. Nebudeme ale tvrdit, že „nemůže nic smazat" ani
+že „nemá žádná oprávnění": technicky má plná moderátorská práva. Co z nich
+automatizace kolem AMA opravdu používá, je rozepsané níže.
 
 ### Který model to je a podle čeho jede
 
@@ -65,7 +66,7 @@ Neříkáme „používáme AI". Říkáme tohle:
 | Psaný klíč pro výběr otázek | [`rules/curation-key.md`](https://github.com/kerray/r-brno/blob/main/rules/curation-key.md) |
 | Počet běhů | jeden rozhodující; druhý „stínový" jen na měření, bez pravomoci |
 | Logy běhů | [`runs/`](https://github.com/kerray/r-brno/tree/main/runs) — vstup, výstup, lidské odchylky |
-| Oprávnění | plná moderátorská práva — **proč, a co z toho neplyne, je hned pod tabulkou** |
+| Oprávnění | **plná moderátorská práva, včetně banů** — Reddit je ukazuje veřejně na [/r/Brno/about/moderators](https://www.reddit.com/r/Brno/about/moderators). Co z nich automatizace kolem AMA používá, je hned pod tabulkou. |
 
 Prompt platný pro dané AMA **zamrzne ve chvíli, kdy se otevře sběrné vlákno**,
 a otaguje se `ama-RRRR-MM-DD-subjekt`. Od té chvíle se nemění jinak než veřejně,
@@ -73,8 +74,20 @@ s poznámkou ve vlákně a novým commitem.
 
 ### Jaká má bot oprávnění — a proč zrovna taková
 
-Bot má na r/Brno **plná moderátorská práva**. Je to technická nutnost, ne
-přehlédnutí, a je lepší to říct sami než čekat, až si to někdo najde.
+Bot má na r/Brno **plná moderátorská oprávnění, včetně možnosti banovat**,
+protože je používá i mimo AMA sérii. Není to přehlédnutí a nemá smysl to
+zastírat: **Reddit oprávnění moderátorů zveřejňuje** na
+[/r/Brno/about/moderators](https://www.reddit.com/r/Brno/about/moderators),
+takže si to kdokoli rozklikne.
+
+**Automatizace kolem AMA z nich sahá jen na: zadržení komentáře, přidělení
+flairu, přišpendlení a editaci vlastních příspěvků.** Nemění nastavení
+subredditu, nikoho nebanuje a nemaže napevno — zadržení je vratné a po
+12 hodinách bez lidského posouzení se komentář sám pouští.
+
+Je to tedy omezení v tom, **co naše automatizace dělá**, ne v tom, co má
+povolené. Záruku ve tvaru „technicky to neumí" vám nedáme — ta by nebyla
+pravdivá.
 
 **Proč umí odstraňovat:** Reddit nemá tlačítko „skrýt". Jediný způsob, jak
 dostat komentář z vlákna do fronty k posouzení, se jmenuje *remove* — a je to
@@ -83,7 +96,8 @@ schválením se vrátí na místo. **Skutečně smazat obsah může jen jeho aut
 nesvede ani moderátor, ani administrátor komunity. Takže věta „bot nemůže nic
 smazat" by byla doslova nepravdivá v jednom směru a zbytečně uklidňující ve druhém.
 
-**Proč umí měnit nastavení:** bot si sám nasazuje konfiguraci z veřejného
+**Proč umí měnit nastavení:** tohle dělá jiná automatizace než ta kolem AMA.
+Bot si sám nasazuje konfiguraci z veřejného
 repozitáře. Stránky `config/automoderator`, `config/sidebar` a
 `config/description` se synchronizují z
 [github.com/kerray/r-brno](https://github.com/kerray/r-brno) — proto má právo do
@@ -96,6 +110,10 @@ Nemůžeme vám nabídnout záruku ve tvaru *„technicky to neumí"*. A nenabí
 ani *„přečtěte si kód"* — **zdrojový kód bota veřejný není** a upřímně řečeno ho
 ani nemáme jak zveřejnit: běží uvnitř naší osobní automatizace, propletený
 s věcmi, které s r/Brno nesouvisejí.
+
+**Ověřit zvenčí jde tohle:** prompt, kterým se vybírá patnáctka, je zveřejněný
+a zamrzlý; počty zásahů zveřejňujeme ve shrnutí každého AMA; a zadržený komentář
+se po 12 hodinách vrátí sám — což si každý může vyzkoušet.
 
 Bylo by snadné to zamlčet a nechat vás v dojmu, že „všechno je open source".
 Radši to řekneme přesně:
