@@ -74,15 +74,89 @@ domain: [
    "zastavmezlodeje.com",
    "dt24.cz"
 ]
-# Tady `remove` ZŮSTÁVÁ, a je to schválně.
+# ⚠ SEZNAM DOMÉN JE NÍŽE JEŠTĚ JEDNOU, PRO KOMENTÁŘE.
+# AutoMod neumí seznam sdílet mezi pravidly (YAML kotvy přes hranici
+# dokumentu nefungují), takže když doménu přidáváš nebo ubíráš, uprav
+# OBA seznamy. Liší se jen akcí: příspěvek `remove`, komentář `filter`.
+# ---------------------------------------------------------------------
+# PŘÍSPĚVKY: `remove` ZŮSTÁVÁ, a je to schválně.
 # U seznamu domén výše už rozhodnutí padlo — seznam je veřejný a dá se
 # proti němu argumentovat, ale u konkrétního odkazu není co posuzovat.
 # Když si myslíte, že doména na seznam nepatří, napište nám; o tom se
 # bavíme, ne o jednotlivých odkazech.
+type: submission
 action: remove
 action_reason: Dezinformační doména
 message: Zpráva od robota v /r/{{subreddit}} - Sorry, o [odkazy na dezinformační weby]({{permalink}}) nestojíme.
 modmail: DOMAIN_BLOCKED Příspěvek [{{title}}]({{permalink}}) od uživatele /u/{{author}} zablokovaný kvůli doméně (po approve se zobrazí)
+---
+# KOMENTÁŘE: `filter`, ne `remove`.
+# V komentáři se dá odkaz citovat proto, aby se na něj někdo zeptal nebo
+# ho zkritizoval — a to není totéž co ho šířit. Rozdíl pozná jedině
+# člověk, takže komentář počká ve frontě místo aby zmizel.
+# Výjimka pro AMA vlákna: v předvolebním AMA je citace dezinformačního
+# webu v otázce legitimní („co říkáte na tohle, co o vás píšou").
+type: comment
+domain: [
+   "parlamentnilisty.cz",
+   "parlamentni-listy.cz",
+   "aeronet.cz",
+   "sputnik.cz",
+   "sputniknews.com",
+   "ac24.cz",
+   "protiproud.cz",
+   "cz24.news",
+   "svetkolemnas.info",
+   "nwoo.org",
+   "infowars.cz",
+   "mikan.cz",
+   "vlastnihlavou.cz",
+   "isstras.eu",
+   "paratdnes.cz",
+   "e-republika.cz",
+   "infokuryr.cz",
+   "osud.cz",
+   "ceskoaktualne.cz",
+   "vlasteneckenoviny.cz",
+   "orgo-net.blogspot.cz",
+   "eurasia24.cz",
+   "prvopodstata.com",
+   "czechfreepress.cz",
+   "svobodnenoviny.eu",
+   "lajkit.cz",
+   "novarepublika.cz",
+   "zvedavec.org",
+   "bezpolitickekorektnosti.cz",
+   "rukojmi.cz",
+   "casopis-sifra.cz",
+   "almanach.cz",
+   "pravdive.eu",
+   "vinegret.cz",
+   "skrytapravda.cz",
+   "eurodenik.cz",
+   "freeglobe.cz",
+   "euportal.cz",
+   "euserver.cz",
+   "eurabia.cz",
+   "cesky-portal.cz",
+   "nezdravi.cz",
+   "borea.cz",
+   "prvnizpravy.cz",
+   "megazine.cz",
+   "megazpravy.cz",
+   "antiilluminati.net",
+   "zastavmezlodeje.com",
+   "dt24.cz"
+]
+parent_submission:
+    ~flair_text (includes): "AMA"
+action: filter
+action_reason: Dezinformační doména - komentář (k posouzení)
+message: |
+         Zpráva od robota v /r/{{subreddit}} - [Váš komentář]({{permalink}}) odkazuje na web z našeho seznamu dezinformačních zdrojů, takže než se zobrazí, musí ho schválit moderátoři. Citovat takový odkaz kvůli otázce nebo kritice je v pořádku — proto ho nemažeme, jen se na něj napřed podíváme.
+
+         Bot message from /r/{{subreddit}} - [your comment]({{permalink}}) links to a site on our disinformation list, so moderators need to approve it before it gets displayed. Quoting such a link in order to ask about it or criticise it is fine — that is why we hold it for review instead of removing it.
+modmail: DOMAIN_FILTERED_COMMENT Komentář [{{permalink}}] od uživatele /u/{{author}} zadržený kvůli doméně (po approve se zobrazí)
 ---
 # Nový účet, který zakládá příspěvek.
 # `filter`, ne `remove`: chceme se na to podívat, ne to zahodit. Většinu
@@ -106,6 +180,17 @@ type: comment
 author:
     account_age: < 30 day
     is_submitter: false
+# VÝJIMKA PRO AMA VLÁKNA (viz /r/brno/wiki/ama/moderace)
+# Host AMA si kvůli sérii často zakládá účet pár dní předem. Bez téhle
+# výjimky ho filtr trestá přesně za to, kvůli čemu tu je — při pilotu
+# 2. 9. spadly odpovědi garantky do fronty dvanáctkrát za tři hodiny a
+# každou musel někdo ručně pustit. Zasáhlo to i tazatele.
+# `~` znamená "ne": pravidlo se použije jen tam, kde flair nadřazeného
+# příspěvku NEobsahuje "AMA". Kryje obě používané nálepky, "AMA"
+# i "AMA — sběr" (template id ca7cdcdc-a52a-11f1-a45d-ee72ed683a24
+# a d106ca9c-a50f-11f1-b43b-06c9fb59ea9e).
+parent_submission:
+    ~flair_text (includes): "AMA"
 action: filter
 action_reason: "Novy ucet (< 30 dni) - komentar"
 message: |
@@ -121,6 +206,17 @@ type: comment
 author:
     combined_karma: < 1
     is_submitter: false
+# VÝJIMKA PRO AMA VLÁKNA (viz /r/brno/wiki/ama/moderace)
+# Host AMA si kvůli sérii často zakládá účet pár dní předem. Bez téhle
+# výjimky ho filtr trestá přesně za to, kvůli čemu tu je — při pilotu
+# 2. 9. spadly odpovědi garantky do fronty dvanáctkrát za tři hodiny a
+# každou musel někdo ručně pustit. Zasáhlo to i tazatele.
+# `~` znamená "ne": pravidlo se použije jen tam, kde flair nadřazeného
+# příspěvku NEobsahuje "AMA". Kryje obě používané nálepky, "AMA"
+# i "AMA — sběr" (template id ca7cdcdc-a52a-11f1-a45d-ee72ed683a24
+# a d106ca9c-a50f-11f1-b43b-06c9fb59ea9e).
+parent_submission:
+    ~flair_text (includes): "AMA"
 action: filter
 action_reason: "Karma pod 1 - komentar"
 message: |

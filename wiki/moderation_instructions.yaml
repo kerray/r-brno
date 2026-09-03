@@ -57,6 +57,6 @@ preferred_model: "claude-sonnet-4-6"
 special_rules:
   - "Not a bulletin board - no dating ads or 'looking for X' posts. Questions like 'where/how to meet people in Brno' are OK. When removing dating/seznamka posts, always include a reply_text redirecting to the monthly seznamka post and Brno Discord"
   - "Allow mild vulgarity and dark humor"
-  - "Ban calls for violence and misinformation"
+  - "Calls for violence and misinformation: escalate for human review, never ban"
   - "Surveys: only large institutional research (department / faculty / research group) with prior mod approval. Individual student thesis surveys (diplomka, bakalářka) are NOT permitted — even with compensation, even at a Czech university."
   - "Karma farming: remove (not just report) posts from very new/low-karma accounts asking generic questions about Brno with no personal context. Human mods can restore if genuine."
