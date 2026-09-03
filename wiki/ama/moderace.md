@@ -49,22 +49,39 @@ jediná, kde z odmítnutí naší nabídky **neplyne vůbec nic**.
 
 Když skončí okno na doplnění — tedy **24 hodin po konci živého okna** —
 vlákno se uzavírá. Ne zámkem: **hosté s označením `AMA host — <subjekt>`
-píšou dál** a můžou dokončit odpovědi i reagovat na to, co pod nimi
-mezitím přibylo. **Od všech ostatních se od té chvíle automaticky
-odstraňují nové komentáře v hlavní úrovni vlákna — tedy nové otázky.
-Diskuze pod už existujícími odpověďmi běží dál**, ta se podle pravidel
-naopak sbírá.
+můžou dál odpovídat uvnitř existujících větví** a dokončit, co nestihli.
+**Od všech ostatních se od té chvíle odstraňuje nový komentář, jehož
+rodičem je samotný příspěvek** — tedy nová samostatná otázka.
 
-Proč ne tvrdý zámek: zamčené vlákno na Redditu pustí ke slovu jen
-moderátory. Zamknout ho by tedy umlčelo i hosta — a ten má mít možnost
-dopsat, co nestihl. Selektivní režim je jediný způsob, jak vlákno uzavřít
-pro nové diskutující a nechat ho přitom otevřené pro toho, kvůli komu
+Všechno ostatní zůstává, a jeden případ si zaslouží vypsat zvlášť:
+**doplňující otázka napsaná pod některou z povinných patnácti otázek se
+neodstraňuje.** Patnáctku sem vyvěšuje bot jako komentáře v hlavní
+úrovni, takže reakce pod nimi jsou pokračování existující větve, ne nová
+otázka — a je to nejpřirozenější místo, kam se doptat. Totéž platí pro
+diskuzi pod odpověďmi hostů; ta se podle pravidel naopak sbírá do shrnutí.
+
+**Nové komentáře v hlavní úrovni nezakládají ani hosté.** V uzavřeném
+režimu jen odpovídají uvnitř existujících větví. Jinak by mohli po
+umlčení čtenářů vyvěsit závěrečné prohlášení, na které už nikdo nemůže
+odpovědět na stejné úrovni — a to není diskuze, to je poslední slovo.
+
+Proč ne rovnou tvrdý zámek: zamčené vlákno na Redditu pustí ke slovu jen
+moderátory. Zamknout ho hned by tedy umlčelo i hosta — a ten má mít
+možnost dopsat, co nestihl. Selektivní režim je jediný způsob, jak vlákno
+uzavřít pro nové otázky a nechat ho přitom otevřené pro toho, kvůli komu
 vzniklo.
 
-Dělá to náš bot podle fáze běhu, ne AutoModerator — ten neumí podmínku
-„až po tomto okamžiku". **Odstranění je vždy s uvedeným důvodem, ne tiché:**
-kdo takovou otázku napíše, dozví se, že vlákno je pro nové otázky
-po termínu uzavřené.
+**Uzavřený režim má ale konec.** Při zveřejnění shrnutí vlákno **zamkneme
+natvrdo**, nejpozději před začátkem volebního moratoria. Od té chvíle
+nepíše nikdo, hosty v to počítaje.
+
+**Zatím to nikde neběží.** Pilotní AMA 2. 9. se na konci zamklo natvrdo;
+selektivní režim popsaný výše nasadíme **od druhého AMA v sérii**. Dělat
+ho bude náš bot podle fáze běhu, ne AutoModerator — ten neumí podmínku
+„až po tomto okamžiku". **Odstranění bude vždy s uvedeným důvodem, ne
+tiché:** kdo takovou otázku napíše, dozví se, že vlákno je pro nové otázky
+po termínu uzavřené. Přesné znění té zprávy je předem veřejné jako makro
+**U1** v [`rules/removal-reasons.md`](https://github.com/kerray/r-brno/blob/main/rules/removal-reasons.md).
 
 **Není to moderace obsahu.** Odstraňuje se za načasování, ne za to, co
 v komentáři stojí — dopadne tak stejně pochvala i kritika. Nikoho to
