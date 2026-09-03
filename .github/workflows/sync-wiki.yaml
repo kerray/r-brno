@@ -29,91 +29,84 @@ jobs:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           REPO_URL: https://github.com/${{ github.repository }}
         run: |
-          # Auto-discover all wiki files and build JSON payload
-          # This handles any .md or .yaml file in wiki/ directory
+          set -euo pipefail
 
-          # Start building the files object
-          FILES_JSON="{}"
+          # Payload se skládá PŘES SOUBORY, ne přes proměnné a argumenty.
+          # Důvod: 2026-09-03 sync spadl na `jq: Argument list too long`,
+          # když do wiki přibylo 50kB shrnutí AMA. Obsah stránek i rostoucí
+          # JSON šly do argv (`jq --arg v "$content"`, `echo "$FILES_JSON" |`,
+          # `--argjson files "$FILES_JSON"`, `curl -d "$PAYLOAD"`) a narazilo
+          # to na ARG_MAX. Nesynchronizovalo se pak NIC — ani stránky, které
+          # se vešly. Proto `--rawfile`, `--slurpfile` a `--data-binary @soubor`.
 
-          # Find all .md files in wiki/ (not in subdirectories)
-          for file in wiki/*.md; do
-            if [ -f "$file" ]; then
-              # Extract basename without extension as key
-              key=$(basename "$file" .md)
-              content=$(cat "$file")
-              FILES_JSON=$(echo "$FILES_JSON" | jq --arg k "$key" --arg v "$content" '. + {($k): $v}')
-            fi
+          FILES=$(mktemp)
+          TMP=$(mktemp)
+          echo '{}' > "$FILES"
+
+          pridej() {  # $1 = klíč stránky, $2 = cesta k souboru
+            jq --arg k "$1" --rawfile v "$2" '. + {($k): $v}' "$FILES" > "$TMP"
+            mv "$TMP" "$FILES"
+          }
+
+          # wiki/*.md a wiki/*.yaml -> stránka pojmenovaná podle souboru
+          for file in wiki/*.md wiki/*.yaml; do
+            [ -f "$file" ] || continue
+            name=$(basename "$file")
+            pridej "${name%.*}" "$file"
           done
 
-          # Find all .yaml files in wiki/ (like moderation_instructions.yaml)
-          for file in wiki/*.yaml; do
-            if [ -f "$file" ]; then
-              key=$(basename "$file" .yaml)
-              content=$(cat "$file")
-              FILES_JSON=$(echo "$FILES_JSON" | jq --arg k "$key" --arg v "$content" '. + {($k): $v}')
-            fi
-          done
-
-          # Handle config/ subdirectory specially (maps to config/pagename on Reddit)
+          # wiki/config/* -> config/<jméno> na Redditu
           for file in wiki/config/*.yaml wiki/config/*.md; do
-            if [ -f "$file" ]; then
-              filename=$(basename "$file")
-              # Remove extension
-              key="${filename%.*}"
-              # Prefix with config/ for Reddit wiki path
-              key="config/$key"
-              content=$(cat "$file")
-              FILES_JSON=$(echo "$FILES_JSON" | jq --arg k "$key" --arg v "$content" '. + {($k): $v}')
-            fi
+            [ -f "$file" ] || continue
+            name=$(basename "$file")
+            pridej "config/${name%.*}" "$file"
           done
 
-          # Handle ama/ subdirectory (maps to ama/pagename on Reddit)
+          # wiki/ama/* -> ama/<jméno> na Redditu
           for file in wiki/ama/*.md; do
-            if [ -f "$file" ]; then
-              filename=$(basename "$file")
-              key="ama/${filename%.*}"
-              content=$(cat "$file")
-              FILES_JSON=$(echo "$FILES_JSON" | jq --arg k "$key" --arg v "$content" '. + {($k): $v}')
-            fi
+            [ -f "$file" ] || continue
+            name=$(basename "$file")
+            pridej "ama/${name%.*}" "$file"
           done
 
-          # Add brno-awesome from external repo
+          # brno-awesome z cizího repa
           if [ -f "/tmp/brno-awesome.md" ]; then
-            content=$(cat /tmp/brno-awesome.md)
-            FILES_JSON=$(echo "$FILES_JSON" | jq --arg v "$content" '. + {"awesome": $v}')
+            pridej "awesome" "/tmp/brno-awesome.md"
           fi
 
           echo "Files to sync:"
-          echo "$FILES_JSON" | jq 'keys'
+          jq 'keys' "$FILES"
+          echo "Payload size: $(wc -c < "$FILES") B"
 
-          # Build final payload
-          PAYLOAD=$(jq -n \
-            --argjson files "$FILES_JSON" \
+          PAYLOAD=$(mktemp)
+          jq -n \
+            --slurpfile files "$FILES" \
             --arg commit_sha "$COMMIT_SHA" \
             --arg commit_message "$COMMIT_MESSAGE" \
             --arg repo_url "$REPO_URL" \
             '{
               reddit_resource: "$res:u/kerray/reddit_ponocny_bot",
-              files: $files,
+              files: $files[0],
               subreddit: "brno",
               commit_sha: $commit_sha,
               commit_message: $commit_message,
               repo_url: $repo_url
-            }')
+            }' > "$PAYLOAD"
 
-          # Send to Windmill
-          RESPONSE=$(curl -sS -X POST \
+          RESPONSE=$(mktemp)
+          curl -sS -X POST \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $WINDMILL_TOKEN" \
-            -d "$PAYLOAD" \
-            "$WINDMILL_URL")
+            --data-binary @"$PAYLOAD" \
+            "$WINDMILL_URL" > "$RESPONSE"
 
           echo "Windmill response:"
-          echo "$RESPONSE" | jq .
+          jq . "$RESPONSE" || cat "$RESPONSE"
 
-          # Check for errors
-          ERRORS=$(echo "$RESPONSE" | jq -r '.errors // 0')
+          ERRORS=$(jq -r '.errors // 0' "$RESPONSE")
           if [ "$ERRORS" != "0" ]; then
+            echo "Stránky, které se nenasadily:"
+            jq -r '.results[]? | select(.status == "error") | "  \(.page): \(.error)"' "$RESPONSE" || true
             echo "::error::Wiki sync had $ERRORS errors"
             exit 1
           fi
