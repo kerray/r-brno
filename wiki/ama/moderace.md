@@ -18,11 +18,14 @@
    vlákna, a vždy s viditelným originálem. Jak se ptát tak, aby otázka
    nešla obejít, je rozepsané na [/r/brno/wiki/ama/jak-se-ptat](/r/brno/wiki/ama/jak-se-ptat).
 4. **Vše logujeme a čísla zveřejníme** (viz níže).
-5. **Hosté AMA jsou vyňati z automatických filtrů.** Filtry na stáří účtu
-   a na karmu jinak trestají hosta přesně za to, kvůli čemu tu je — že si
-   účet založil kvůli AMA. **U pilotu 2. 9. se to nestihlo nastavit** a
-   odpovědi garantky spadly do fronty dvanáctkrát za tři hodiny; každou
-   musel někdo ručně pustit. Výjimka je vidět ve veřejné konfiguraci
+5. **V AMA vláknech jsou automatické filtry vypnuté — pro všechny, ne jen
+   pro hosty.** Filtry na stáří účtu a na karmu jinak trestají hosta i
+   tazatele přesně za to, že si účet založili kvůli AMA: **u pilotu 2. 9.
+   se to nestihlo nastavit** a odpovědi garantky spadly do fronty
+   dvanáctkrát za tři hodiny, každou musel někdo ručně pustit. Řekněme si
+   rovnou i cenu, než ji najde někdo jiný: **koordinovaný nájezd v AMA
+   vlákně automatika nechytí** — musí ho odchytit člověk podle reportů.
+   Výjimka je vidět ve veřejné konfiguraci
    [`config/automoderator`](/r/brno/wiki/config/automoderator).
 
 ## Čtyři kategorie zásahů
@@ -86,10 +89,16 @@ zastírat: **Reddit oprávnění moderátorů zveřejňuje** na
 [/r/Brno/about/moderators](https://www.reddit.com/r/Brno/about/moderators),
 takže si to kdokoli rozklikne.
 
-**Automatizace kolem AMA z nich sahá jen na: zadržení komentáře, přidělení
-flairu, přišpendlení a editaci vlastních příspěvků.** Nemění nastavení
-subredditu, nikoho nebanuje a nemaže napevno — zadržení je vratné a po
-12 hodinách bez lidského posouzení se komentář sám pouští.
+**Automatizace kolem AMA z nich sahá jen na: uvolnění zadrženého komentáře
+(*approve*), zamčení větve, odstranění nové otázky napsané po uzavření
+vlákna, přidělení flairu, přišpendlení a editaci vlastních příspěvků.**
+Zadržet komentář v AMA vlákně naopak **nesmí** — to zůstává člověku.
+Nemění nastavení subredditu a nikoho nebanuje.
+
+**Zadržený komentář, který do 12 hodin neposoudíme, pustíme.** Je to
+**náš závazek, ne automatika** — nespoléhejte na to, že to udělá stroj,
+spoléhejte na to, že se za to zodpovídáme. Výjimka jsou nové otázky
+napsané po uzavření vlákna; ty se nepouštějí.
 
 Je to tedy omezení v tom, **co naše automatizace dělá**, ne v tom, co má
 povolené. Záruku ve tvaru „technicky to neumí" vám nedáme — ta by nebyla
@@ -118,8 +127,9 @@ ani nemáme jak zveřejnit: běží uvnitř naší osobní automatizace, proplet
 s věcmi, které s r/Brno nesouvisejí.
 
 **Ověřit zvenčí jde tohle:** prompt, kterým se vybírá patnáctka, je zveřejněný
-a zamrzlý; počty zásahů zveřejňujeme ve shrnutí každého AMA; a zadržený komentář
-se po 12 hodinách vrátí sám — což si každý může vyzkoušet.
+a v okamžiku otevření sběrného vlákna zamrzne na gitovém tagu; `runs/` obsahuje
+snapshot vstupu, ze kterého se vybíralo; a počty zásahů zveřejňujeme ve shrnutí
+každého AMA. Všechno tohle jde porovnat s tím, co je ve vlákně vidět.
 
 Bylo by snadné to zamlčet a nechat vás v dojmu, že „všechno je open source".
 Radši to řekneme přesně:
