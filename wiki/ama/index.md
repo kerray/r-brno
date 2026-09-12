@@ -28,13 +28,13 @@ Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se a
 
 | Kandidátka | Termín | Stav |
 |---|---|---|
-| **Za lužánky** | Pá 18. 9., 14:00–17:00 | ✅ Přihlášeni |
 | **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni |
+| **Za lužánky** | Út 6. 10., 9:00–12:00 | ✅ Přihlášeni |
 | ANO | — | ⬜ Čekáme na přihlášení |
 | Nové Brno | — | ⬜ Čekáme na přihlášení |
 | ODS | — | ⬜ Čekáme na přihlášení |
 
-Volné termíny: Čt 24. 9. (9–12, 14–17), Út 6. 10. (9–12, 14–17).
+Volné termíny: Pá 18. 9. (9–12, 14–17), Čt 24. 9. (9–12, 14–17), Út 6. 10. (14–17).
 
 *Automaticky aktualizováno: 12. 9. 2026*
 
