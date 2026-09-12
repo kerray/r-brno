@@ -22,6 +22,22 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 
 Další přibývají jako `ama/RRRR-MM-DD-subjekt`.
 
+## Přihlášení na další kola
+
+Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se aktualizuje automaticky.
+
+| Kandidátka | Termín | Stav |
+|---|---|---|
+| **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni |
+| ANO | — | ⬜ Čekáme na přihlášení |
+| Nové Brno | — | ⬜ Čekáme na přihlášení |
+| ODS | — | ⬜ Čekáme na přihlášení |
+| Za lužánky | — | ⬜ Čekáme na přihlášení |
+
+Volné termíny: Pá 18. 9. (9–12, 14–17), Čt 24. 9. (9–12, 14–17), Út 6. 10. (9–12, 14–17).
+
+*Automaticky aktualizováno: 12. 9. 2026*
+
 ## Kde se to dělá
 
 Všechna pravidla, prompty i logy běhů jsou veřejné v [github.com/kerray/r-brno](https://github.com/kerray/r-brno):
