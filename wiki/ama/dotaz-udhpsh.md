@@ -1,9 +1,8 @@
 # Dotaz na ÚDHPSH — znění a stav
 
-> **STAV: ODESLÁNO 31. 8. 2026 datovou schránkou. Odpověď zatím nedorazila.**
+> **STAV: ODPOVĚZENO 17. 9. 2026. Plný text odpovědi níže.**
 > Zveřejňujeme znění i datum, ne až odpověď — a zveřejnili jsme ho ještě předtím,
-> než jsme dotaz odeslali. Až odpověď přijde, doplníme ji sem **doslova**, ať dopadne
-> jakkoliv.
+> než jsme dotaz odeslali. Odpověď doplňujeme **doslova**, jak jsme slíbili.
 
 *Tato stránka je generovaná z [github.com/kerray/r-brno](https://github.com/kerray/r-brno) — změny se dělají tam, přes pull request. Historie je veřejná.*
 
@@ -21,7 +20,7 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 | Adresát | Úřad pro dohled nad hospodařením politických stran a politických hnutí, Brno |
 | Odesláno | **31. 8. 2026** |
 | Způsob | datová schránka |
-| Stav | odesláno, čeká se na odpověď |
+| Stav | **odpovězeno 17. 9. 2026** (č. j. UDH–02626/2026) |
 
 ---
 
@@ -101,9 +100,78 @@ odpověď do prvního AMA nejspíš nedorazí a čekat na ni by znamenalo sérii
 
 ## Odpověď
 
-*(Zveřejní se sem doslova, jakmile dorazí.)*
+Odpověď dorazila **17. 9. 2026** datovou schránkou (č. j. UDH–02626/2026, sp. zn. S-UDH–02393/2026).
+Zveřejňujeme ji v plném znění; vypuštěna je pouze adresa tazatele a kontaktní údaje referentky
+(osobní údaje, které s věcným obsahem nesouvisejí).
 
-První AMA série proběhne **2. 9. 2026**, tedy dřív, než může odpověď reálně dorazit.
-Je to vědomé rozhodnutí, ne přehlédnutí: doklad o dobré víře vzniká **odesláním** dotazu,
-ne přijetím odpovědi, a čekat na ni by znamenalo sérii před volbami vůbec neudělat.
-Kdyby odpověď dopadla tak, že formát takhle nejde, zveřejníme to a zařídíme se podle toho.
+---
+
+> Č. j. UDH–02626/2026
+> Sp. zn. S-UDH–02393/2026 OKSŘ
+> Datum, místo: 17. 9. 2026, Brno
+>
+> **Odpověď na dotaz**
+>
+> Vážený pane Matýšku,
+>
+> Úřad pro dohled nad hospodařením politických stran a politických hnutí (dále jen „Úřad") obdržel dne
+> 31.08.2026 pod č.j. UDH-02393/2026 Vaše dotazy týkající se zamýšleného pořádání veřejných
+> internetových diskusí ve formátu „Ask Me Anything" s uskupeními kandidujícími ve volbách
+> do Zastupitelstva města Brna.
+>
+> Úvodem Úřad upozorňuje, že níže uvedené vyjádření vychází výhradně ze skutečností popsaných
+> ve Vašem dotazu a představuje obecný právní názor Úřadu na aplikaci zákona č. 234/2025 Sb.,
+> o volebních kampaních a o transparentnosti a cílení politické reklamy (dále jen „zákon o volebních
+> kampaních"). Případné posouzení konkrétního jednání by vždy záviselo na jeho skutečném obsahu,
+> účelu a okolnostech, za nichž by k němu došlo. K jednotlivým otázkám Úřad uvádí následující.
+>
+> **a) Naplňuje takto popsaný formát znaky volební kampaně ve smyslu zákona č. 234/2025 Sb.,
+> o volebních kampaních, jestliže za něj není poskytována ani obvykle poskytována úplata?**
+>
+> **b) Pokud ano, stávají se pořadatelé (fyzická osoba moderátora, případně neformální skupina
+> moderátorů) třetí osobou ve smyslu tohoto zákona, a vzniká jim tím registrační či jiná povinnost?**
+>
+> Podle názoru Úřadu nelze samotné vytvoření a organizační zajištění veřejného diskusního prostoru bez
+> dalšího považovat za propagaci nebo agitaci ve smyslu § 2 odst. 2 zákona o volebních kampaních.
+> Pokud jde o účast jednotlivých kandidujících uskupení nebo jejich zástupců, může dle svého
+> konkrétního obsahu představovat vlastní veřejnou prezentaci kandidujícího uskupení, případně
+> propagaci nebo agitaci vedenou tímto uskupením. Za obsah odpovědí a za dodržení povinností, které
+> se na kandidující uskupení vztahují, odpovídá příslušné kandidující uskupení.
+>
+> **c) Započítávají se do limitu výdajů neregistrované třetí osoby vlastní technické náklady
+> pořadatele popsané v bodě 5, přestože nejde o úplatu poskytnutou kandidujícímu subjektu?**
+>
+> Podle § 5 zákona o volebních kampaních se na volební kampaň ve volbách do zastupitelstev obcí
+> nepoužije § 3 odst. 3 tohoto zákona, který upravuje účast jiných osob na volební kampani s písemným
+> souhlasem kandidující volební strany nebo v postavení registrované třetí osoby. Pořadatelům
+> popsaných diskusí v souvislosti s komunálními volbami nevzniká registrační povinnost třetí osoby podle
+> zákona o volebních kampaních. To platí bez ohledu na skutečnost, zda pořadatelem je jedna fyzická
+> osoba, nebo více osob vystupujících jako neformální skupina.
+>
+> Náklady na provoz pomocného programu popsané ve Vašem dotazu se do limitu výdajů třetí osoby
+> podle zákona o volebních kampaních nezapočítávají, neboť se takový limit ve volbách do zastupitelstev
+> obcí neuplatní.
+>
+> **d) Je z pohledu Úřadu podstatný rozdíl mezi pozváním všech kandidujících uskupení a stavem,
+> kdy část z nich pozvání nepřijme a diskuze se nakonec uskuteční jen s některými?**
+>
+> Zákon č. 234/2025 Sb. nestanoví soukromým pořadatelům veřejných diskusí povinnost zajistit
+> skutečnou účast všech kandidujících uskupení ani jim neukládá zvláštní pravidla pro organizaci těchto
+> diskusí.
+>
+> Podle názoru Úřadu proto skutečnost, že některá řádně a za srovnatelných podmínek pozvaná uskupení
+> pozvání odmítnou nebo na ně nereagují, sama o sobě nemění právní posouzení činnosti pořadatelů.
+>
+> **e) Doporučujete pro takový formát nějaké další opatření, které bychom měli přijmout?**
+>
+> Zákon o volebních kampaních pro popsaný formát diskusí nestanoví zvláštní organizační nebo
+> evidenční povinnosti.
+>
+> Uvedené závěry se vztahují k diskusím týkajícím se voleb do Zastupitelstva města Brna. Pokud by byl
+> tento formát současně využíván k propagaci kandidujících subjektů nebo kandidátů v jiném druhu voleb,
+> bylo by nutné posoudit použití zákona samostatně, neboť výjimka podle § 5 zákona o volebních
+> kampaních se vztahuje pouze na volby do zastupitelstev obcí.
+>
+> Mgr. Monika Strnadová, LL.M.
+> vrchní rada
+> vedoucí oddělení kontroly a správního řízení
