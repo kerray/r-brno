@@ -1,0 +1,42 @@
+warning: The `tool.uv.dev-dependencies` field (used in `pyproject.toml`) is deprecated and will be removed in a future release; use `dependency-groups.dev` instead
+========================================================================
+OVĚŘENÍ CITACÍ VE SHRNUTÍ AMA
+========================================================================
+Soubor : /tmp/claude-1000/-home-krr-windmill-kerraycz/9bc98a77-cfba-4fce-b55e-224b193958ac/scratchpad/ama_nove_brno_summary_formatted.md
+Zdroj  : snímek /tmp/claude-1000/-home-krr-windmill-kerraycz/9bc98a77-cfba-4fce-b55e-224b193958ac/scratchpad/answers.json (pořízen 2026-09-19T14:43:01.677541+00:00)
+Citací : 13 otázek + 17 odpovědí
+
+  otázka  pajz5f6  OK
+  otázka  pajz65m  OK
+  otázka  pajz6ww  OK
+  otázka  pajz7oc  OK
+  otázka  pajz8ej  OK
+  otázka  pajz9tw  OK
+  otázka  pajzamk  OK
+  otázka  pajzbf3  OK
+  otázka  pajzc7y  OK
+  otázka  pajzcyz  OK
+  otázka  pajzdr2  OK
+  otázka  pajzej1  OK
+  otázka  pajzfa8  OK
+  odpověď pak1knw  OK
+  odpověď pak1c90  OK
+  odpověď pak1sw4  OK
+  odpověď pak45it  OK
+  odpověď pak3nfc  OK
+  odpověď pak2kup  OK
+  odpověď pakiw2x  OK
+  odpověď paktrn8  OK
+  odpověď pak2pqu  OK
+  odpověď pak5xzb  OK
+  odpověď paka6j8  OK
+  odpověď pak6uob  OK
+  odpověď paki1cw  OK
+  odpověď pako05w  OK
+  odpověď pakkcyv  OK
+  odpověď pakuvyj  OK
+  odpověď pakwqgx  OK
+
+========================================================================
+VÝSLEDEK: všech 30 citací sedí slovo od slova.
+========================================================================
