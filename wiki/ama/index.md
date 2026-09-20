@@ -19,6 +19,7 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 | AMA | Kdy | Shrnutí |
 |---|---|---|
 | **Zelené Brno** (pilot) | 2. 9. 2026 | [/r/brno/wiki/ama/2026-09-02-zelene-brno](/r/brno/wiki/ama/2026-09-02-zelene-brno) |
+| **Nové Brno** | 18. 9. 2026 | [/r/brno/wiki/ama/2026-09-18-nove-brno](/r/brno/wiki/ama/2026-09-18-nove-brno) |
 
 Další přibývají jako `ama/RRRR-MM-DD-subjekt`.
 
@@ -29,11 +30,11 @@ Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se a
 | Kandidátka | Termín | Stav |
 |---|---|---|
 | **Nové Brno** | Pá 18. 9., 14:00–17:00 | ✅ Přihlášeni — u/DigRepresentative508 (Pavel Boucník, doprava), u/Humpf87 (Michal Šulc, sport/rozvoj), u/mvfls (Barbora Šálková, kandidátka do 26 let, investice a rozvoj) |
-| **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni |
+| **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni — Petr Vokřál (lídr), Ivana Peková (předsedkyně MO Brno); reddit účty zatím neznámé · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wlf7ql/) |
 | **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni |
 | **Za lužánky** | Út 6. 10., 9:00–12:00 | ✅ Přihlášeni |
 
-*Automaticky aktualizováno: 17. 9. 2026*
+*Automaticky aktualizováno: 20. 9. 2026*
 
 ## Kde se to dělá
 
