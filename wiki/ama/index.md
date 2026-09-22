@@ -30,7 +30,7 @@ Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se a
 | Kandidátka | Termín | Stav |
 |---|---|---|
 | **Nové Brno** | Pá 18. 9., 14:00–17:00 | ✅ Přihlášeni — u/DigRepresentative508 (Pavel Boucník, doprava), u/Humpf87 (Michal Šulc, sport/rozvoj), u/mvfls (Barbora Šálková, kandidátka do 26 let, investice a rozvoj) |
-| **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni — Petr Vokřál (lídr), Ivana Peková (předsedkyně MO Brno); reddit účty zatím neznámé · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wlf7ql/) |
+| **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni — u/Petr-Vokral (Petr Vokřál, lídr), u/Ivana-Pekova (Ivana Peková, předsedkyně MO Brno), u/Ivana-Dvorakova1 (Ivana Dvořáková) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wlf7ql/) |
 | **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni |
 | **Za lužánky** | Út 6. 10., 9:00–12:00 | ✅ Přihlášeni |
 
