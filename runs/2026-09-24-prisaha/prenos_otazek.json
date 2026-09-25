@@ -1,0 +1,34 @@
+{
+  "poznamka": "Výsledek běhu, který 24. 9. uzavřel sběr a přenesl otázky do AMA vlákna. score = skóre otázky ve chvíli uzávěrky, jak ho běh zaznamenal.",
+  "spusteno_utc": "2026-09-24T05:11:14.986745Z",
+  "vysledek": {
+    "log": [
+      "collection: contest off, locked, unstickied",
+      "questions: 3",
+      "ama: 1woss37 created, locked, stickied"
+    ],
+    "url": "https://www.reddit.com/r/Brno/comments/1woss37/",
+    "ama_id": "1woss37",
+    "posted": 3,
+    "questions": [
+      {
+        "src": "paychaz",
+        "reply": "pbplhnk",
+        "score": 3,
+        "author": "TraditionalArt7992"
+      },
+      {
+        "src": "pb4z5t1",
+        "reply": "pbpli5g",
+        "score": 2,
+        "author": "xmeda"
+      },
+      {
+        "src": "pb0qapj",
+        "reply": "pbplimj",
+        "score": 1,
+        "author": "Wonderful-Regular658"
+      }
+    ]
+  }
+}

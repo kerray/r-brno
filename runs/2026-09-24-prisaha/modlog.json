@@ -1,0 +1,321 @@
+{
+  "porizeno_utc": "2026-09-25T10:14:03.681335+00:00",
+  "zdroj": "moderační log r/Brno (Reddit API, účet moderátorského bota, jen čtení)",
+  "obdobi": "2026-09-20 13:00 – porizeno_utc (Europe/Prague)",
+  "filtr": "všechny záznamy, jejichž cíl leží ve vláknech 1woss37 (AMA) nebo 1wlf7ql (sběr), záznamy týkající se účtů Petr-Vokral, Ivana-Pekova, Ivana-Dvorakova1, No_Technology7591, Miserable-Wall5128, a všechna přidělení uživatelského flairu (editflair s cílem t2_) v celém subredditu",
+  "zaznamu": 23,
+  "log": [
+    {
+      "mod": "ponocny_bot",
+      "action": "unsetcontestmode",
+      "details": "",
+      "created_utc": 1790226680.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wlf7ql",
+      "target_permalink": "/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/",
+      "cas_praha": "2026-09-24 07:11:20"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "[highlight] ",
+      "created_utc": 1790226681.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wlf7ql",
+      "target_permalink": "/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/",
+      "cas_praha": "2026-09-24 07:11:21"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "",
+      "created_utc": 1790226681.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wlf7ql",
+      "target_permalink": "/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/",
+      "cas_praha": "2026-09-24 07:11:21"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "lock",
+      "details": "",
+      "created_utc": 1790226681.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wlf7ql",
+      "target_permalink": "/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/",
+      "cas_praha": "2026-09-24 07:11:21"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "setsuggestedsort",
+      "details": "",
+      "created_utc": 1790226682.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-24 07:11:22"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "lock",
+      "details": "",
+      "created_utc": 1790226682.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-24 07:11:22"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "distinguish",
+      "details": "",
+      "created_utc": 1790226682.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-24 07:11:22"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "[highlight] ",
+      "created_utc": 1790226683.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-24 07:11:23"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "",
+      "created_utc": 1790226683.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-24 07:11:23"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unlock",
+      "details": "",
+      "created_utc": 1790233204.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-24 09:00:04"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1790233208.0,
+      "description": "",
+      "target_author": "Petr-Vokral",
+      "target_fullname": "t2_2n909nowhu",
+      "target_permalink": "",
+      "cas_praha": "2026-09-24 09:00:08"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1790233210.0,
+      "description": "",
+      "target_author": "Ivana-Pekova",
+      "target_fullname": "t2_2nbmpvkfnd",
+      "target_permalink": "",
+      "cas_praha": "2026-09-24 09:00:10"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1790233211.0,
+      "description": "",
+      "target_author": "Ivana-Dvorakova1",
+      "target_fullname": "t2_2nbnirvard",
+      "target_permalink": "",
+      "cas_praha": "2026-09-24 09:00:11"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1790233360.0,
+      "description": "",
+      "target_author": "Petr-Vokral",
+      "target_fullname": "t2_2n909nowhu",
+      "target_permalink": "",
+      "cas_praha": "2026-09-24 09:02:40"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1790233361.0,
+      "description": "",
+      "target_author": "Ivana-Dvorakova1",
+      "target_fullname": "t2_2nbnirvard",
+      "target_permalink": "",
+      "cas_praha": "2026-09-24 09:02:41"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1790233361.0,
+      "description": "",
+      "target_author": "Ivana-Pekova",
+      "target_fullname": "t2_2nbmpvkfnd",
+      "target_permalink": "",
+      "cas_praha": "2026-09-24 09:02:41"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790233831.0,
+      "description": "",
+      "target_author": "Ivana-Dvorakova1",
+      "target_fullname": "t1_pbq0g02",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/pbq0g02/",
+      "cas_praha": "2026-09-24 09:10:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790234281.0,
+      "description": "",
+      "target_author": "Ivana-Dvorakova1",
+      "target_fullname": "t1_pbq1cef",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/pbq1cef/",
+      "cas_praha": "2026-09-24 09:18:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790234431.0,
+      "description": "",
+      "target_author": "Ivana-Dvorakova1",
+      "target_fullname": "t1_pbq1mcb",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/pbq1mcb/",
+      "cas_praha": "2026-09-24 09:20:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790235481.0,
+      "description": "",
+      "target_author": "Ivana-Pekova",
+      "target_fullname": "t1_pbq3nyp",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/pbq3nyp/",
+      "cas_praha": "2026-09-24 09:38:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790235931.0,
+      "description": "",
+      "target_author": "Ivana-Pekova",
+      "target_fullname": "t1_pbq4jji",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/pbq4jji/",
+      "cas_praha": "2026-09-24 09:45:31"
+    },
+    {
+      "mod": "kerray",
+      "action": "unsticky",
+      "details": "[highlight] ",
+      "created_utc": 1790311983.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-25 06:53:03"
+    },
+    {
+      "mod": "kerray",
+      "action": "unsticky",
+      "details": "",
+      "created_utc": 1790311983.0,
+      "description": "",
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1woss37",
+      "target_permalink": "/r/Brno/comments/1woss37/ama_přísaha_čtvrtek_24_září_9001200/",
+      "cas_praha": "2026-09-25 06:53:03"
+    }
+  ],
+  "flair_autoru_komentaru_ama": {
+    "pbplhnk": [
+      "ponocny_bot",
+      null
+    ],
+    "pbpli5g": [
+      "ponocny_bot",
+      null
+    ],
+    "pbplimj": [
+      "ponocny_bot",
+      null
+    ],
+    "pbq0g02": [
+      "Ivana-Dvorakova1",
+      "AMA host — Přísaha"
+    ],
+    "pbq1246": [
+      "No_Technology7591",
+      null
+    ],
+    "pbq1cef": [
+      "Ivana-Dvorakova1",
+      "AMA host — Přísaha"
+    ],
+    "pbq1mcb": [
+      "Ivana-Dvorakova1",
+      "AMA host — Přísaha"
+    ],
+    "pbq247p": [
+      "Miserable-Wall5128",
+      null
+    ],
+    "pbq2w51": [
+      "No_Technology7591",
+      null
+    ],
+    "pbq3nyp": [
+      "Ivana-Pekova",
+      "AMA host — Přísaha"
+    ],
+    "pbq4jji": [
+      "Ivana-Pekova",
+      "AMA host — Přísaha"
+    ],
+    "pbq4u0k": [
+      "No-Tomorrow1012",
+      null
+    ],
+    "pbrgcrr": [
+      "Imaginary-Advance235",
+      null
+    ],
+    "pbsupyz": [
+      "look_butt_dont_touch",
+      null
+    ]
+  },
+  "ama_vlakno_zamceno": false
+}

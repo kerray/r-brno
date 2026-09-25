@@ -20,6 +20,7 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 |---|---|---|
 | **Zelené Brno** (pilot) | 2. 9. 2026 | [/r/brno/wiki/ama/2026-09-02-zelene-brno](/r/brno/wiki/ama/2026-09-02-zelene-brno) |
 | **Nové Brno** | 18. 9. 2026 | [/r/brno/wiki/ama/2026-09-18-nove-brno](/r/brno/wiki/ama/2026-09-18-nove-brno) |
+| **Přísaha** | 24. 9. 2026 | [/r/brno/wiki/ama/2026-09-24-prisaha](/r/brno/wiki/ama/2026-09-24-prisaha) |
 
 Další přibývají jako `ama/RRRR-MM-DD-subjekt`.
 
