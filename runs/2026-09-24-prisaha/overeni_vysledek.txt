@@ -2,18 +2,17 @@
 OVĚŘENÍ CITACÍ VE SHRNUTÍ AMA
 ========================================================================
 Soubor : wiki/ama/2026-09-24-prisaha.md
-Zdroj  : snímek runs/2026-09-24-prisaha/answers.json (pořízen 2026-09-25T09:52:28+00:00)
-Citací : 3 otázek + 5 odpovědí
+Zdroj  : snímek runs/2026-09-24-prisaha/answers.json (pořízen 2026-09-25T10:05:58+00:00)
+Citací : 3 otázek + 4 odpovědí
 
   otázka  pbplhnk  OK
   otázka  pbpli5g  OK
   otázka  pbplimj  OK
   odpověď pbq1mcb  OK
-  odpověď pbq4jji  OK
   odpověď pbq1cef  OK
   odpověď pbq0g02  OK
   odpověď pbq3nyp  OK
 
 ========================================================================
-VÝSLEDEK: všech 8 citací sedí slovo od slova.
+VÝSLEDEK: všech 7 citací sedí slovo od slova.
 ========================================================================

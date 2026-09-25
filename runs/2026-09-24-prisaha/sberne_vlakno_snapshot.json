@@ -1,0 +1,68 @@
+{
+  "porizeno_utc": "2026-09-25T10:14:03.681335+00:00",
+  "poznamka": "Snímek pořízen DODATEČNĚ 25. 9. 2026, ne při uzávěrce sběru 24. 9. 7:11. Skóre se od uzávěrky mohlo změnit; skóre při uzávěrce viz prenos_otazek.json.",
+  "vlakno": {
+    "id": "1wlf7ql",
+    "title": "Sběrné vlákno: otázky pro Přísahu — AMA ve čtvrtek 24. září od 9:00",
+    "locked": true,
+    "comments": [
+      {
+        "id": "paychaz",
+        "body": "Za současného stavu - je vám v celostátní politice bližší koalice nebo opozice?",
+        "score": 3,
+        "author": "TraditionalArt7992",
+        "edited": false,
+        "removed": false,
+        "parent_id": "t3_1wlf7ql",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/paychaz/",
+        "created_utc": 1789909849.0
+      },
+      {
+        "id": "pb0qapj",
+        "body": "V bodě hnutí Přísahy je \"Přísaha je konzervativní hnutí, chránící kulturní tradice a tradiční společenské hodnoty budované po staletí našimi předky\". Jak se Přísaha nebo Vy stavíte k redukci počtu krajů a návratu k tradičnímu zemskému uspořádání Čech, Moravy a Slezska?",
+        "score": 2,
+        "author": "Wonderful-Regular658",
+        "edited": 1789932478.0,
+        "removed": false,
+        "parent_id": "t3_1wlf7ql",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/pb0qapj/",
+        "created_utc": 1789932030.0
+      },
+      {
+        "id": "pb4z5t1",
+        "body": "Vzhledem k roztristenosti a mnozstvi politickych subjektu v Brne, jaky je Vas realisticky plan fungovani jako maly dilek v zastupitelstvu?",
+        "score": 2,
+        "author": "xmeda",
+        "edited": false,
+        "removed": false,
+        "parent_id": "t3_1wlf7ql",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/pb4z5t1/",
+        "created_utc": 1789987504.0
+      },
+      {
+        "id": "pb0wawl",
+        "body": "Tohle by mě taky zajímalo. Pořád se mluví o tradicích ale pak to končí u krojů a zabijaček.",
+        "score": 2,
+        "author": "trbmaxiik",
+        "edited": false,
+        "removed": false,
+        "parent_id": "t1_pb0qapj",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/pb0wawl/",
+        "created_utc": 1789933453.0
+      },
+      {
+        "id": "pb14tlp",
+        "body": "Přesně tak, nejenom politici Přísahy mluví o tradicích ale nic konkrétního, jenom vyhýbavé povrchní odpovědi v případě Moravy - kroje (prakticky se už nenosí), nářečí (možná pár slov člověk použije) a víno (jenom na Jižní Moravě) a tak. Jakoby do \"tradice\" tedy \"tradičních hodnot\" mělo spadat řešení imigrace a izolacionismus anti-EU a anti-NATO (izolacionismus zrovna u Přísahy není).",
+        "score": 2,
+        "author": "Wonderful-Regular658",
+        "edited": 1789936407.0,
+        "removed": false,
+        "parent_id": "t1_pb0wawl",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wlf7ql/sběrné_vlákno_otázky_pro_přísahu_ama_ve_čtvrtek/pb14tlp/",
+        "created_utc": 1789935522.0
+      }
+    ],
+    "created_utc": 1789905624.0,
+    "num_comments": 5
+  }
+}
