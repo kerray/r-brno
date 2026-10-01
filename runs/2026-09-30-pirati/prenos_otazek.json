@@ -1,0 +1,41 @@
+{
+  "poznamka": "Výsledek běhu, který 30. 9. 2026 v 6:56 založil AMA vlákno a přenesl do něj obě otázky ze sběru (comments = [id otázky ve sběru, id komentáře bota v AMA vlákně]). Skóre při uzávěrce je v sberne_vlakno_snapshot.json. Krok 'sort' skončil chybou volání; doporučené řazení bylo nastaveno v 6:57:06 (moderační log, setsuggestedsort).",
+  "vysledek": {
+    "id": "1wtw4cc",
+    "hot": [
+      [
+        "1w3g9fz",
+        true,
+        "Seznamovací příspěvek pro září 2026. Někdo vás mož"
+      ],
+      [
+        "1wtw4cc",
+        true,
+        "AMA: Tu! Piráti a Fakt Brno — středa 30. září, 14:"
+      ],
+      [
+        "1wtd2w1",
+        false,
+        "Postavil som novu budovu Magistratu Brna skor ako "
+      ]
+    ],
+    "url": "https://www.reddit.com/r/Brno/comments/1wtw4cc/",
+    "steps": {
+      "lock": "ok",
+      "sort": "TypeError('SubmissionModeration.suggested_sort() takes 1 positional argument but 2 were given')",
+      "sticky": "ok",
+      "approve": "ok",
+      "distinguish": "ok"
+    },
+    "comments": [
+      [
+        "pccme7o",
+        "pcxwn59"
+      ],
+      [
+        "pcggu6z",
+        "pcxwnt3"
+      ]
+    ]
+  }
+}

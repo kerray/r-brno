@@ -21,6 +21,7 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 | **Zelené Brno** (pilot) | 2. 9. 2026 | [/r/brno/wiki/ama/2026-09-02-zelene-brno](/r/brno/wiki/ama/2026-09-02-zelene-brno) |
 | **Nové Brno** | 18. 9. 2026 | [/r/brno/wiki/ama/2026-09-18-nove-brno](/r/brno/wiki/ama/2026-09-18-nove-brno) |
 | **Přísaha** | 24. 9. 2026 | [/r/brno/wiki/ama/2026-09-24-prisaha](/r/brno/wiki/ama/2026-09-24-prisaha) |
+| **Tu! Piráti a Fakt Brno** | 30. 9. 2026 | [/r/brno/wiki/ama/2026-09-30-pirati](/r/brno/wiki/ama/2026-09-30-pirati) |
 
 Další přibývají jako `ama/RRRR-MM-DD-subjekt`.
 
@@ -30,12 +31,10 @@ Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se a
 
 | Kandidátka | Termín | Stav |
 |---|---|---|
-| **Nové Brno** | Pá 18. 9., 14:00–17:00 | ✅ Přihlášeni — u/DigRepresentative508 (Pavel Boucník, doprava), u/Humpf87 (Michal Šulc, sport/rozvoj), u/mvfls (Barbora Šálková, kandidátka do 26 let, investice a rozvoj) |
-| **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni — u/Petr-Vokral (Petr Vokřál, lídr), u/Ivana-Pekova (Ivana Peková, předsedkyně MO Brno), u/Ivana-Dvorakova1 (Ivana Dvořáková) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wlf7ql/) |
-| **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni |
+| **Nové Brno** | Pá 18. 9., 14:00–17:00 | ✅ Přihlášeni — u/DigRepresentative508 (Pavel Boucník, doprava), u/Humpf87 (Michal Šulc, sport/rozvoj), u/mvfls (Barbora Šálková, kandidátka do 26 let, investice a rozvoj) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wfxdnz/) · [AMA vlákno](https://www.reddit.com/r/Brno/comments/1wjlvyp/) · [shrnutí](/r/brno/wiki/ama/2026-09-18-nove-brno) |
+| **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni — u/Petr-Vokral (Petr Vokřál, lídr), u/Ivana-Pekova (Ivana Peková, předsedkyně MO Brno), u/Ivana-Dvorakova1 (Ivana Dvořáková) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wlf7ql/) · [AMA vlákno](https://www.reddit.com/r/Brno/comments/1woss37/) · [shrnutí](/r/brno/wiki/ama/2026-09-24-prisaha) |
+| **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni — u/AdamZemek (Adam Zemek, garant), u/Dependent-Mistake665 (Martin Hájek), u/Keramadhoal (Marek Lahoda) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wqoqos/) · [AMA vlákno](https://www.reddit.com/r/Brno/comments/1wtw4cc/) · [shrnutí](/r/brno/wiki/ama/2026-09-30-pirati) |
 | **Za lužánky** | Út 6. 10., 9:00–12:00 | ✅ Přihlášeni |
-
-*Automaticky aktualizováno: 20. 9. 2026*
 
 ## Kde se to dělá
 

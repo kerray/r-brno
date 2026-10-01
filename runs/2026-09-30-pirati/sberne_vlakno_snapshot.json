@@ -1,0 +1,57 @@
+{
+  "porizeno_utc": "2026-09-28T18:25:05.231142+00:00",
+  "poznamka": "Snímek pořízen při uzávěrce sběru (Po 28. 9. 2026 20:25 SELČ), před přenosem otázek. Pole omezena na text, autora, skóre, čas a moderační stav; uživatelské flairy a jiná metadata účtů vynechána. Otázka pcggu6z byla od 27. 9. 23:53 zadržená Redditovým spam filtrem a bot ji schválil ve 20:25:00, těsně před pořízením snímku.",
+  "vlakno": {
+    "id": "1wqoqos",
+    "subjekt": "Tu! Piráti a Fakt Brno",
+    "komentaru": 2,
+    "autoru": 2,
+    "otazek_v_hlavni_urovni": 2,
+    "comments": [
+      {
+        "id": "pccme7o",
+        "body": "Podle dat a statistik má dlouhodobě nejvíce mrtvých a těžce zraněných chodců ze všech krajských měst v Česku. \n\nCo s tím vaše strana udělá?",
+        "score": 3,
+        "author": "loyzik2",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wqoqos",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wqoqos/sběrné_vlákno_otázky_pro_tu_piráti_a_fakt_brno/pccme7o/",
+        "created_utc": 1790509851.0
+      },
+      {
+        "id": "pcggu6z",
+        "body": "Proč jste vzali do koalice (Změna v Bohunicích) Roberta Kotziana? To je člověk z téměř extrémní pravice. Viz např. [https://www.databazeknih.cz/prehled-knihy/migrace-a-globalismus-583743](https://www.databazeknih.cz/prehled-knihy/migrace-a-globalismus-583743) a [https://www.youtube.com/watch?v=6VisFlKYiws](https://www.youtube.com/watch?v=6VisFlKYiws) či [https://www.facebook.com/volimtrikoloru/posts/p%C5%99edseda-jihomoravsk%C3%A9-trikol%C3%B3ry-robert-kotzian-v-xtv-/1175076632886637/](https://www.facebook.com/volimtrikoloru/posts/p%C5%99edseda-jihomoravsk%C3%A9-trikol%C3%B3ry-robert-kotzian-v-xtv-/1175076632886637/)",
+        "score": 1,
+        "author": "hofex",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": true,
+        "approved_by": "ponocny_bot",
+        "approved_at_utc": 1790619900,
+        "parent_id": "t3_1wqoqos",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wqoqos/sběrné_vlákno_otázky_pro_tu_piráti_a_fakt_brno/pcggu6z/",
+        "created_utc": 1790546010.0
+      }
+    ]
+  },
+  "po_uzavreni": {
+    "locked": true,
+    "stickied": false,
+    "stickies": [
+      [
+        "1w3g9fz",
+        "Seznamovací příspěvek pro září 2026. Někdo vás mož"
+      ],
+      [
+        "1wqoqos",
+        "Sběrné vlákno: otázky pro Tu! Piráti a Fakt Brno —"
+      ]
+    ]
+  }
+}
