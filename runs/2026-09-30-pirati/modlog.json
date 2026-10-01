@@ -1,0 +1,339 @@
+{
+  "porizeno_utc": "2026-10-01T17:03:53.898748+00:00",
+  "zdroj": "moderační log r/Brno (Reddit API, moderátorský účet, jen čtení)",
+  "obdobi": "2026-09-28 20:25:00 (nejstarší záznam výpisu) – porizeno_utc; otevření sběrného vlákna 26. 9. ve výpisu není",
+  "filtr": "záznamy, jejichž cíl leží ve vláknech 1wtw4cc (AMA) nebo 1wqoqos (sběr), a přidání hostů mezi approved users a přidělení flairu hostům (AdamZemek, Dependent-Mistake665, Keramadhoal); záznamy z jiných vláken subredditu vynechány",
+  "zaznamu": 33,
+  "log": [
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "unspam",
+      "created_utc": 1790619900.0,
+      "target_author": "hofex",
+      "target_fullname": "t1_pcggu6z",
+      "target_permalink": "/r/Brno/comments/1wqoqos/sběrné_vlákno_otázky_pro_tu_piráti_a_fakt_brno/pcggu6z/",
+      "cas_praha": "2026-09-28 20:25:00"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "lock",
+      "details": "",
+      "created_utc": 1790619904.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wqoqos",
+      "target_permalink": "/r/Brno/comments/1wqoqos/sběrné_vlákno_otázky_pro_tu_piráti_a_fakt_brno/",
+      "cas_praha": "2026-09-28 20:25:04"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "[highlight] ",
+      "created_utc": 1790619906.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wqoqos",
+      "target_permalink": "/r/Brno/comments/1wqoqos/sběrné_vlákno_otázky_pro_tu_piráti_a_fakt_brno/",
+      "cas_praha": "2026-09-28 20:25:06"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "",
+      "created_utc": 1790619906.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wqoqos",
+      "target_permalink": "/r/Brno/comments/1wqoqos/sběrné_vlákno_otázky_pro_tu_piráti_a_fakt_brno/",
+      "cas_praha": "2026-09-28 20:25:06"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "lock",
+      "details": "",
+      "created_utc": 1790744207.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 06:56:47"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "distinguish",
+      "details": "",
+      "created_utc": 1790744207.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 06:56:47"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvelink",
+      "details": "confirm_ham",
+      "created_utc": 1790744207.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 06:56:47"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "[highlight] ",
+      "created_utc": 1790744208.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 06:56:48"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "",
+      "created_utc": 1790744208.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 06:56:48"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "setsuggestedsort",
+      "details": "",
+      "created_utc": 1790744226.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 06:57:06"
+    },
+    {
+      "mod": "kerray",
+      "action": "ignorereports",
+      "details": "",
+      "created_utc": 1790750165.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 08:36:05"
+    },
+    {
+      "mod": "kerray",
+      "action": "approvelink",
+      "details": "confirm_ham",
+      "created_utc": 1790750166.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 08:36:06"
+    },
+    {
+      "mod": "kerray",
+      "action": "approvelink",
+      "details": "confirm_ham",
+      "created_utc": 1790750166.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 08:36:06"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1790769601.0,
+      "target_author": "AdamZemek",
+      "target_fullname": "t2_2jyrw1kcim",
+      "target_permalink": "",
+      "cas_praha": "2026-09-30 14:00:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1790769603.0,
+      "target_author": "Dependent-Mistake665",
+      "target_fullname": "t2_v9b6d2af",
+      "target_permalink": "",
+      "cas_praha": "2026-09-30 14:00:03"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unlock",
+      "details": "",
+      "created_utc": 1790769605.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 14:00:05"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1790769605.0,
+      "target_author": "Keramadhoal",
+      "target_fullname": "t2_1qt0za8s71",
+      "target_permalink": "",
+      "cas_praha": "2026-09-30 14:00:05"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1790769780.0,
+      "target_author": "Keramadhoal",
+      "target_fullname": "t2_1qt0za8s71",
+      "target_permalink": "",
+      "cas_praha": "2026-09-30 14:03:00"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1790769780.0,
+      "target_author": "Dependent-Mistake665",
+      "target_fullname": "t2_v9b6d2af",
+      "target_permalink": "",
+      "cas_praha": "2026-09-30 14:03:00"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1790769780.0,
+      "target_author": "AdamZemek",
+      "target_fullname": "t2_2jyrw1kcim",
+      "target_permalink": "",
+      "cas_praha": "2026-09-30 14:03:00"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790771671.0,
+      "target_author": "Keramadhoal",
+      "target_fullname": "t1_pczostr",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pczostr/",
+      "cas_praha": "2026-09-30 14:34:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790771911.0,
+      "target_author": "AdamZemek",
+      "target_fullname": "t1_pczpmxa",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pczpmxa/",
+      "cas_praha": "2026-09-30 14:38:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "unspam",
+      "created_utc": 1790774552.0,
+      "target_author": "AdamZemek",
+      "target_fullname": "t1_pczyrmy",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pczyrmy/",
+      "cas_praha": "2026-09-30 15:22:32"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790774701.0,
+      "target_author": "Keramadhoal",
+      "target_fullname": "t1_pczzcmt",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pczzcmt/",
+      "cas_praha": "2026-09-30 15:25:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790775091.0,
+      "target_author": "AdamZemek",
+      "target_fullname": "t1_pd00qit",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pd00qit/",
+      "cas_praha": "2026-09-30 15:31:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1790778211.0,
+      "target_author": "Keramadhoal",
+      "target_fullname": "t1_pd0cfks",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pd0cfks/",
+      "cas_praha": "2026-09-30 16:23:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "[highlight] replaced",
+      "created_utc": 1790779933.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 16:52:13"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "replaced",
+      "created_utc": 1790779933.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 16:52:13"
+    },
+    {
+      "mod": "kerray",
+      "action": "sticky",
+      "details": "[highlight] ",
+      "created_utc": 1790779994.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 16:53:14"
+    },
+    {
+      "mod": "kerray",
+      "action": "sticky",
+      "details": "",
+      "created_utc": 1790779994.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-09-30 16:53:14"
+    },
+    {
+      "mod": "kerray",
+      "action": "approvecomment",
+      "details": "unspam",
+      "created_utc": 1790858588.0,
+      "target_author": "Dependent-Mistake665",
+      "target_fullname": "t1_pd6v6zd",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/pd6v6zd/",
+      "cas_praha": "2026-10-01 14:43:08"
+    },
+    {
+      "mod": "kerray",
+      "action": "unsticky",
+      "details": "[highlight] ",
+      "created_utc": 1790869782.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-10-01 17:49:42"
+    },
+    {
+      "mod": "kerray",
+      "action": "unsticky",
+      "details": "",
+      "created_utc": 1790869782.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wtw4cc",
+      "target_permalink": "/r/Brno/comments/1wtw4cc/ama_tu_piráti_a_fakt_brno_středa_30_září_14001700/",
+      "cas_praha": "2026-10-01 17:49:42"
+    }
+  ]
+}
