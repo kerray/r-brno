@@ -2,8 +2,8 @@
 OVĚŘENÍ CITACÍ VE SHRNUTÍ AMA
 ========================================================================
 Soubor : wiki/ama/2026-09-30-pirati.md
-Zdroj  : snímek runs/2026-09-30-pirati/answers.json (pořízen 2026-10-01T17:03:53.898748+00:00)
-Citací : 2 otázek + 6 odpovědí
+Zdroj  : snímek runs/2026-09-30-pirati/answers.json (pořízen 2026-10-02T07:02:56.190412+00:00)
+Citací : 2 otázek + 7 odpovědí
 
   otázka  pcxwn59  OK
   otázka  pcxwnt3  OK
@@ -12,8 +12,9 @@ Citací : 2 otázek + 6 odpovědí
   odpověď pczyrmy  OK
   odpověď pczpmxa  OK
   odpověď pczzcmt  OK  (Reddit hlásí edited)
+  odpověď pd91y8f  OK
   odpověď pd6v6zd  OK
 
 ========================================================================
-VÝSLEDEK: všech 8 citací sedí slovo od slova.
+VÝSLEDEK: všech 9 citací sedí slovo od slova.
 ========================================================================
