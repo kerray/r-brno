@@ -1,0 +1,339 @@
+{
+  "porizeno_utc": "2026-10-07T07:04:48.813780+00:00",
+  "zdroj": "moderační log r/Brno (Reddit API, moderátorský účet, jen čtení)",
+  "obdobi": "2026-10-02 09:01:18 (nejstarší záznam výpisu, příprava sběrného vlákna po jeho zveřejnění v 9:00:03) – porizeno_utc",
+  "filtr": "záznamy, jejichž cíl leží ve vláknech 1wytjo2 (AMA) nebo 1wvn2ih (sběr), a přidání hostů mezi approved users a přidělení flairu hostům (Capable-Interview413, KolacnyT); záznamy z jiných vláken subredditu vynechány",
+  "zaznamu": 33,
+  "log": [
+    {
+      "mod": "ponocny_bot",
+      "action": "distinguish",
+      "details": "",
+      "created_utc": 1790924478.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-02 09:01:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "setcontestmode",
+      "details": "",
+      "created_utc": 1790924478.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-02 09:01:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvelink",
+      "details": "confirm_ham",
+      "created_utc": 1790924478.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-02 09:01:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "[highlight] ",
+      "created_utc": 1790924479.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-02 09:01:19"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "",
+      "created_utc": 1790924479.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-02 09:01:19"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "lock",
+      "details": "",
+      "created_utc": 1791179279.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-05 07:47:59"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsetcontestmode",
+      "details": "",
+      "created_utc": 1791179281.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-05 07:48:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "[highlight] ",
+      "created_utc": 1791179281.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-05 07:48:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unsticky",
+      "details": "",
+      "created_utc": 1791179281.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wvn2ih",
+      "target_permalink": "/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/",
+      "cas_praha": "2026-10-05 07:48:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvelink",
+      "details": "confirm_ham",
+      "created_utc": 1791261137.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 06:32:17"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "",
+      "created_utc": 1791261138.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 06:32:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "setsuggestedsort",
+      "details": "",
+      "created_utc": 1791261138.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 06:32:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "lock",
+      "details": "",
+      "created_utc": 1791261138.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 06:32:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "distinguish",
+      "details": "",
+      "created_utc": 1791261138.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 06:32:18"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "sticky",
+      "details": "[highlight] ",
+      "created_utc": 1791261139.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 06:32:19"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "unlock",
+      "details": "",
+      "created_utc": 1791270001.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 09:00:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1791270002.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t2_72kfqq8x",
+      "target_permalink": "",
+      "cas_praha": "2026-10-06 09:00:02"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "addcontributor",
+      "details": "",
+      "created_utc": 1791270004.0,
+      "target_author": "KolacnyT",
+      "target_fullname": "t2_1cpoz3kqw1",
+      "target_permalink": "",
+      "cas_praha": "2026-10-06 09:00:04"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1791270042.0,
+      "target_author": "KolacnyT",
+      "target_fullname": "t2_1cpoz3kqw1",
+      "target_permalink": "",
+      "cas_praha": "2026-10-06 09:00:42"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "editflair",
+      "details": "flair_add",
+      "created_utc": 1791270042.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t2_72kfqq8x",
+      "target_permalink": "",
+      "cas_praha": "2026-10-06 09:00:42"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791270721.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6auu5",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6auu5/",
+      "cas_praha": "2026-10-06 09:12:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791270991.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6bcum",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6bcum/",
+      "cas_praha": "2026-10-06 09:16:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791271111.0,
+      "target_author": "KolacnyT",
+      "target_fullname": "t1_pe6blyn",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6blyn/",
+      "cas_praha": "2026-10-06 09:18:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791271141.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6bpfn",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6bpfn/",
+      "cas_praha": "2026-10-06 09:19:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791271261.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6bwu8",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6bwu8/",
+      "cas_praha": "2026-10-06 09:21:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791271621.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6cmp1",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6cmp1/",
+      "cas_praha": "2026-10-06 09:27:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791271622.0,
+      "target_author": "KolacnyT",
+      "target_fullname": "t1_pe6cmod",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6cmod/",
+      "cas_praha": "2026-10-06 09:27:02"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791271831.0,
+      "target_author": "KolacnyT",
+      "target_fullname": "t1_pe6d1yb",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6d1yb/",
+      "cas_praha": "2026-10-06 09:30:31"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791272101.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6dke9",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6dke9/",
+      "cas_praha": "2026-10-06 09:35:01"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791272402.0,
+      "target_author": "KolacnyT",
+      "target_fullname": "t1_pe6e7g7",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6e7g7/",
+      "cas_praha": "2026-10-06 09:40:02"
+    },
+    {
+      "mod": "ponocny_bot",
+      "action": "approvecomment",
+      "details": "confirm_ham",
+      "created_utc": 1791274891.0,
+      "target_author": "Capable-Interview413",
+      "target_fullname": "t1_pe6j2gz",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/pe6j2gz/",
+      "cas_praha": "2026-10-06 10:21:31"
+    },
+    {
+      "mod": "kerray",
+      "action": "unsticky",
+      "details": "[highlight] ",
+      "created_utc": 1791315732.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 21:42:12"
+    },
+    {
+      "mod": "kerray",
+      "action": "unsticky",
+      "details": "",
+      "created_utc": 1791315732.0,
+      "target_author": "ponocny_bot",
+      "target_fullname": "t3_1wytjo2",
+      "target_permalink": "/r/Brno/comments/1wytjo2/ama_za_lužánky_úterý_6_října_9001200/",
+      "cas_praha": "2026-10-06 21:42:12"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "porizeno_utc": "2026-10-05T05:48:00.152832+00:00",
+  "poznamka": "Snímek pořízen při uzávěrce sběru (Po 5. 10. 2026 7:48 SELČ), před přenosem otázek. Pole omezena na text, autora, skóre, čas a moderační stav; uživatelské flairy a jiná metadata účtů vynechána. Contest mode byl vypnut při uzávěrce (7:48:01), skóre je tedy od té chvíle veřejně vidět. Ve frontě ani ve spamu sběrného vlákna při uzávěrce nic nebylo.",
+  "vlakno": {
+    "id": "1wvn2ih",
+    "subjekt": "Za lužánky",
+    "komentaru": 6,
+    "autoru": 4,
+    "otazek_v_hlavni_urovni": 6,
+    "comments": [
+      {
+        "id": "pdfixoy",
+        "body": "Jste úplně nové hnutí. Proč bych vás měl volit, i když mě stadion za Lužánkami absolutně nezajímá? Pouze vím, že jste měli pravicové extremisty na kandidátkách. ",
+        "score": 13,
+        "author": "Outrageous-Gas3025",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wvn2ih",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/pdfixoy/",
+        "created_utc": 1790955256.0
+      },
+      {
+        "id": "pdd87kg",
+        "body": "Které konkrétní ulice v Brně by si podle vás zasloužily urbanistickou proměnu (zákaz aut, atd)? Kde vidíte prostor pro nové cyklostezky a jaké linky dpmb by si podle vás zasloužily posílení spojů?",
+        "score": 10,
+        "author": "loyzik2",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wvn2ih",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/pdd87kg/",
+        "created_utc": 1790925170.0
+      },
+      {
+        "id": "pdfxpgk",
+        "body": "Když se podívám na váš transparentní účet, je poměrně nápadné, že se zde opakují velmi vysoké platby, často ve výši 49 000 Kč, označené jako vstupenka do virtuálního stadionu. Zároveň je mezi přispěvateli vidět řada kandidátů nebo jejich rodinných příslušníků.  \nMůžete prosím veřejně vysvětlit, co přesně tyto platby znamenají, proč jsou v takto vysoké částce a jakým způsobem jsou následně tyto prostředky využity?",
+        "score": 8,
+        "author": "WillingnessHealthy35",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wvn2ih",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/pdfxpgk/",
+        "created_utc": 1790959040.0
+      },
+      {
+        "id": "pdds3fw",
+        "body": "Jakým způsobem chcete aktualizovat a redefinovat pojetí a strategii cyklodopravy v městě Brně? Cílem města Brna je podle nově zveřejněné strategie od ODS a TOP 09 komplexní a rozumné rozvržení cyklotras do roku 2050. Budete na tuto strategii dále navazovat, a jaké věci byste na ní chtěli změnit? Budete nadále otevřeni dialogu mezi všemi stranami?",
+        "score": 8,
+        "author": "Electrical_Fox7193",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wvn2ih",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/pdds3fw/",
+        "created_utc": 1790935257.0
+      },
+      {
+        "id": "pddt0ei",
+        "body": "V současné době se sekání trávníků řídí nařízením každé městské části zvlášť. Vidíte nějaké problémy v současném managementu zeleně, předně tedy velkých travnatých ploch? Jak je chcete připravit na klimatické výkyvy, které se v budoucnu budou dít? Proč městské části nedodržují principy udržitelného managementu zeleně (hlavně častou sečí v nevhodném období)?",
+        "score": 3,
+        "author": "Electrical_Fox7193",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wvn2ih",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/pddt0ei/",
+        "created_utc": 1790935691.0
+      },
+      {
+        "id": "pdfj3j7",
+        "body": "S kým odmítáte a s kým naopak chcete být v koalici? ",
+        "score": 3,
+        "author": "Outrageous-Gas3025",
+        "edited": false,
+        "removed": false,
+        "spam": false,
+        "approved": false,
+        "approved_by": null,
+        "approved_at_utc": null,
+        "parent_id": "t3_1wvn2ih",
+        "permalink": "https://www.reddit.com/r/Brno/comments/1wvn2ih/sběrné_vlákno_otázky_pro_za_lužánky_ama_v_úterý_6/pdfj3j7/",
+        "created_utc": 1790955297.0
+      }
+    ]
+  },
+  "po_uzavreni": {
+    "hot": [
+      [
+        "1wu70b3",
+        true,
+        "Seznamovací příspěvek pro říjen 2026. Nahá holka p"
+      ],
+      [
+        "1wxzo9z",
+        false,
+        "Brno spojí městské služby do jedné aplikace. Dalo "
+      ],
+      [
+        "1wxmp7n",
+        false,
+        "Jak si děláte kafe?"
+      ]
+    ],
+    "locked": true,
+    "contest": false,
+    "stickied": false
+  }
+}

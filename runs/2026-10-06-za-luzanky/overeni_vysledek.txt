@@ -1,0 +1,28 @@
+========================================================================
+OVĚŘENÍ CITACÍ VE SHRNUTÍ AMA
+========================================================================
+Soubor : wiki/ama/2026-10-06-za-luzanky.md
+Zdroj  : snímek runs/2026-10-06-za-luzanky/answers.json (pořízen 2026-10-07T07:04:48.813780+00:00)
+Citací : 6 otázek + 11 odpovědí
+
+  otázka  pe5q3qb  OK
+  otázka  pe5q4cl  OK
+  otázka  pe5q4z6  OK
+  otázka  pe5q5l9  OK
+  otázka  pe5q67x  OK
+  otázka  pe5q6u3  OK
+  odpověď pe6blyn  OK
+  odpověď pe6cmp1  OK
+  odpověď pe6bpfn  OK
+  odpověď pe6cmod  OK  (Reddit hlásí edited)
+  odpověď pe6bcum  OK  (Reddit hlásí edited)
+  odpověď pe6auu5  OK
+  odpověď pe6dke9  OK
+  odpověď pe6e7g7  OK
+  odpověď pe6bwu8  OK
+  odpověď pe6d1yb  OK
+  odpověď pe6j2gz  OK
+
+========================================================================
+VÝSLEDEK: všech 17 citací sedí slovo od slova.
+========================================================================

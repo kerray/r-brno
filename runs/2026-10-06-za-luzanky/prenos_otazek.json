@@ -1,0 +1,57 @@
+{
+  "poznamka": "Výsledek běhu, který 6. 10. 2026 v 6:32 založil AMA vlákno a přenesl do něj všech šest otázek ze sběru v pořadí podle skóre při uzávěrce, při shodě skóre dřív položená (comments = [id otázky ve sběru, id komentáře bota v AMA vlákně]). Skóre při uzávěrce je v sberne_vlakno_snapshot.json. Pole 'hot' = první tři příspěvky subredditu po založení (id, připnutý, začátek titulku).",
+  "vysledek": {
+    "id": "1wytjo2",
+    "hot": [
+      [
+        "1wu70b3",
+        true,
+        "Seznamovací příspěvek pro říjen 2026. Nahá holka p"
+      ],
+      [
+        "1wytjo2",
+        true,
+        "AMA: Za lužánky — úterý 6. října, 9:00–12:00"
+      ],
+      [
+        "1wyjd5k",
+        false,
+        "Assassin Brno - městská týmová hra - registrace do"
+      ]
+    ],
+    "url": "https://www.reddit.com/r/Brno/comments/1wytjo2/",
+    "steps": {
+      "lock": "ok",
+      "sort": "ok",
+      "sticky": "ok",
+      "approve": "ok",
+      "distinguish": "ok"
+    },
+    "comments": [
+      [
+        "pdfixoy",
+        "pe5q3qb"
+      ],
+      [
+        "pdd87kg",
+        "pe5q4cl"
+      ],
+      [
+        "pdds3fw",
+        "pe5q4z6"
+      ],
+      [
+        "pdfxpgk",
+        "pe5q5l9"
+      ],
+      [
+        "pddt0ei",
+        "pe5q67x"
+      ],
+      [
+        "pdfj3j7",
+        "pe5q6u3"
+      ]
+    ]
+  }
+}
