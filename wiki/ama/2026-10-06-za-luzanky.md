@@ -306,7 +306,7 @@ Otázky položené přímo v AMA vlákně (ne ze sběru), v pořadí, v jakém b
 | Kdy | Co |
 |---|---|
 | 12. 9. | subjekt si vybral termín pá 18. 9.; téhož večera ho změnil na út 6. 10. 9:00–12:00 |
-| 2. 10. 9:00:03 | otevřeno sběrné vlákno; v úvodu upozornění, že se otázky archivují do veřejného repozitáře; v 9:01 bot zapnul contest mode a vlákno připnul |
+| 2. 10. 9:00:04 | otevřeno sběrné vlákno; v úvodu upozornění, že se otázky archivují do veřejného repozitáře; v 9:01 bot zapnul contest mode a vlákno připnul |
 | 2. 10. 9:02 | vytvořen tag zamrzlého promptu `ama-2026-10-06-za-luzanky` |
 | 3. 10. 9:00 | termín pro jména a účty hostů (72 h předem); subjekt je do té doby nedodal |
 | 4. 10. 9:00 | plánovaná uzávěrka sběru (48 h předem); neproběhla |
@@ -469,7 +469,7 @@ skóre při uzávěrce, při shodě dřív položená otázka.
 | uzavření sběru 48 h předem, tedy 4. 10. v 9:00 (§4) | sběr uzavřen **5. 10. v 7:48**, asi **22,8 h** pozdě |
 | zveřejnění povinných otázek 24 h předem, tedy 5. 10. v 9:00 (§4) | AMA vlákno s otázkami založeno **6. 10. v 6:32**, asi **21,5 h** pozdě, dvě a půl hodiny před startem |
 | v AMA vláknech automatické filtry neběží ([moderace](/r/brno/wiki/ama/moderace), zásada 5; pozvánka §6) | spam filtr Redditu zadržel **všech jedenáct** komentářů hostů; hlídací běh je uvolnil nejdéle za 32 s |
-| okno na doplnění trvá 24 h po konci živého okna ([moderace](/r/brno/wiki/ama/moderace), Uzavření vlákna po AMA), tedy do 7. 10. 12:00 | okno na doplnění skončilo **7. 10. v 9:00**, o 3 h dřív; stejně se počítalo i u AMA Tu! Piráti (24 h od začátku živého okna) |
+| okno na doplnění trvá 24 h po konci živého okna ([moderace](/r/brno/wiki/ama/moderace), Uzavření vlákna po AMA; pozvánka §4 uvádí jen „+24 h“), tedy do 7. 10. 12:00 | okno na doplnění skončilo **7. 10. v 9:00**, o 3 h dřív; konec v 9:00 oznámilo záhlaví vlákna od konce živého okna. Stejně, 24 h od začátku živého okna, se počítalo i u AMA Tu! Piráti |
 | ověření účtů hostů z oficiálního kanálu subjektu (§6) | **nedoloženo** — sdílení odkazu na AMA a seznamu účtů na oficiálním kanálu subjektu moderátor nezaznamenal |
 | komunikaci se subjektem zveřejníme spolu se shrnutím (§7) | komunikace probíhala e-mailem; doslovné znění nezveřejňujeme, **zveřejněny jen podstatné body** (viz Průběh) |
 
