@@ -26,9 +26,9 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 
 **Série je u konce.** AMA se Za lužánky 6. 10. 2026 bylo poslední; v době volebního moratoria nepublikujeme nic.
 
-## Přihlášení na další kola
+## Pozvaná uskupení
 
-Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se aktualizuje automaticky.
+Kandidující uskupení si po pozvání vybírala termín z nabídky. Stav ke konci série (7. 10. 2026):
 
 | Kandidátka | Termín | Stav |
 |---|---|---|
@@ -36,6 +36,9 @@ Kandidující uskupení si po pozvání vybírají termín z nabídky. Stav se a
 | **Přísaha** | Čt 24. 9., 9:00–12:00 | ✅ Přihlášeni — u/Petr-Vokral (Petr Vokřál, lídr), u/Ivana-Pekova (Ivana Peková, předsedkyně MO Brno), u/Ivana-Dvorakova1 (Ivana Dvořáková) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wlf7ql/) · [AMA vlákno](https://www.reddit.com/r/Brno/comments/1woss37/) · [shrnutí](/r/brno/wiki/ama/2026-09-24-prisaha) |
 | **Tu! Piráti a Fakt Brno** | St 30. 9., 14:00–17:00 | ✅ Přihlášeni — u/AdamZemek (Adam Zemek, garant), u/Dependent-Mistake665 (Martin Hájek), u/Keramadhoal (Marek Lahoda) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wqoqos/) · [AMA vlákno](https://www.reddit.com/r/Brno/comments/1wtw4cc/) · [shrnutí](/r/brno/wiki/ama/2026-09-30-pirati) |
 | **Za lužánky** | Út 6. 10., 9:00–12:00 | ✅ Přihlášeni — u/Capable-Interview413 (Marek Fišer, místopředseda hnutí, kandidát č. 5 Brno-město, lídr č. 1 Brno-střed), u/KolacnyT (Tomáš Koláčný, kandidát č. 3 Brno-město) · [sběrné vlákno](https://www.reddit.com/r/Brno/comments/1wvn2ih/) · [AMA vlákno](https://www.reddit.com/r/Brno/comments/1wytjo2/) · [shrnutí](/r/brno/wiki/ama/2026-10-06-za-luzanky) |
+| **Brno Blíž Lidem** | — | Odpověděli 16. 9., kdy už byly všechny nabízené termíny obsazené |
+| **ANO** | — | Na pozvání neodpověděli |
+| **ODS** | — | Na pozvání neodpověděli |
 
 ## Kde se to dělá
 
