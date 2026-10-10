@@ -13,6 +13,7 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 | [/r/brno/wiki/ama/pozvanka](/r/brno/wiki/ama/pozvanka) | Text pozvánky pro kandidující uskupení, doslova a v plném znění |
 | [/r/brno/wiki/ama/dotaz-udhpsh](/r/brno/wiki/ama/dotaz-udhpsh) | Dotaz na Úřad pro dohled nad hospodařením politických stran — znění, datum, stav |
 | [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu) | Prohlášení o střetu zájmů — kdo rozhoduje, jeho vztahy ke kandidujícím subjektům a co se stane, když konflikt vznikne |
+| [/r/brno/wiki/ama/zaver](/r/brno/wiki/ama/zaver) | Ohlédnutí za celou sérií — co jsme naplánovali, co se opravdu použilo, kde jsme pravidla nedodrželi |
 
 ## Shrnutí proběhlých AMA
 
