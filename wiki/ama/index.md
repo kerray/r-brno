@@ -14,6 +14,7 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 | [/r/brno/wiki/ama/dotaz-udhpsh](/r/brno/wiki/ama/dotaz-udhpsh) | Dotaz na Úřad pro dohled nad hospodařením politických stran — znění, datum, stav |
 | [/r/brno/wiki/ama/stret-zajmu](/r/brno/wiki/ama/stret-zajmu) | Prohlášení o střetu zájmů — kdo rozhoduje, jeho vztahy ke kandidujícím subjektům a co se stane, když konflikt vznikne |
 | [/r/brno/wiki/ama/zaver](/r/brno/wiki/ama/zaver) | Ohlédnutí za celou sérií — co jsme naplánovali, co se opravdu použilo, kde jsme pravidla nedodrželi |
+| [Osobní příspěvek „Ohlédnutí za AMA sérií"](https://www.reddit.com/r/Brno/comments/1x41y3u/) | Kerrayovo ohlédnutí — jak série vznikala a jak se ji podařilo zautomatizovat; komentáře otevřené |
 
 ## Shrnutí proběhlých AMA
 
@@ -25,7 +26,7 @@ Série AMA („Ask Me Anything") s lidmi, kteří kandidují do Zastupitelstva m
 | **Tu! Piráti a Fakt Brno** | 30. 9. 2026 | [/r/brno/wiki/ama/2026-09-30-pirati](/r/brno/wiki/ama/2026-09-30-pirati) |
 | **Za lužánky** | 6. 10. 2026 | [/r/brno/wiki/ama/2026-10-06-za-luzanky](/r/brno/wiki/ama/2026-10-06-za-luzanky) |
 
-**Série je u konce.** AMA se Za lužánky 6. 10. 2026 bylo poslední; v době volebního moratoria nepublikujeme nic.
+**Série je u konce.** AMA se Za lužánky 6. 10. 2026 bylo poslední. Ohlédnutí za celou sérií: [podrobně na wiki](/r/brno/wiki/ama/zaver) a [osobní příspěvek moderátora](https://www.reddit.com/r/Brno/comments/1x41y3u/) s otevřenou diskuzí. Přehled s odkazy na shrnutí byl zveřejněn před moratoriem [zde](https://www.reddit.com/r/Brno/comments/1wzvrfp/).
 
 ## Pozvaná uskupení
 

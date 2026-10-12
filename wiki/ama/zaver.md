@@ -119,3 +119,4 @@ Návrhy, ne sliby — připomínky vítáme v [repozitáři](https://github.com/
 - [/r/Brno/wiki/ama/jak-se-ptat](/r/Brno/wiki/ama/jak-se-ptat) — jak se ptát
 - [/r/Brno/wiki/ama/stret-zajmu](/r/Brno/wiki/ama/stret-zajmu) — prohlášení o střetu zájmů
 - [/r/Brno/wiki/ama/dotaz-udhpsh](/r/Brno/wiki/ama/dotaz-udhpsh) — dotaz na ÚDHPSH a odpověď
+- [Ohlédnutí za AMA sérií](https://www.reddit.com/r/Brno/comments/1x41y3u/) — osobní příspěvek kerraye na r/Brno, komentáře otevřené
